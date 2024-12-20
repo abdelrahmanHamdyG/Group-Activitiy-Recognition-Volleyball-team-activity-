@@ -12,15 +12,15 @@ logger = Logger("dataloader")
 def save_data(X,y,image_file="images.npy",annotation_file="annotation.pkl"):
     
     np.save(image_file,np.array(X))
-
+    
     with open(annotation_file, 'wb') as f :
         pickle.dump(y,f)
     logger.info("data saved successfully")
 
 def load_data(image_file="images.npy",annotation_file="annotation.pkl"):
     X=np.load(image_file)
-
-    with open(annotation_file,'r') as f:
+    logger.info("image loaded successfully")
+    with open(annotation_file,'rb') as f:
         y=pickle.load(f) 
 
     return X,y
@@ -99,8 +99,11 @@ def main():
     images_file="images.npy"
     annotation_file="annotation.pkl"
     if os.path.exists(images_file) and os.path.exists(annotation_file):
+        logger.info("we already saved the data before")
         main_images,annot=load_data()
+        logger.info("data retrieved")
     else:
+        
         main_images,annot=load_images()
         save_data(main_images,annot)
     
