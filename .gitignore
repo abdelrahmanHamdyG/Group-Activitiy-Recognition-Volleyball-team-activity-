@@ -1,0 +1,6 @@
+*.pkl
+saved_pickles/
+*.txt
+models_trained/
+dataset/
+players_dataset/

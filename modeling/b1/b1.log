@@ -1,0 +1,210 @@
+2025-01-10 19:10:14,127 - b1_trainer - INFO - Training class distribution: Counter({'l-pass': 1890, 'r-pass': 1765, 'l-set': 1520, 'l-spike': 1445, 'r-set': 1415, 'r-spike': 1305, 'l-winpoint': 805, 'r-winpoint': 615})
+2025-01-10 19:10:14,128 - b1_trainer - INFO - Validation class distribution: Counter({'r-pass': 238, 'l-pass': 222, 'r-spike': 189, 'l-spike': 174, 'r-set': 169, 'l-set': 160, 'l-winpoint': 104, 'r-winpoint': 85})
+2025-01-10 19:10:15,533 - b1_model - INFO - Current path: C:\Project\project
+2025-01-10 19:10:15,534 - b1_model - INFO - Files in current path: ['.git', '.vscode', 'ann.txt', 'annotation.pkl', 'annotations.txt', 'annotation_model.py', 'app.log', 'b2_checkpoints3', 'b2_checkpoints8', 'b2_confusion_matrix.png', 'b2_confusion_matrix_eval_data.png', 'b2_model.py', 'b4_model.py', 'best_b2.pth', 'checkpoints', 'Confusion_matrix.png', 'dataloader.log', 'dataloader.py', 'dataset', 'modeling', 'players_dataset', 'player_level_classification.py', 'player_level_classification_checkpoints', 'player_level_classification_checkpoints2', 'player_level_classification_checkpoints3', 'player_level_confusion_matrix.png', 'README.md', 'saved_pickles', 'utils', '__pycache__']
+2025-01-10 19:10:15,537 - b1_model - INFO - No model found starting from scratch
+2025-01-10 19:10:15,676 - b1_trainer - INFO - Training: Epoch 1, Current LR: 0.0001
+2025-01-10 19:11:19,811 - b1_trainer - INFO - Epoch 1, Batch 20/169 loss: 2.025751841068268 accuracy 0.85
+2025-01-10 19:12:06,491 - b1_trainer - INFO - Epoch 1, Batch 40/169 loss: 1.9802161246538161 accuracy 0.978125
+2025-01-10 19:12:51,318 - b1_trainer - INFO - Epoch 1, Batch 60/169 loss: 1.9089687883853912 accuracy 1.1395833333333334
+2025-01-10 19:13:36,749 - b1_trainer - INFO - Epoch 1, Batch 80/169 loss: 1.7828039199113845 accuracy 1.39296875
+2025-01-10 19:14:00,328 - b1_trainer - INFO - Training class distribution: Counter({'l-pass': 1890, 'r-pass': 1765, 'l-set': 1520, 'l-spike': 1445, 'r-set': 1415, 'r-spike': 1305, 'l-winpoint': 805, 'r-winpoint': 615})
+2025-01-10 19:14:00,328 - b1_trainer - INFO - Validation class distribution: Counter({'r-pass': 238, 'l-pass': 222, 'r-spike': 189, 'l-spike': 174, 'r-set': 169, 'l-set': 160, 'l-winpoint': 104, 'r-winpoint': 85})
+2025-01-10 19:14:01,758 - b1_model - INFO - Current path: C:\Project\project
+2025-01-10 19:14:01,758 - b1_model - INFO - Files in current path: ['.git', '.vscode', 'ann.txt', 'annotation.pkl', 'annotations.txt', 'annotation_model.py', 'app.log', 'b2_checkpoints3', 'b2_checkpoints8', 'b2_confusion_matrix.png', 'b2_confusion_matrix_eval_data.png', 'b2_model.py', 'b4_model.py', 'best_b2.pth', 'checkpoints', 'Confusion_matrix.png', 'dataloader.log', 'dataloader.py', 'dataset', 'modeling', 'players_dataset', 'player_level_classification.py', 'player_level_classification_checkpoints', 'player_level_classification_checkpoints2', 'player_level_classification_checkpoints3', 'player_level_confusion_matrix.png', 'README.md', 'saved_pickles', 'utils', '__pycache__']
+2025-01-10 19:14:01,758 - b1_model - INFO - No model found starting from scratch
+2025-01-10 19:14:01,879 - b1_trainer - INFO - Training: Epoch 1, Current LR: 0.0001
+2025-01-10 19:15:05,568 - b1_trainer - INFO - Epoch 1, Batch 20/169 loss: 2.0271541237831117 accuracy 0.19375
+2025-01-10 19:15:50,119 - b1_trainer - INFO - Epoch 1, Batch 40/169 loss: 1.9676636934280396 accuracy 0.24921875
+2025-01-10 19:16:34,605 - b1_trainer - INFO - Epoch 1, Batch 60/169 loss: 1.8862860401471455 accuracy 0.30182291666666666
+2025-01-10 19:17:19,013 - b1_trainer - INFO - Epoch 1, Batch 80/169 loss: 1.7441352777183057 accuracy 0.371484375
+2025-01-10 19:18:04,424 - b1_trainer - INFO - Epoch 1, Batch 100/169 loss: 1.5754318815469741 accuracy 0.43546875
+2025-01-10 19:18:49,937 - b1_trainer - INFO - Epoch 1, Batch 120/169 loss: 1.4235895884533722 accuracy 0.490625
+2025-01-10 19:19:33,797 - b1_trainer - INFO - Epoch 1, Batch 140/169 loss: 1.3078600093722343 accuracy 0.5325892857142858
+2025-01-10 19:20:17,832 - b1_trainer - INFO - Epoch 1, Batch 160/169 loss: 1.1965142177417873 accuracy 0.57314453125
+2025-01-10 19:20:36,578 - b1_trainer - INFO - Train: Epoch 1 loss: 1.1529402787516103 Accuracy 0.5875464684014869
+-------------------------
+2025-01-10 19:20:36,579 - b1_trainer - INFO - Evaluating: Epoch 1
+2025-01-10 19:20:52,380 - b1_trainer - INFO - Eval Batch 10/21 loss: 1.0103315889835358 accuracy 0.6578125
+2025-01-10 19:21:06,059 - b1_trainer - INFO - Eval Batch 20/21 loss: 0.9365636289119721 accuracy 0.67890625
+2025-01-10 19:21:06,237 - b1_trainer - INFO - Eval: Epoch 1  Loss: 0.9415912060510545, Accuracy: 0.6749
+---------------------------------------
+
+
+2025-01-10 19:21:06,243 - b1_trainer - INFO - Saving checkpoint at modeling/b1/checkpoints\1.pth
+2025-01-10 19:21:06,795 - b1_trainer - INFO - Current best accuracy: 0 and the accuracy for the current model 0.6748695003728561
+2025-01-10 19:21:06,795 - b1_trainer - INFO - New best model found
+2025-01-10 19:21:06,795 - b1_trainer - INFO - Saving best model
+2025-01-10 19:21:07,381 - b1_trainer - INFO - Training: Epoch 2, Current LR: 0.0001
+2025-01-10 19:22:14,153 - b1_trainer - INFO - Epoch 2, Batch 20/169 loss: 0.2807122804224491 accuracy 0.91171875
+2025-01-10 19:22:57,185 - b1_trainer - INFO - Epoch 2, Batch 40/169 loss: 0.24313618317246438 accuracy 0.9234375
+2025-01-10 19:23:41,158 - b1_trainer - INFO - Epoch 2, Batch 60/169 loss: 0.2118108008056879 accuracy 0.9325520833333333
+2025-01-10 19:24:26,320 - b1_trainer - INFO - Epoch 2, Batch 80/169 loss: 0.18810837673954667 accuracy 0.9408203125
+2025-01-10 19:25:09,717 - b1_trainer - INFO - Epoch 2, Batch 100/169 loss: 0.175353032797575 accuracy 0.9446875
+2025-01-10 19:25:53,106 - b1_trainer - INFO - Epoch 2, Batch 120/169 loss: 0.1631568896273772 accuracy 0.9485677083333334
+2025-01-10 19:26:36,275 - b1_trainer - INFO - Epoch 2, Batch 140/169 loss: 0.1546756361212049 accuracy 0.9513392857142857
+2025-01-10 19:27:20,825 - b1_trainer - INFO - Epoch 2, Batch 160/169 loss: 0.14725398195441813 accuracy 0.95380859375
+2025-01-10 19:27:38,926 - b1_trainer - INFO - Train: Epoch 2 loss: 0.14869498756862956 Accuracy 0.954182156133829
+-------------------------
+2025-01-10 19:27:38,928 - b1_trainer - INFO - Evaluating: Epoch 2
+2025-01-10 19:27:51,456 - b1_trainer - INFO - Eval Batch 10/21 loss: 1.2321141123771668 accuracy 0.6609375
+2025-01-10 19:28:03,172 - b1_trainer - INFO - Eval Batch 20/21 loss: 1.1380422681570053 accuracy 0.68203125
+2025-01-10 19:28:03,346 - b1_trainer - INFO - Eval: Epoch 2  Loss: 1.1257726890700204, Accuracy: 0.6868
+---------------------------------------
+
+
+2025-01-10 19:28:03,349 - b1_trainer - INFO - Saving checkpoint at modeling/b1/checkpoints\2.pth
+2025-01-10 19:28:04,294 - b1_trainer - INFO - Current best accuracy: 0.6748695003728561 and the accuracy for the current model 0.6868008948545862
+2025-01-10 19:28:04,294 - b1_trainer - INFO - New best model found
+2025-01-10 19:28:04,294 - b1_trainer - INFO - Saving best model
+2025-01-10 19:28:04,755 - b1_trainer - INFO - Training: Epoch 3, Current LR: 0.0001
+2025-01-10 19:29:10,679 - b1_trainer - INFO - Epoch 3, Batch 20/169 loss: 0.08834365978837014 accuracy 0.975
+2025-01-10 19:29:55,638 - b1_trainer - INFO - Epoch 3, Batch 40/169 loss: 0.0855610990896821 accuracy 0.976953125
+2025-01-10 19:30:39,593 - b1_trainer - INFO - Epoch 3, Batch 60/169 loss: 0.07834553085267544 accuracy 0.978125
+2025-01-10 19:31:22,473 - b1_trainer - INFO - Epoch 3, Batch 80/169 loss: 0.0721160517539829 accuracy 0.980078125
+2025-01-10 19:32:06,445 - b1_trainer - INFO - Epoch 3, Batch 100/169 loss: 0.0631856509950012 accuracy 0.98296875
+2025-01-10 19:32:50,486 - b1_trainer - INFO - Epoch 3, Batch 120/169 loss: 0.059974057557216534 accuracy 0.984375
+2025-01-10 19:33:35,636 - b1_trainer - INFO - Epoch 3, Batch 140/169 loss: 0.05518019792424249 accuracy 0.9857142857142858
+2025-01-10 19:34:20,555 - b1_trainer - INFO - Epoch 3, Batch 160/169 loss: 0.052280383760808034 accuracy 0.98671875
+2025-01-10 19:34:39,070 - b1_trainer - INFO - Train: Epoch 3 loss: 0.05328297914837944 Accuracy 0.9868029739776951
+-------------------------
+2025-01-10 19:34:39,070 - b1_trainer - INFO - Evaluating: Epoch 3
+2025-01-10 19:34:53,161 - b1_trainer - INFO - Eval Batch 10/21 loss: 1.2548155903816223 accuracy 0.6796875
+2025-01-10 19:35:04,629 - b1_trainer - INFO - Eval Batch 20/21 loss: 1.1994118958711624 accuracy 0.70625
+2025-01-10 19:35:04,807 - b1_trainer - INFO - Eval: Epoch 3  Loss: 1.1975792334193276, Accuracy: 0.7099
+---------------------------------------
+
+
+2025-01-10 19:35:04,808 - b1_trainer - INFO - Saving checkpoint at modeling/b1/checkpoints\3.pth
+2025-01-10 19:35:05,550 - b1_trainer - INFO - Current best accuracy: 0.6868008948545862 and the accuracy for the current model 0.7099179716629381
+2025-01-10 19:35:05,551 - b1_trainer - INFO - New best model found
+2025-01-10 19:35:05,551 - b1_trainer - INFO - Saving best model
+2025-01-10 19:35:05,970 - b1_trainer - INFO - Training: Epoch 4, Current LR: 0.0001
+2025-01-10 19:36:11,183 - b1_trainer - INFO - Epoch 4, Batch 20/169 loss: 0.06272471179254353 accuracy 0.984375
+2025-01-10 19:36:56,617 - b1_trainer - INFO - Epoch 4, Batch 40/169 loss: 0.0536106496816501 accuracy 0.985546875
+2025-01-10 19:37:40,139 - b1_trainer - INFO - Epoch 4, Batch 60/169 loss: 0.05636964902902643 accuracy 0.9854166666666667
+2025-01-10 19:38:24,726 - b1_trainer - INFO - Epoch 4, Batch 80/169 loss: 0.05238497781101614 accuracy 0.985546875
+2025-01-10 19:39:11,268 - b1_trainer - INFO - Epoch 4, Batch 100/169 loss: 0.04715089489705861 accuracy 0.98703125
+2025-01-10 19:39:56,962 - b1_trainer - INFO - Epoch 4, Batch 120/169 loss: 0.04605551964680975 accuracy 0.987109375
+2025-01-10 19:40:43,934 - b1_trainer - INFO - Epoch 4, Batch 140/169 loss: 0.044025138968468776 accuracy 0.9878348214285714
+2025-01-10 19:41:31,431 - b1_trainer - INFO - Epoch 4, Batch 160/169 loss: 0.041622764692874625 accuracy 0.9884765625
+2025-01-10 19:41:50,710 - b1_trainer - INFO - Train: Epoch 4 loss: 0.044878802592893674 Accuracy 0.9886617100371747
+-------------------------
+2025-01-10 19:41:50,711 - b1_trainer - INFO - Evaluating: Epoch 4
+2025-01-10 19:42:04,514 - b1_trainer - INFO - Eval Batch 10/21 loss: 1.4121466100215911 accuracy 0.684375
+2025-01-10 19:42:14,796 - b1_trainer - INFO - Eval Batch 20/21 loss: 1.329736840724945 accuracy 0.71796875
+2025-01-10 19:42:14,969 - b1_trainer - INFO - Eval: Epoch 4  Loss: 1.3243959971836634, Accuracy: 0.7181
+---------------------------------------
+
+
+2025-01-10 19:42:14,971 - b1_trainer - INFO - Saving checkpoint at modeling/b1/checkpoints\4.pth
+2025-01-10 19:42:15,849 - b1_trainer - INFO - Current best accuracy: 0.7099179716629381 and the accuracy for the current model 0.7181208053691275
+2025-01-10 19:42:15,849 - b1_trainer - INFO - New best model found
+2025-01-10 19:42:15,849 - b1_trainer - INFO - Saving best model
+2025-01-10 19:42:16,205 - b1_trainer - INFO - Training: Epoch 5, Current LR: 0.0001
+2025-01-10 19:43:21,130 - b1_trainer - INFO - Epoch 5, Batch 20/169 loss: 0.06532733924686909 accuracy 0.98203125
+2025-01-10 19:44:06,392 - b1_trainer - INFO - Epoch 5, Batch 40/169 loss: 0.06044849706813693 accuracy 0.98203125
+2025-01-10 19:44:51,241 - b1_trainer - INFO - Epoch 5, Batch 60/169 loss: 0.05599896525964141 accuracy 0.9828125
+2025-01-10 19:45:36,691 - b1_trainer - INFO - Epoch 5, Batch 80/169 loss: 0.05089088941749651 accuracy 0.9841796875
+2025-01-10 19:46:22,394 - b1_trainer - INFO - Epoch 5, Batch 100/169 loss: 0.05066512977005914 accuracy 0.984375
+2025-01-10 19:47:07,919 - b1_trainer - INFO - Epoch 5, Batch 120/169 loss: 0.05397104669245891 accuracy 0.98359375
+2025-01-10 19:47:53,226 - b1_trainer - INFO - Epoch 5, Batch 140/169 loss: 0.0525759942546886 accuracy 0.9842633928571428
+2025-01-10 19:48:38,809 - b1_trainer - INFO - Epoch 5, Batch 160/169 loss: 0.04856114267458907 accuracy 0.98583984375
+2025-01-10 19:48:57,439 - b1_trainer - INFO - Train: Epoch 5 loss: 0.04796809020738762 Accuracy 0.9860594795539034
+-------------------------
+2025-01-10 19:48:57,440 - b1_trainer - INFO - Evaluating: Epoch 5
+2025-01-10 19:49:09,514 - b1_trainer - INFO - Eval Batch 10/21 loss: 1.3971924185752869 accuracy 0.6640625
+2025-01-10 19:49:19,419 - b1_trainer - INFO - Eval Batch 20/21 loss: 1.2668090045452118 accuracy 0.7015625
+2025-01-10 19:49:19,596 - b1_trainer - INFO - Eval: Epoch 5  Loss: 1.2508413990338643, Accuracy: 0.7047
+---------------------------------------
+
+
+2025-01-10 19:49:19,596 - b1_trainer - INFO - Saving checkpoint at modeling/b1/checkpoints\5.pth
+2025-01-10 19:49:20,188 - b1_trainer - INFO - Current best accuracy: 0.7181208053691275 and the accuracy for the current model 0.7046979865771812
+2025-01-10 19:49:20,188 - b1_trainer - INFO - Training: Epoch 6, Current LR: 0.0001
+2025-01-10 19:51:46,255 - b1_trainer - INFO - Training class distribution: Counter({'l-pass': 1890, 'r-pass': 1765, 'l-set': 1520, 'l-spike': 1445, 'r-set': 1415, 'r-spike': 1305, 'l-winpoint': 805, 'r-winpoint': 615})
+2025-01-10 19:51:46,255 - b1_trainer - INFO - Validation class distribution: Counter({'r-pass': 238, 'l-pass': 222, 'r-spike': 189, 'l-spike': 174, 'r-set': 169, 'l-set': 160, 'l-winpoint': 104, 'r-winpoint': 85})
+2025-01-10 19:51:47,741 - b1_model - INFO - Current path: C:\Project\project
+2025-01-10 19:51:47,742 - b1_model - INFO - Files in current path: ['.git', '.vscode', 'ann.txt', 'annotation.pkl', 'annotations.txt', 'annotation_model.py', 'app.log', 'b2_checkpoints3', 'b2_checkpoints8', 'b2_confusion_matrix.png', 'b2_confusion_matrix_eval_data.png', 'b2_model.py', 'b4_model.py', 'best_b2.pth', 'checkpoints', 'Confusion_matrix.png', 'dataloader.log', 'dataloader.py', 'dataset', 'modeling', 'players_dataset', 'player_level_classification.py', 'player_level_classification_checkpoints', 'player_level_classification_checkpoints2', 'player_level_classification_checkpoints3', 'player_level_confusion_matrix.png', 'README.md', 'saved_pickles', 'utils', '__pycache__']
+2025-01-10 19:51:47,742 - b1_model - INFO - No model found starting from scratch
+2025-01-10 19:51:47,878 - b1_trainer - INFO - Training: Epoch 1, Current LR: 0.0001
+2025-01-10 19:54:23,579 - b1_trainer - INFO - Training class distribution: Counter({'l-pass': 1890, 'r-pass': 1765, 'l-set': 1520, 'l-spike': 1445, 'r-set': 1415, 'r-spike': 1305, 'l-winpoint': 805, 'r-winpoint': 615})
+2025-01-10 19:54:23,579 - b1_trainer - INFO - Validation class distribution: Counter({'r-pass': 238, 'l-pass': 222, 'r-spike': 189, 'l-spike': 174, 'r-set': 169, 'l-set': 160, 'l-winpoint': 104, 'r-winpoint': 85})
+2025-01-10 19:54:25,050 - b1_model - INFO - Current path: C:\Project\project
+2025-01-10 19:54:25,050 - b1_model - INFO - Files in current path: ['.git', '.vscode', 'ann.txt', 'annotation.pkl', 'annotations.txt', 'annotation_model.py', 'app.log', 'b2_checkpoints3', 'b2_checkpoints8', 'b2_confusion_matrix.png', 'b2_confusion_matrix_eval_data.png', 'b2_model.py', 'b4_model.py', 'best_b2.pth', 'checkpoints', 'Confusion_matrix.png', 'dataloader.log', 'dataloader.py', 'dataset', 'modeling', 'players_dataset', 'player_level_classification.py', 'player_level_classification_checkpoints', 'player_level_classification_checkpoints2', 'player_level_classification_checkpoints3', 'player_level_confusion_matrix.png', 'README.md', 'saved_pickles', 'utils', '__pycache__']
+2025-01-10 19:54:25,050 - b1_model - INFO - No model found starting from scratch
+2025-01-10 19:54:25,172 - b1_trainer - INFO - Training: Epoch 1, Current LR: 1e-05
+2025-01-10 19:56:08,443 - b1_trainer - INFO - Training class distribution: Counter({'l-pass': 1890, 'r-pass': 1765, 'l-set': 1520, 'l-spike': 1445, 'r-set': 1415, 'r-spike': 1305, 'l-winpoint': 805, 'r-winpoint': 615})
+2025-01-10 19:56:08,443 - b1_trainer - INFO - Validation class distribution: Counter({'r-pass': 238, 'l-pass': 222, 'r-spike': 189, 'l-spike': 174, 'r-set': 169, 'l-set': 160, 'l-winpoint': 104, 'r-winpoint': 85})
+2025-01-10 19:56:09,892 - b1_model - INFO - Current path: C:\Project\project
+2025-01-10 19:56:09,892 - b1_model - INFO - Files in current path: ['.git', '.vscode', 'ann.txt', 'annotation.pkl', 'annotations.txt', 'annotation_model.py', 'app.log', 'b2_checkpoints3', 'b2_checkpoints8', 'b2_confusion_matrix.png', 'b2_confusion_matrix_eval_data.png', 'b2_model.py', 'b4_model.py', 'best_b2.pth', 'checkpoints', 'Confusion_matrix.png', 'dataloader.log', 'dataloader.py', 'dataset', 'modeling', 'players_dataset', 'player_level_classification.py', 'player_level_classification_checkpoints', 'player_level_classification_checkpoints2', 'player_level_classification_checkpoints3', 'player_level_confusion_matrix.png', 'README.md', 'saved_pickles', 'utils', '__pycache__']
+2025-01-10 19:56:10,197 - b1_model - INFO - model loaded 
+2025-01-10 19:56:10,332 - b1_trainer - INFO - Training: Epoch 5, Current LR: 1e-05
+2025-01-10 19:56:53,529 - b1_trainer - INFO - Training class distribution: Counter({'l-pass': 1890, 'r-pass': 1765, 'l-set': 1520, 'l-spike': 1445, 'r-set': 1415, 'r-spike': 1305, 'l-winpoint': 805, 'r-winpoint': 615})
+2025-01-10 19:56:53,529 - b1_trainer - INFO - Validation class distribution: Counter({'r-pass': 238, 'l-pass': 222, 'r-spike': 189, 'l-spike': 174, 'r-set': 169, 'l-set': 160, 'l-winpoint': 104, 'r-winpoint': 85})
+2025-01-10 19:56:54,909 - b1_model - INFO - Current path: C:\Project\project
+2025-01-10 19:56:54,911 - b1_model - INFO - Files in current path: ['.git', '.vscode', 'ann.txt', 'annotation.pkl', 'annotations.txt', 'annotation_model.py', 'app.log', 'b2_checkpoints3', 'b2_checkpoints8', 'b2_confusion_matrix.png', 'b2_confusion_matrix_eval_data.png', 'b2_model.py', 'b4_model.py', 'best_b2.pth', 'checkpoints', 'Confusion_matrix.png', 'dataloader.log', 'dataloader.py', 'dataset', 'modeling', 'players_dataset', 'player_level_classification.py', 'player_level_classification_checkpoints', 'player_level_classification_checkpoints2', 'player_level_classification_checkpoints3', 'player_level_confusion_matrix.png', 'README.md', 'saved_pickles', 'utils', '__pycache__']
+2025-01-10 19:56:55,221 - b1_model - INFO - model loaded 
+2025-01-10 19:56:55,365 - b1_trainer - INFO - Training: Epoch 5, Current LR: 1e-05
+2025-01-10 19:57:58,306 - b1_trainer - INFO - Epoch 5, Batch 20/169 loss: 0.021066087926737965 accuracy 0.99453125
+2025-01-10 19:58:45,594 - b1_trainer - INFO - Epoch 5, Batch 40/169 loss: 0.02130436051520519 accuracy 0.994140625
+2025-01-10 19:59:32,346 - b1_trainer - INFO - Epoch 5, Batch 60/169 loss: 0.01987791306261594 accuracy 0.9947916666666666
+2025-01-10 20:00:19,570 - b1_trainer - INFO - Epoch 5, Batch 80/169 loss: 0.01796254763903562 accuracy 0.995703125
+2025-01-10 20:01:06,956 - b1_trainer - INFO - Epoch 5, Batch 100/169 loss: 0.01783789401873946 accuracy 0.99578125
+2025-01-10 20:01:53,831 - b1_trainer - INFO - Epoch 5, Batch 120/169 loss: 0.017076356722585236 accuracy 0.9958333333333333
+2025-01-10 20:02:40,401 - b1_trainer - INFO - Epoch 5, Batch 140/169 loss: 0.016094626199420807 accuracy 0.99609375
+2025-01-10 20:03:27,111 - b1_trainer - INFO - Epoch 5, Batch 160/169 loss: 0.014957838305417682 accuracy 0.996484375
+2025-01-10 20:03:46,480 - b1_trainer - INFO - Train: Epoch 5 loss: 0.0168172238517233 Accuracy 0.9962825278810409
+-------------------------
+2025-01-10 20:03:46,480 - b1_trainer - INFO - Evaluating: Epoch 5
+2025-01-10 20:03:58,050 - b1_trainer - INFO - Eval Batch 10/21 loss: 1.3526626348495483 accuracy 0.68125
+2025-01-10 20:04:07,397 - b1_trainer - INFO - Eval Batch 20/21 loss: 1.2516838550567626 accuracy 0.715625
+2025-01-10 20:04:07,562 - b1_trainer - INFO - Eval: Epoch 5  Loss: 0.01947856056076835, Accuracy: 0.7174
+---------------------------------------
+
+
+2025-01-10 20:04:07,562 - b1_trainer - INFO - Saving checkpoint at modeling/b1/checkpoints\5.pth
+2025-01-10 20:04:08,343 - b1_trainer - INFO - Current best accuracy: 0.7181208053691275 and the accuracy for the current model 0.7173750932140194
+2025-01-10 20:04:08,343 - b1_trainer - INFO - Training: Epoch 6, Current LR: 1e-05
+2025-01-10 20:05:13,714 - b1_trainer - INFO - Epoch 6, Batch 20/169 loss: 0.007813625078415497 accuracy 0.9984375
+2025-01-10 20:06:00,342 - b1_trainer - INFO - Epoch 6, Batch 40/169 loss: 0.0071450818941229954 accuracy 0.998828125
+2025-01-10 20:06:47,223 - b1_trainer - INFO - Epoch 6, Batch 60/169 loss: 0.006839819033242141 accuracy 0.99921875
+2025-01-10 20:07:33,976 - b1_trainer - INFO - Epoch 6, Batch 80/169 loss: 0.006843876843049657 accuracy 0.99921875
+2025-01-10 20:08:20,624 - b1_trainer - INFO - Epoch 6, Batch 100/169 loss: 0.00767758289934136 accuracy 0.99890625
+2025-01-10 20:09:08,357 - b1_trainer - INFO - Epoch 6, Batch 120/169 loss: 0.008406019539688715 accuracy 0.9986979166666666
+2025-01-10 20:09:56,019 - b1_trainer - INFO - Epoch 6, Batch 140/169 loss: 0.00856126323508631 accuracy 0.9986607142857142
+2025-01-10 20:10:42,702 - b1_trainer - INFO - Epoch 6, Batch 160/169 loss: 0.008173799299402162 accuracy 0.998828125
+2025-01-10 20:11:02,171 - b1_trainer - INFO - Train: Epoch 6 loss: 0.009102044449347629 Accuracy 0.9987918215613383
+-------------------------
+2025-01-10 20:11:02,171 - b1_trainer - INFO - Evaluating: Epoch 6
+2025-01-10 20:11:13,386 - b1_trainer - INFO - Eval Batch 10/21 loss: 1.3631817400455475 accuracy 0.68125
+2025-01-10 20:11:22,785 - b1_trainer - INFO - Eval Batch 20/21 loss: 1.2632818341255188 accuracy 0.71484375
+2025-01-10 20:11:22,960 - b1_trainer - INFO - Eval: Epoch 6  Loss: 0.01962371729453227, Accuracy: 0.7159
+---------------------------------------
+
+
+2025-01-10 20:11:22,960 - b1_trainer - INFO - Saving checkpoint at modeling/b1/checkpoints\6.pth
+2025-01-10 20:11:23,624 - b1_trainer - INFO - Current best accuracy: 0.7181208053691275 and the accuracy for the current model 0.7158836689038032
+2025-01-10 20:11:23,625 - b1_trainer - INFO - Training: Epoch 7, Current LR: 1e-05
+2025-01-10 20:12:28,842 - b1_trainer - INFO - Epoch 7, Batch 20/169 loss: 0.006189392285887152 accuracy 0.9984375
+2025-01-10 20:13:15,441 - b1_trainer - INFO - Epoch 7, Batch 40/169 loss: 0.006449701107339933 accuracy 0.998828125
+2025-01-10 20:14:03,120 - b1_trainer - INFO - Epoch 7, Batch 60/169 loss: 0.006647680540724347 accuracy 0.9989583333333333
+2025-01-10 20:14:50,294 - b1_trainer - INFO - Epoch 7, Batch 80/169 loss: 0.006643882785283495 accuracy 0.998828125
+2025-01-10 20:15:37,328 - b1_trainer - INFO - Epoch 7, Batch 100/169 loss: 0.0067072029085829855 accuracy 0.99875
+2025-01-10 20:16:24,337 - b1_trainer - INFO - Epoch 7, Batch 120/169 loss: 0.006661643712626149 accuracy 0.998828125
+2025-01-10 20:17:11,074 - b1_trainer - INFO - Epoch 7, Batch 140/169 loss: 0.006542765300088961 accuracy 0.9987723214285714
+2025-01-10 20:17:58,631 - b1_trainer - INFO - Epoch 7, Batch 160/169 loss: 0.006476556990673998 accuracy 0.998828125
+2025-01-10 20:18:18,789 - b1_trainer - INFO - Train: Epoch 7 loss: 0.01034282350061274 Accuracy 0.9986988847583643
+-------------------------
+2025-01-10 20:18:18,790 - b1_trainer - INFO - Evaluating: Epoch 7
+2025-01-10 20:18:31,578 - b1_trainer - INFO - Eval Batch 10/21 loss: 1.3446538507938386 accuracy 0.690625
+2025-01-10 20:18:43,126 - b1_trainer - INFO - Eval Batch 20/21 loss: 1.2591321527957917 accuracy 0.71953125
+2025-01-10 20:18:43,295 - b1_trainer - INFO - Eval: Epoch 7  Loss: 0.019570995230536067, Accuracy: 0.7204
+---------------------------------------
+
+
+2025-01-10 20:18:43,302 - b1_trainer - INFO - Saving checkpoint at modeling/b1/checkpoints\7.pth
+2025-01-10 20:18:44,011 - b1_trainer - INFO - Current best accuracy: 0.7181208053691275 and the accuracy for the current model 0.7203579418344519
+2025-01-10 20:18:44,011 - b1_trainer - INFO - New best model found
+2025-01-10 20:18:44,011 - b1_trainer - INFO - Saving best model
+2025-01-10 20:18:44,538 - b1_trainer - INFO - Training: Epoch 8, Current LR: 1e-05

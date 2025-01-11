@@ -1,0 +1,1138 @@
+2024-12-28 16:09:42,973 - dataloader - INFO - we already saved the data before
+2024-12-28 16:09:42,974 - dataloader - INFO - image loaded successfully
+2024-12-28 16:09:43,099 - dataloader - INFO - data retrieved
+2024-12-28 16:09:44,636 - b2_model - INFO - Epoch 19, Current LR: 0.0012
+2024-12-28 16:09:48,716 - b2_model - INFO - Epoch 19, Batch 0 accuracy 0.9375
+2024-12-28 16:11:06,711 - b2_model - INFO - Epoch 19, Batch 40 accuracy 0.9138719512195121
+2024-12-28 16:12:29,542 - b2_model - INFO - Epoch 19, Batch 80 accuracy 0.9116512345679012
+2024-12-28 16:13:37,219 - b2_model - INFO - Epoch 19, Loss: 0.3128289990742837 Accuracy: 0.8894927536231884
+2024-12-28 16:13:40,389 - b2_model - INFO - Epoch 19, Batch 0 accuracy 0.5625
+2024-12-28 16:14:01,371 - b2_model - INFO - Epoch 19 Eval Loss: 1.261408844962716, Accuracy: 0.5569
+2024-12-28 16:14:01,373 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\19.pth
+2024-12-28 16:14:01,507 - b2_model - INFO - Epoch 20, Current LR: 0.0012
+2024-12-28 16:14:05,015 - b2_model - INFO - Epoch 20, Batch 0 accuracy 0.71875
+2024-12-28 16:15:08,231 - b2_model - INFO - Epoch 20, Batch 40 accuracy 0.8765243902439024
+2024-12-28 16:16:11,382 - b2_model - INFO - Epoch 20, Batch 80 accuracy 0.8634259259259259
+2024-12-28 16:17:11,439 - b2_model - INFO - Epoch 20, Loss: 0.3912032926993922 Accuracy: 0.8597308488612836
+2024-12-28 16:17:14,437 - b2_model - INFO - Epoch 20, Batch 0 accuracy 0.5
+2024-12-28 16:17:34,710 - b2_model - INFO - Epoch 20 Eval Loss: 1.3727898802608252, Accuracy: 0.5631
+2024-12-28 16:17:34,710 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\20.pth
+2024-12-28 16:17:34,837 - b2_model - INFO - Epoch 21, Current LR: 0.0012
+2024-12-28 16:17:37,942 - b2_model - INFO - Epoch 21, Batch 0 accuracy 0.75
+2024-12-28 16:18:40,043 - b2_model - INFO - Epoch 21, Batch 40 accuracy 0.8559451219512195
+2024-12-28 16:19:41,926 - b2_model - INFO - Epoch 21, Batch 80 accuracy 0.8587962962962963
+2024-12-28 16:20:42,779 - b2_model - INFO - Epoch 21, Loss: 0.39053277227996797 Accuracy: 0.8571428571428571
+2024-12-28 16:20:45,741 - b2_model - INFO - Epoch 21, Batch 0 accuracy 0.4375
+2024-12-28 16:21:06,519 - b2_model - INFO - Epoch 21 Eval Loss: 1.4523578695952892, Accuracy: 0.5694
+2024-12-28 16:21:06,519 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\21.pth
+2024-12-28 16:21:06,645 - b2_model - INFO - Epoch 22, Current LR: 0.0012
+2024-12-28 16:21:09,830 - b2_model - INFO - Epoch 22, Batch 0 accuracy 0.75
+2024-12-28 16:22:13,253 - b2_model - INFO - Epoch 22, Batch 40 accuracy 0.8628048780487805
+2024-12-28 16:23:16,830 - b2_model - INFO - Epoch 22, Batch 80 accuracy 0.8726851851851852
+2024-12-28 16:24:16,825 - b2_model - INFO - Epoch 22, Loss: 0.3799298752006913 Accuracy: 0.8643892339544513
+2024-12-28 16:24:19,806 - b2_model - INFO - Epoch 22, Batch 0 accuracy 0.5625
+2024-12-28 16:24:40,067 - b2_model - INFO - Epoch 22 Eval Loss: 1.56554217915982, Accuracy: 0.5466
+2024-12-28 16:24:40,083 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\22.pth
+2024-12-28 16:24:40,312 - b2_model - INFO - Epoch 23, Current LR: 0.0012
+2024-12-28 16:24:43,477 - b2_model - INFO - Epoch 23, Batch 0 accuracy 1.0
+2024-12-28 16:25:45,281 - b2_model - INFO - Epoch 23, Batch 40 accuracy 0.8727134146341463
+2024-12-28 16:26:47,600 - b2_model - INFO - Epoch 23, Batch 80 accuracy 0.8719135802469136
+2024-12-28 16:27:48,564 - b2_model - INFO - Epoch 23, Loss: 0.3645233617833823 Accuracy: 0.8739648033126294
+2024-12-28 16:27:51,514 - b2_model - INFO - Epoch 23, Batch 0 accuracy 0.65625
+2024-12-28 16:28:12,321 - b2_model - INFO - Epoch 23 Eval Loss: 1.6051489524543285, Accuracy: 0.5466
+2024-12-28 16:28:12,321 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\23.pth
+2024-12-28 16:28:12,363 - b2_model - INFO - Epoch 24, Current LR: 0.0006
+2024-12-28 16:28:15,653 - b2_model - INFO - Epoch 24, Batch 0 accuracy 0.9375
+2024-12-28 16:29:18,671 - b2_model - INFO - Epoch 24, Batch 40 accuracy 0.9016768292682927
+2024-12-28 16:30:20,699 - b2_model - INFO - Epoch 24, Batch 80 accuracy 0.8993055555555556
+2024-12-28 16:31:20,589 - b2_model - INFO - Epoch 24, Loss: 0.29202713974374384 Accuracy: 0.8985507246376812
+2024-12-28 16:31:23,555 - b2_model - INFO - Epoch 24, Batch 0 accuracy 0.59375
+2024-12-28 16:31:43,759 - b2_model - INFO - Epoch 24 Eval Loss: 1.4721639342606068, Accuracy: 0.5673
+2024-12-28 16:31:43,759 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\24.pth
+2024-12-28 16:31:43,880 - b2_model - INFO - Epoch 25, Current LR: 0.0006
+2024-12-28 16:31:47,216 - b2_model - INFO - Epoch 25, Batch 0 accuracy 0.90625
+2024-12-28 16:32:49,915 - b2_model - INFO - Epoch 25, Batch 40 accuracy 0.9298780487804879
+2024-12-28 16:33:52,640 - b2_model - INFO - Epoch 25, Batch 80 accuracy 0.9209104938271605
+2024-12-28 16:34:54,405 - b2_model - INFO - Epoch 25, Loss: 0.23136577966107316 Accuracy: 0.9213250517598344
+2024-12-28 16:34:57,410 - b2_model - INFO - Epoch 25, Batch 0 accuracy 0.5
+2024-12-28 16:35:18,150 - b2_model - INFO - Epoch 25 Eval Loss: 1.3650957001373172, Accuracy: 0.5921
+2024-12-28 16:35:18,150 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\25.pth
+2024-12-28 16:35:18,324 - b2_model - INFO - Epoch 26, Current LR: 0.0006
+2024-12-28 16:35:21,651 - b2_model - INFO - Epoch 26, Batch 0 accuracy 0.8125
+2024-12-28 16:36:24,151 - b2_model - INFO - Epoch 26, Batch 40 accuracy 0.9207317073170732
+2024-12-28 16:37:26,517 - b2_model - INFO - Epoch 26, Batch 80 accuracy 0.9220679012345679
+2024-12-28 16:38:26,568 - b2_model - INFO - Epoch 26, Loss: 0.21510736719697468 Accuracy: 0.9233954451345756
+2024-12-28 16:38:29,554 - b2_model - INFO - Epoch 26, Batch 0 accuracy 0.46875
+2024-12-28 16:38:49,741 - b2_model - INFO - Epoch 26 Eval Loss: 1.436087072826922, Accuracy: 0.5776
+2024-12-28 16:38:49,741 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\26.pth
+2024-12-28 16:38:50,118 - b2_model - INFO - Epoch 27, Current LR: 0.0006
+2024-12-28 16:38:53,222 - b2_model - INFO - Epoch 27, Batch 0 accuracy 0.9375
+2024-12-28 16:39:55,503 - b2_model - INFO - Epoch 27, Batch 40 accuracy 0.9344512195121951
+2024-12-28 16:41:08,254 - b2_model - INFO - Epoch 27, Batch 80 accuracy 0.9351851851851852
+2024-12-28 16:42:14,664 - b2_model - INFO - Epoch 27, Loss: 0.19505258304767373 Accuracy: 0.9321946169772257
+2024-12-28 16:42:17,697 - b2_model - INFO - Epoch 27, Batch 0 accuracy 0.4375
+2024-12-28 16:42:38,003 - b2_model - INFO - Epoch 27 Eval Loss: 1.5246010273694992, Accuracy: 0.5673
+2024-12-28 16:42:38,003 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\27.pth
+2024-12-28 16:42:38,136 - b2_model - INFO - Epoch 28, Current LR: 0.0006
+2024-12-28 16:42:41,423 - b2_model - INFO - Epoch 28, Batch 0 accuracy 0.9375
+2024-12-28 16:43:43,861 - b2_model - INFO - Epoch 28, Batch 40 accuracy 0.9344512195121951
+2024-12-28 16:44:44,936 - b2_model - INFO - Epoch 28, Batch 80 accuracy 0.9367283950617284
+2024-12-28 16:45:44,884 - b2_model - INFO - Epoch 28, Loss: 0.1944814037747127 Accuracy: 0.9337474120082816
+2024-12-28 16:45:47,816 - b2_model - INFO - Epoch 28, Batch 0 accuracy 0.5
+2024-12-28 16:46:08,018 - b2_model - INFO - Epoch 28 Eval Loss: 1.5730600506067276, Accuracy: 0.5631
+2024-12-28 16:46:08,018 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\28.pth
+2024-12-28 16:46:08,158 - b2_model - INFO - Epoch 29, Current LR: 0.0003
+2024-12-28 16:46:11,300 - b2_model - INFO - Epoch 29, Batch 0 accuracy 1.0
+2024-12-28 16:47:12,689 - b2_model - INFO - Epoch 29, Batch 40 accuracy 0.9367378048780488
+2024-12-28 16:48:13,751 - b2_model - INFO - Epoch 29, Batch 80 accuracy 0.9436728395061729
+2024-12-28 16:49:13,221 - b2_model - INFO - Epoch 29, Loss: 0.1676865384321321 Accuracy: 0.9446169772256728
+2024-12-28 16:49:16,121 - b2_model - INFO - Epoch 29, Batch 0 accuracy 0.46875
+2024-12-28 16:49:36,087 - b2_model - INFO - Epoch 29 Eval Loss: 1.564268872141838, Accuracy: 0.5756
+2024-12-28 16:49:36,102 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\29.pth
+2024-12-28 16:49:36,236 - b2_model - INFO - Epoch 30, Current LR: 0.0003
+2024-12-28 16:49:39,424 - b2_model - INFO - Epoch 30, Batch 0 accuracy 0.90625
+2024-12-28 16:50:41,345 - b2_model - INFO - Epoch 30, Batch 40 accuracy 0.9451219512195121
+2024-12-28 16:51:43,720 - b2_model - INFO - Epoch 30, Batch 80 accuracy 0.9417438271604939
+2024-12-28 16:52:44,197 - b2_model - INFO - Epoch 30, Loss: 0.15951101745147844 Accuracy: 0.9433229813664596
+2024-12-28 16:52:47,174 - b2_model - INFO - Epoch 30, Batch 0 accuracy 0.53125
+2024-12-28 16:53:07,353 - b2_model - INFO - Epoch 30 Eval Loss: 1.5763650927692652, Accuracy: 0.5714
+2024-12-28 16:53:07,353 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\30.pth
+2024-12-28 16:53:07,420 - b2_model - INFO - Epoch 31, Current LR: 0.0003
+2024-12-28 16:53:10,596 - b2_model - INFO - Epoch 31, Batch 0 accuracy 0.96875
+2024-12-28 16:54:12,559 - b2_model - INFO - Epoch 31, Batch 40 accuracy 0.9550304878048781
+2024-12-28 16:55:14,173 - b2_model - INFO - Epoch 31, Batch 80 accuracy 0.9544753086419753
+2024-12-28 16:56:13,086 - b2_model - INFO - Epoch 31, Loss: 0.14057365983478293 Accuracy: 0.9492753623188406
+2024-12-28 16:56:16,002 - b2_model - INFO - Epoch 31, Batch 0 accuracy 0.53125
+2024-12-28 16:56:36,051 - b2_model - INFO - Epoch 31 Eval Loss: 1.4493642151355743, Accuracy: 0.5797
+2024-12-28 16:56:36,052 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\31.pth
+2024-12-28 16:56:36,095 - b2_model - INFO - Epoch 32, Current LR: 0.0003
+2024-12-28 16:56:39,198 - b2_model - INFO - Epoch 32, Batch 0 accuracy 0.96875
+2024-12-28 16:57:40,704 - b2_model - INFO - Epoch 32, Batch 40 accuracy 0.9588414634146342
+2024-12-28 16:58:41,861 - b2_model - INFO - Epoch 32, Batch 80 accuracy 0.9583333333333334
+2024-12-28 16:59:40,877 - b2_model - INFO - Epoch 32, Loss: 0.1291963516172668 Accuracy: 0.9554865424430642
+2024-12-28 16:59:43,799 - b2_model - INFO - Epoch 32, Batch 0 accuracy 0.53125
+2024-12-28 17:00:04,081 - b2_model - INFO - Epoch 32 Eval Loss: 1.5376856541261077, Accuracy: 0.5859
+2024-12-28 17:00:04,081 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\32.pth
+2024-12-28 17:00:04,236 - b2_model - INFO - Epoch 33, Current LR: 0.0003
+2024-12-28 17:00:07,439 - b2_model - INFO - Epoch 33, Batch 0 accuracy 1.0
+2024-12-28 17:01:09,751 - b2_model - INFO - Epoch 33, Batch 40 accuracy 0.9649390243902439
+2024-12-28 17:02:12,102 - b2_model - INFO - Epoch 33, Batch 80 accuracy 0.9606481481481481
+2024-12-28 17:03:11,659 - b2_model - INFO - Epoch 33, Loss: 0.12491405912297816 Accuracy: 0.9583333333333334
+2024-12-28 17:03:14,544 - b2_model - INFO - Epoch 33, Batch 0 accuracy 0.5625
+2024-12-28 17:03:34,651 - b2_model - INFO - Epoch 33 Eval Loss: 1.6044619069434702, Accuracy: 0.6025
+2024-12-28 17:03:34,651 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\33.pth
+2024-12-28 17:03:34,736 - b2_model - INFO - Epoch 34, Current LR: 0.00015
+2024-12-28 17:03:38,017 - b2_model - INFO - Epoch 34, Batch 0 accuracy 0.90625
+2024-12-28 17:04:39,437 - b2_model - INFO - Epoch 34, Batch 40 accuracy 0.9603658536585366
+2024-12-28 17:05:41,415 - b2_model - INFO - Epoch 34, Batch 80 accuracy 0.9579475308641975
+2024-12-28 17:06:40,673 - b2_model - INFO - Epoch 34, Loss: 0.1188686337044909 Accuracy: 0.9616977225672878
+2024-12-28 17:06:43,675 - b2_model - INFO - Epoch 34, Batch 0 accuracy 0.53125
+2024-12-28 17:07:04,361 - b2_model - INFO - Epoch 34 Eval Loss: 1.5274420268833637, Accuracy: 0.5901
+2024-12-28 17:07:04,361 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\34.pth
+2024-12-28 17:07:04,452 - b2_model - INFO - Epoch 35, Current LR: 0.00015
+2024-12-28 17:07:07,671 - b2_model - INFO - Epoch 35, Batch 0 accuracy 0.96875
+2024-12-28 17:08:10,165 - b2_model - INFO - Epoch 35, Batch 40 accuracy 0.9679878048780488
+2024-12-28 17:09:15,250 - b2_model - INFO - Epoch 35, Batch 80 accuracy 0.9645061728395061
+2024-12-28 17:10:23,956 - b2_model - INFO - Epoch 35, Loss: 0.1058504654340877 Accuracy: 0.9637681159420289
+2024-12-28 17:10:27,286 - b2_model - INFO - Epoch 35, Batch 0 accuracy 0.59375
+2024-12-28 17:10:50,798 - b2_model - INFO - Epoch 35 Eval Loss: 1.5556103801354766, Accuracy: 0.5880
+2024-12-28 17:10:50,799 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\35.pth
+2024-12-28 17:10:50,882 - b2_model - INFO - Epoch 36, Current LR: 0.00015
+2024-12-28 17:10:54,728 - b2_model - INFO - Epoch 36, Batch 0 accuracy 1.0
+2024-12-28 17:12:06,982 - b2_model - INFO - Epoch 36, Batch 40 accuracy 0.9763719512195121
+2024-12-28 17:14:11,911 - dataloader - INFO - we already saved the data before
+2024-12-28 17:14:11,911 - dataloader - INFO - image loaded successfully
+2024-12-28 17:14:12,023 - dataloader - INFO - data retrieved
+2024-12-28 17:14:13,757 - b2_model - INFO - Epoch 36, Current LR: 0.0012
+2024-12-28 17:14:16,923 - b2_model - INFO - Epoch 36, Batch 0 accuracy 0.65625
+2024-12-28 17:15:18,526 - b2_model - INFO - Epoch 36, Batch 40 accuracy 0.6471036585365854
+2024-12-28 17:16:24,466 - b2_model - INFO - Epoch 36, Batch 80 accuracy 0.621141975308642
+2024-12-28 17:17:34,799 - b2_model - INFO - Epoch 36, Loss: 1.2273006852993296 Accuracy: 0.6024844720496895
+2024-12-28 17:17:38,118 - b2_model - INFO - Epoch 36, Batch 0 accuracy 0.53125
+2024-12-28 17:18:00,845 - b2_model - INFO - Epoch 36 Eval Loss: 1.4286839924752712, Accuracy: 0.4845
+2024-12-28 17:18:00,851 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\36.pth
+2024-12-28 17:18:00,914 - b2_model - INFO - Epoch 37, Current LR: 0.0012
+2024-12-28 17:18:04,433 - b2_model - INFO - Epoch 37, Batch 0 accuracy 0.78125
+2024-12-28 17:19:13,578 - b2_model - INFO - Epoch 37, Batch 40 accuracy 0.6532012195121951
+2024-12-28 17:20:21,407 - b2_model - INFO - Epoch 37, Batch 80 accuracy 0.6512345679012346
+2024-12-28 17:21:22,489 - b2_model - INFO - Epoch 37, Loss: 0.9050374715781409 Accuracy: 0.6498447204968945
+2024-12-28 17:21:25,650 - b2_model - INFO - Epoch 37, Batch 0 accuracy 0.46875
+2024-12-28 17:21:46,043 - b2_model - INFO - Epoch 37 Eval Loss: 1.1317561827600002, Accuracy: 0.5404
+2024-12-28 17:21:46,043 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\37.pth
+2024-12-28 17:21:46,095 - b2_model - INFO - Epoch 38, Current LR: 0.0012
+2024-12-28 17:21:49,232 - b2_model - INFO - Epoch 38, Batch 0 accuracy 0.78125
+2024-12-28 17:22:51,980 - b2_model - INFO - Epoch 38, Batch 40 accuracy 0.7179878048780488
+2024-12-28 17:23:53,981 - b2_model - INFO - Epoch 38, Batch 80 accuracy 0.7118055555555556
+2024-12-28 17:24:54,229 - b2_model - INFO - Epoch 38, Loss: 0.7910949570580947 Accuracy: 0.6966873706004141
+2024-12-28 17:24:57,204 - b2_model - INFO - Epoch 38, Batch 0 accuracy 0.5625
+2024-12-28 17:25:17,719 - b2_model - INFO - Epoch 38 Eval Loss: 1.065295709297061, Accuracy: 0.5859
+2024-12-28 17:25:17,719 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\38.pth
+2024-12-28 17:25:17,876 - b2_model - INFO - Epoch 39, Current LR: 0.0012
+2024-12-28 17:25:20,949 - b2_model - INFO - Epoch 39, Batch 0 accuracy 0.78125
+2024-12-28 17:26:23,813 - b2_model - INFO - Epoch 39, Batch 40 accuracy 0.7332317073170732
+2024-12-28 17:27:27,351 - b2_model - INFO - Epoch 39, Batch 80 accuracy 0.7229938271604939
+2024-12-28 17:28:36,518 - b2_model - INFO - Epoch 39, Loss: 0.7484587219135821 Accuracy: 0.718167701863354
+2024-12-28 17:28:39,599 - b2_model - INFO - Epoch 39, Batch 0 accuracy 0.46875
+2024-12-28 17:29:02,374 - b2_model - INFO - Epoch 39 Eval Loss: 1.4544249922037125, Accuracy: 0.4886
+2024-12-28 17:29:02,375 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\39.pth
+2024-12-28 17:30:20,715 - dataloader - INFO - we already saved the data before
+2024-12-28 17:30:20,716 - dataloader - INFO - image loaded successfully
+2024-12-28 17:30:20,838 - dataloader - INFO - data retrieved
+2024-12-28 17:30:22,864 - b2_model - INFO - Epoch 40, Current LR: 0.0012
+2024-12-28 17:30:26,926 - b2_model - INFO - Epoch 40, Batch 0 accuracy 0.75
+2024-12-28 17:31:35,363 - b2_model - INFO - Epoch 40, Batch 40 accuracy 0.7339939024390244
+2024-12-28 17:32:45,915 - b2_model - INFO - Epoch 40, Batch 80 accuracy 0.7341820987654321
+2024-12-28 17:33:53,187 - b2_model - INFO - Epoch 40, Loss: 0.7182513512363119 Accuracy: 0.7305900621118012
+2024-12-28 17:33:56,919 - b2_model - INFO - Epoch 40, Batch 0 accuracy 0.5625
+2024-12-28 17:34:21,088 - b2_model - INFO - Epoch 40 Eval Loss: 1.1510390751063824, Accuracy: 0.5714
+2024-12-28 17:34:21,089 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\40.pth
+2024-12-28 17:34:21,244 - b2_model - INFO - Epoch 41, Current LR: 0.0012
+2024-12-28 17:34:25,155 - b2_model - INFO - Epoch 41, Batch 0 accuracy 0.6875
+2024-12-28 17:35:29,063 - dataloader - INFO - we already saved the data before
+2024-12-28 17:35:29,063 - dataloader - INFO - image loaded successfully
+2024-12-28 17:35:29,185 - dataloader - INFO - data retrieved
+2024-12-28 17:38:41,659 - b2_model - INFO - Train Class Counts:
+2024-12-28 17:38:41,659 - b2_model - INFO -   Class 0: 503
+2024-12-28 17:38:41,659 - b2_model - INFO -   Class 1: 491
+2024-12-28 17:38:41,659 - b2_model - INFO -   Class 2: 239
+2024-12-28 17:38:41,659 - b2_model - INFO -   Class 3: 294
+2024-12-28 17:38:41,659 - b2_model - INFO -   Class 4: 673
+2024-12-28 17:38:41,659 - b2_model - INFO -   Class 5: 638
+2024-12-28 17:38:41,659 - b2_model - INFO -   Class 6: 524
+2024-12-28 17:38:41,659 - b2_model - INFO -   Class 7: 502
+2024-12-28 17:39:04,761 - b2_model - INFO - Eval Class Counts:
+2024-12-28 17:39:04,761 - b2_model - INFO -   Class 0: 67
+2024-12-28 17:39:04,761 - b2_model - INFO -   Class 1: 71
+2024-12-28 17:39:04,761 - b2_model - INFO -   Class 2: 27
+2024-12-28 17:39:04,761 - b2_model - INFO -   Class 3: 39
+2024-12-28 17:39:04,761 - b2_model - INFO -   Class 4: 80
+2024-12-28 17:39:04,761 - b2_model - INFO -   Class 5: 85
+2024-12-28 17:39:04,761 - b2_model - INFO -   Class 6: 54
+2024-12-28 17:39:04,761 - b2_model - INFO -   Class 7: 60
+2024-12-28 17:39:04,815 - b2_model - INFO - Epoch 41, Current LR: 0.0012
+2024-12-28 17:39:08,037 - b2_model - INFO - Epoch 41, Batch 0 accuracy 0.8125
+2024-12-28 17:40:10,433 - b2_model - INFO - Epoch 41, Batch 40 accuracy 0.7553353658536586
+2024-12-28 17:41:12,482 - b2_model - INFO - Epoch 41, Batch 80 accuracy 0.7534722222222222
+2024-12-28 17:42:12,775 - b2_model - INFO - Epoch 41, Loss: 0.6659378436478701 Accuracy: 0.7437888198757764
+2024-12-28 17:42:15,733 - b2_model - INFO - Epoch 41, Batch 0 accuracy 0.5625
+2024-12-28 17:42:35,809 - b2_model - INFO - Epoch 41 Eval Loss: 1.118123758584261, Accuracy: 0.5756
+2024-12-28 17:42:35,814 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\41.pth
+2024-12-28 17:42:35,951 - b2_model - INFO - Epoch 42, Current LR: 0.0009599999999999999
+2024-12-28 17:42:39,236 - b2_model - INFO - Epoch 42, Batch 0 accuracy 0.8125
+2024-12-28 17:43:40,898 - b2_model - INFO - Epoch 42, Batch 40 accuracy 0.7492378048780488
+2024-12-28 17:44:42,982 - b2_model - INFO - Epoch 42, Batch 80 accuracy 0.7604166666666666
+2024-12-28 17:45:42,305 - b2_model - INFO - Epoch 42, Loss: 0.6156646648714365 Accuracy: 0.7613871635610766
+2024-12-28 17:45:45,200 - b2_model - INFO - Epoch 42, Batch 0 accuracy 0.59375
+2024-12-28 17:46:05,738 - b2_model - INFO - Epoch 42 Eval Loss: 0.9658349454402924, Accuracy: 0.6294
+2024-12-28 17:46:05,739 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\42.pth
+2024-12-28 17:46:05,882 - b2_model - INFO - Epoch 43, Current LR: 0.000768
+2024-12-28 17:46:09,016 - b2_model - INFO - Epoch 43, Batch 0 accuracy 0.90625
+2024-12-28 17:47:13,874 - b2_model - INFO - Epoch 43, Batch 40 accuracy 0.7957317073170732
+2024-12-28 17:48:39,288 - b2_model - INFO - Epoch 43, Batch 80 accuracy 0.7893518518518519
+2024-12-28 17:49:54,845 - b2_model - INFO - Epoch 43, Loss: 0.5653923498697517 Accuracy: 0.7833850931677019
+2024-12-28 17:49:57,821 - b2_model - INFO - Epoch 43, Batch 0 accuracy 0.71875
+2024-12-28 17:50:18,771 - b2_model - INFO - Epoch 43 Eval Loss: 0.9576826244592667, Accuracy: 0.6398
+2024-12-28 17:50:18,771 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\43.pth
+2024-12-28 17:50:18,897 - b2_model - INFO - Epoch 44, Current LR: 0.0006144000000000001
+2024-12-28 17:50:22,338 - b2_model - INFO - Epoch 44, Batch 0 accuracy 0.84375
+2024-12-28 17:51:27,640 - b2_model - INFO - Epoch 44, Batch 40 accuracy 0.8216463414634146
+2024-12-28 17:52:31,179 - b2_model - INFO - Epoch 44, Batch 80 accuracy 0.8202160493827161
+2024-12-28 17:53:32,749 - b2_model - INFO - Epoch 44, Loss: 0.4843132164606378 Accuracy: 0.8095238095238095
+2024-12-28 17:53:35,891 - b2_model - INFO - Epoch 44, Batch 0 accuracy 0.625
+2024-12-28 17:53:56,258 - b2_model - INFO - Epoch 44 Eval Loss: 1.0167969483882189, Accuracy: 0.6315
+2024-12-28 17:53:56,258 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\44.pth
+2024-12-28 17:53:56,305 - b2_model - INFO - Epoch 45, Current LR: 0.0004915200000000001
+2024-12-28 17:53:59,417 - b2_model - INFO - Epoch 45, Batch 0 accuracy 0.90625
+2024-12-28 17:55:02,246 - b2_model - INFO - Epoch 45, Batch 40 accuracy 0.8361280487804879
+2024-12-28 18:25:46,993 - dataloader - INFO - we already saved the data before
+2024-12-28 18:25:47,041 - dataloader - INFO - image loaded successfully
+2024-12-28 18:25:47,231 - dataloader - INFO - data retrieved
+2024-12-28 18:33:24,499 - b2_model - INFO - Train Class Counts:
+2024-12-28 18:33:24,499 - b2_model - INFO -   Class 0: 503
+2024-12-28 18:33:24,499 - b2_model - INFO -   Class 1: 491
+2024-12-28 18:33:24,499 - b2_model - INFO -   Class 2: 239
+2024-12-28 18:33:24,499 - b2_model - INFO -   Class 3: 294
+2024-12-28 18:33:24,499 - b2_model - INFO -   Class 4: 673
+2024-12-28 18:33:24,499 - b2_model - INFO -   Class 5: 638
+2024-12-28 18:33:24,499 - b2_model - INFO -   Class 6: 524
+2024-12-28 18:33:24,500 - b2_model - INFO -   Class 7: 502
+2024-12-28 18:33:59,660 - b2_model - INFO - Eval Class Counts:
+2024-12-28 18:33:59,660 - b2_model - INFO -   Class 0: 67
+2024-12-28 18:33:59,660 - b2_model - INFO -   Class 1: 71
+2024-12-28 18:33:59,660 - b2_model - INFO -   Class 2: 27
+2024-12-28 18:33:59,660 - b2_model - INFO -   Class 3: 39
+2024-12-28 18:33:59,660 - b2_model - INFO -   Class 4: 80
+2024-12-28 18:33:59,660 - b2_model - INFO -   Class 5: 85
+2024-12-28 18:33:59,661 - b2_model - INFO -   Class 6: 54
+2024-12-28 18:33:59,661 - b2_model - INFO -   Class 7: 60
+2024-12-28 18:33:59,993 - b2_model - INFO - Epoch 45, Current LR: 0.0012
+2024-12-28 18:34:03,711 - b2_model - INFO - Epoch 45, Batch 0 accuracy 0.75
+2024-12-28 18:35:18,357 - b2_model - INFO - Epoch 45, Batch 40 accuracy 0.8079268292682927
+2024-12-28 18:36:30,996 - b2_model - INFO - Epoch 45, Batch 80 accuracy 0.8013117283950617
+2024-12-28 18:37:47,147 - b2_model - INFO - Epoch 45, Loss: 0.5613668376256612 Accuracy: 0.7906314699792961
+2024-12-28 18:37:51,379 - b2_model - INFO - Epoch 45, Batch 0 accuracy 0.53125
+2024-12-28 18:38:18,182 - b2_model - INFO - Epoch 45 Eval Loss: 1.3112266771495342, Accuracy: 0.5714
+2024-12-28 18:38:18,183 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\45.pth
+2024-12-28 18:38:18,332 - b2_model - INFO - Epoch 46, Current LR: 0.0009599999999999999
+2024-12-28 18:38:22,162 - b2_model - INFO - Epoch 46, Batch 0 accuracy 0.78125
+2024-12-28 18:40:26,343 - dataloader - INFO - we already saved the data before
+2024-12-28 18:40:26,344 - dataloader - INFO - image loaded successfully
+2024-12-28 18:40:26,478 - dataloader - INFO - data retrieved
+2024-12-28 18:40:28,610 - b2_model - INFO - Epoch 45, Current LR: 0.0004915
+2024-12-28 18:40:32,862 - b2_model - INFO - Epoch 45, Batch 0 accuracy 0.78125
+2024-12-28 18:41:48,328 - b2_model - INFO - Epoch 45, Batch 40 accuracy 0.8224085365853658
+2024-12-28 18:43:06,768 - b2_model - INFO - Epoch 45, Batch 80 accuracy 0.8287037037037037
+2024-12-28 18:44:21,557 - b2_model - INFO - Epoch 45, Loss: 0.45906903034399366 Accuracy: 0.8315217391304348
+2024-12-28 18:44:25,334 - b2_model - INFO - Epoch 45, Batch 0 accuracy 0.6875
+2024-12-28 18:44:49,682 - b2_model - INFO - Epoch 45 Eval Loss: 1.01135472394526, Accuracy: 0.6190
+2024-12-28 18:44:49,683 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\45.pth
+2024-12-28 18:44:49,988 - b2_model - INFO - Epoch 46, Current LR: 0.0003932
+2024-12-28 18:44:53,561 - b2_model - INFO - Epoch 46, Batch 0 accuracy 0.84375
+2024-12-28 18:46:00,986 - b2_model - INFO - Epoch 46, Batch 40 accuracy 0.8605182926829268
+2024-12-28 18:47:11,376 - b2_model - INFO - Epoch 46, Batch 80 accuracy 0.8464506172839507
+2024-12-28 18:48:24,213 - b2_model - INFO - Epoch 46, Loss: 0.4328080714980433 Accuracy: 0.8454968944099379
+2024-12-28 18:48:27,697 - b2_model - INFO - Epoch 46, Batch 0 accuracy 0.625
+2024-12-28 18:48:52,297 - b2_model - INFO - Epoch 46 Eval Loss: 1.0152984522283077, Accuracy: 0.6335
+2024-12-28 18:48:52,298 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\46.pth
+2024-12-28 18:48:52,345 - b2_model - INFO - Epoch 47, Current LR: 0.00031456
+2024-12-28 18:48:56,283 - b2_model - INFO - Epoch 47, Batch 0 accuracy 0.84375
+2024-12-28 18:50:14,546 - b2_model - INFO - Epoch 47, Batch 40 accuracy 0.8628048780487805
+2024-12-28 18:51:25,847 - b2_model - INFO - Epoch 47, Batch 80 accuracy 0.8665123456790124
+2024-12-28 18:52:38,704 - b2_model - INFO - Epoch 47, Loss: 0.39294062739561414 Accuracy: 0.8571428571428571
+2024-12-28 18:52:42,486 - b2_model - INFO - Epoch 47, Batch 0 accuracy 0.6875
+2024-12-28 18:53:06,888 - b2_model - INFO - Epoch 47 Eval Loss: 0.9199595637619495, Accuracy: 0.6480
+2024-12-28 18:53:06,889 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\47.pth
+2024-12-28 19:02:30,898 - dataloader - INFO - we already saved the data before
+2024-12-28 19:02:30,898 - dataloader - INFO - image loaded successfully
+2024-12-28 19:02:31,031 - dataloader - INFO - data retrieved  
+2024-12-28 19:02:33,064 - b2_model - INFO - Epoch 48, Current LR: 0.00031456
+2024-12-28 19:02:36,912 - b2_model - INFO - Epoch 48, Batch 0 accuracy 0.90625
+2024-12-28 19:03:42,793 - b2_model - INFO - Epoch 48, Batch 40 accuracy 0.850609756097561
+2024-12-28 19:04:52,511 - b2_model - INFO - Epoch 48, Batch 80 accuracy 0.8560956790123457
+2024-12-28 19:06:04,460 - b2_model - INFO - Epoch 48, Loss: 0.3891694207083095 Accuracy: 0.8553312629399586
+2024-12-28 19:06:07,411 - b2_model - INFO - Epoch 48, Batch 0 accuracy 0.65625
+2024-12-28 19:06:28,477 - b2_model - INFO - Epoch 48 Eval Loss: 0.9833783432841301, Accuracy: 0.6294
+2024-12-28 19:06:28,477 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\48.pth
+2024-12-28 19:06:28,611 - b2_model - INFO - Epoch 49, Current LR: 0.00025164800000000004
+2024-12-28 19:06:31,912 - b2_model - INFO - Epoch 49, Batch 0 accuracy 0.875
+2024-12-28 19:07:34,307 - b2_model - INFO - Epoch 49, Batch 40 accuracy 0.8734756097560976
+2024-12-28 19:08:37,809 - b2_model - INFO - Epoch 49, Batch 80 accuracy 0.8695987654320988
+2024-12-28 19:09:39,180 - b2_model - INFO - Epoch 49, Loss: 0.3540581357626876 Accuracy: 0.8685300207039337
+2024-12-28 19:09:42,124 - b2_model - INFO - Epoch 49, Batch 0 accuracy 0.6875
+2024-12-28 19:10:03,194 - b2_model - INFO - Epoch 49 Eval Loss: 0.9763997457921505, Accuracy: 0.6439
+2024-12-28 19:10:03,194 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\49.pth
+2024-12-28 19:10:03,331 - b2_model - INFO - Epoch 50, Current LR: 0.00020131840000000005
+2024-12-28 19:10:06,957 - b2_model - INFO - Epoch 50, Batch 0 accuracy 0.90625
+2024-12-28 19:11:15,903 - b2_model - INFO - Epoch 50, Batch 40 accuracy 0.8795731707317073
+2024-12-28 19:12:18,210 - b2_model - INFO - Epoch 50, Batch 80 accuracy 0.8800154320987654
+2024-12-28 19:13:17,052 - b2_model - INFO - Epoch 50, Loss: 0.33333039764037803 Accuracy: 0.8804347826086957
+2024-12-28 19:13:19,978 - b2_model - INFO - Epoch 50, Batch 0 accuracy 0.71875
+2024-12-28 19:13:39,909 - b2_model - INFO - Epoch 50 Eval Loss: 0.94379972666502, Accuracy: 0.6625
+2024-12-28 19:13:39,909 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\50.pth
+2024-12-28 19:13:40,054 - b2_model - INFO - Epoch 51, Current LR: 0.00016105472000000004
+2024-12-28 19:13:43,204 - b2_model - INFO - Epoch 51, Batch 0 accuracy 0.9375
+2024-12-28 19:14:45,151 - b2_model - INFO - Epoch 51, Batch 40 accuracy 0.9047256097560976
+2024-12-28 19:15:46,240 - b2_model - INFO - Epoch 51, Batch 80 accuracy 0.8912037037037037
+2024-12-28 19:16:46,048 - b2_model - INFO - Epoch 51, Loss: 0.3112958436908801 Accuracy: 0.8920807453416149
+2024-12-28 19:16:48,983 - b2_model - INFO - Epoch 51, Batch 0 accuracy 0.6875
+2024-12-28 19:17:08,956 - b2_model - INFO - Epoch 51 Eval Loss: 0.9232697412371635, Accuracy: 0.6605
+2024-12-28 19:17:08,956 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\51.pth
+2024-12-28 19:17:09,098 - b2_model - INFO - Epoch 52, Current LR: 0.00012884377600000003
+2024-12-28 19:17:12,261 - b2_model - INFO - Epoch 52, Batch 0 accuracy 1.0
+2024-12-28 19:18:18,698 - b2_model - INFO - Epoch 52, Batch 40 accuracy 0.8932926829268293
+2024-12-28 19:19:20,805 - b2_model - INFO - Epoch 52, Batch 80 accuracy 0.8931327160493827
+2024-12-28 19:20:21,875 - b2_model - INFO - Epoch 52, Loss: 0.2940227264954039 Accuracy: 0.8946687370600414
+2024-12-28 19:20:24,815 - b2_model - INFO - Epoch 52, Batch 0 accuracy 0.71875
+2024-12-28 19:20:46,259 - b2_model - INFO - Epoch 52 Eval Loss: 0.9575483947992325, Accuracy: 0.6646
+2024-12-28 19:20:46,260 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\52.pth
+2024-12-28 19:20:46,400 - b2_model - INFO - Epoch 53, Current LR: 0.00010307502080000003
+2024-12-28 19:20:49,649 - b2_model - INFO - Epoch 53, Batch 0 accuracy 0.71875
+2024-12-28 19:21:52,875 - b2_model - INFO - Epoch 53, Batch 40 accuracy 0.8849085365853658
+2024-12-28 19:23:02,006 - b2_model - INFO - Epoch 53, Batch 80 accuracy 0.8885030864197531
+2024-12-28 19:24:14,162 - b2_model - INFO - Epoch 53, Loss: 0.29615340548113356 Accuracy: 0.8936335403726708
+2024-12-28 19:24:17,170 - b2_model - INFO - Epoch 53, Batch 0 accuracy 0.65625
+2024-12-28 19:24:37,346 - b2_model - INFO - Epoch 53 Eval Loss: 0.9248582273721695, Accuracy: 0.6522
+2024-12-28 19:24:37,346 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\53.pth
+2024-12-28 19:24:37,405 - b2_model - INFO - Epoch 54, Current LR: 8.246001664000003e-05
+2024-12-28 19:24:40,845 - b2_model - INFO - Epoch 54, Batch 0 accuracy 0.96875
+2024-12-28 19:25:45,473 - b2_model - INFO - Epoch 54, Batch 40 accuracy 0.9138719512195121
+2024-12-28 19:26:54,592 - b2_model - INFO - Epoch 54, Batch 80 accuracy 0.9066358024691358
+2024-12-28 19:28:04,767 - b2_model - INFO - Epoch 54, Loss: 0.28069048621191467 Accuracy: 0.902432712215321
+2024-12-28 19:28:08,341 - b2_model - INFO - Epoch 54, Batch 0 accuracy 0.6875
+2024-12-28 19:28:30,505 - b2_model - INFO - Epoch 54 Eval Loss: 0.9318120665848255, Accuracy: 0.6625
+2024-12-28 19:28:30,505 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\54.pth
+2024-12-28 19:28:30,637 - b2_model - INFO - Epoch 55, Current LR: 6.596801331200002e-05
+2024-12-28 19:28:34,084 - b2_model - INFO - Epoch 55, Batch 0 accuracy 0.9375
+2024-12-28 19:29:17,856 - dataloader - INFO - we already saved the data before
+2024-12-28 19:29:17,857 - dataloader - INFO - image loaded successfully
+2024-12-28 19:29:17,972 - dataloader - INFO - data retrieved
+2024-12-28 19:29:19,772 - b2_model - INFO - Epoch 55, Current LR: 0.000103
+2024-12-28 19:29:23,344 - b2_model - INFO - Epoch 55, Batch 0 accuracy 0.84375
+2024-12-28 19:30:28,030 - b2_model - INFO - Epoch 55, Batch 40 accuracy 0.9009146341463414
+2024-12-28 19:31:29,455 - b2_model - INFO - Epoch 55, Batch 80 accuracy 0.9070216049382716
+2024-12-28 19:32:31,386 - b2_model - INFO - Epoch 55, Loss: 0.278575245137057 Accuracy: 0.9026915113871635
+2024-12-28 19:32:34,446 - b2_model - INFO - Epoch 55, Batch 0 accuracy 0.6875
+2024-12-28 19:32:55,076 - b2_model - INFO - Epoch 55 Eval Loss: 0.9478267952799797, Accuracy: 0.6687
+2024-12-28 19:32:55,076 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\55.pth
+2024-12-28 19:32:55,126 - b2_model - INFO - Epoch 56, Current LR: 8.24e-05
+2024-12-28 19:32:58,489 - b2_model - INFO - Epoch 56, Batch 0 accuracy 0.875
+2024-12-28 19:34:10,374 - b2_model - INFO - Epoch 56, Batch 40 accuracy 0.9153963414634146
+2024-12-28 19:35:20,235 - b2_model - INFO - Epoch 56, Batch 80 accuracy 0.9128086419753086
+2024-12-28 19:36:25,310 - b2_model - INFO - Epoch 56, Loss: 0.25542310335911994 Accuracy: 0.9114906832298136
+2024-12-28 19:36:28,916 - b2_model - INFO - Epoch 56, Batch 0 accuracy 0.6875
+2024-12-28 19:36:50,665 - b2_model - INFO - Epoch 56 Eval Loss: 0.9548165425658226, Accuracy: 0.6605
+2024-12-28 19:36:50,666 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\56.pth
+2024-12-28 19:36:50,707 - b2_model - INFO - Epoch 57, Current LR: 6.592e-05
+2024-12-28 19:36:53,978 - b2_model - INFO - Epoch 57, Batch 0 accuracy 0.9375
+2024-12-28 19:39:48,277 - dataloader - INFO - we already saved the data before
+2024-12-28 19:39:48,279 - dataloader - INFO - image loaded successfully
+2024-12-28 19:39:48,388 - dataloader - INFO - data retrieved
+2024-12-28 19:39:50,133 - b2_model - INFO - Epoch 57, Current LR: 8.24e-05
+2024-12-28 19:39:53,422 - b2_model - INFO - Epoch 57, Batch 0 accuracy 0.875
+2024-12-28 19:40:53,269 - b2_model - INFO - Epoch 57, Batch 40 accuracy 0.9054878048780488
+2024-12-28 19:41:54,760 - b2_model - INFO - Epoch 57, Batch 80 accuracy 0.8981481481481481
+2024-12-28 19:42:56,768 - b2_model - INFO - Epoch 57, Loss: 0.2822226825947604 Accuracy: 0.900103519668737
+2024-12-28 19:42:59,908 - b2_model - INFO - Epoch 57, Batch 0 accuracy 0.65625
+2024-12-28 19:43:20,722 - b2_model - INFO - Epoch 57 Eval Loss: 0.9520943239331245, Accuracy: 0.6563
+2024-12-28 19:43:20,723 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\57.pth
+2024-12-28 19:43:20,849 - b2_model - INFO - Epoch 58, Current LR: 6.592e-05
+2024-12-28 19:43:24,264 - b2_model - INFO - Epoch 58, Batch 0 accuracy 0.90625
+2024-12-28 19:44:36,250 - b2_model - INFO - Epoch 58, Batch 40 accuracy 0.8917682926829268
+2024-12-28 19:45:52,776 - b2_model - INFO - Epoch 58, Batch 80 accuracy 0.8900462962962963
+2024-12-28 19:47:06,159 - b2_model - INFO - Epoch 58, Loss: 0.28836258630122036 Accuracy: 0.8928571428571429
+2024-12-28 19:47:09,731 - b2_model - INFO - Epoch 58, Batch 0 accuracy 0.65625
+2024-12-28 19:47:34,250 - b2_model - INFO - Epoch 58 Eval Loss: 0.9576867707073689, Accuracy: 0.6563
+2024-12-28 19:47:34,251 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\58.pth
+2024-12-28 19:47:34,395 - b2_model - INFO - Epoch 59, Current LR: 5.2736000000000005e-05
+2024-12-28 19:47:37,783 - b2_model - INFO - Epoch 59, Batch 0 accuracy 0.96875
+2024-12-28 19:48:39,915 - b2_model - INFO - Epoch 59, Batch 40 accuracy 0.8902439024390244
+2024-12-28 19:49:50,776 - b2_model - INFO - Epoch 59, Batch 80 accuracy 0.8900462962962963
+2024-12-28 19:50:50,916 - b2_model - INFO - Epoch 59, Loss: 0.2906924015726925 Accuracy: 0.8933747412008282
+2024-12-28 19:50:54,350 - b2_model - INFO - Epoch 59, Batch 0 accuracy 0.6875
+2024-12-28 19:51:15,764 - b2_model - INFO - Epoch 59 Eval Loss: 0.9648994281888008, Accuracy: 0.6625
+2024-12-28 19:51:15,765 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\59.pth
+2024-12-28 19:51:15,900 - b2_model - INFO - Epoch 60, Current LR: 4.2188800000000005e-05
+2024-12-28 19:51:19,586 - b2_model - INFO - Epoch 60, Batch 0 accuracy 0.84375
+2024-12-28 19:52:50,079 - dataloader - INFO - we already saved the data before
+2024-12-28 19:52:50,079 - dataloader - INFO - image loaded successfully
+2024-12-28 19:52:50,216 - dataloader - INFO - data retrieved
+2024-12-28 19:52:51,997 - b2_model - INFO - Epoch 60, Current LR: 8.24e-05
+2024-12-28 19:52:55,535 - b2_model - INFO - Epoch 60, Batch 0 accuracy 0.90625
+2024-12-28 19:54:00,996 - b2_model - INFO - Epoch 60, Batch 40 accuracy 0.9184451219512195
+2024-12-28 19:55:05,286 - b2_model - INFO - Epoch 60, Batch 80 accuracy 0.9108796296296297
+2024-12-28 19:56:13,121 - b2_model - INFO - Epoch 60, Loss: 0.25110652870383143 Accuracy: 0.9099378881987578
+2024-12-28 19:56:16,536 - b2_model - INFO - Epoch 60, Batch 0 accuracy 0.6875
+2024-12-28 19:56:38,753 - b2_model - INFO - Epoch 60 Eval Loss: 0.9685388021171093, Accuracy: 0.6605
+2024-12-28 19:56:38,754 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\60.pth
+2024-12-28 19:56:38,924 - b2_model - INFO - Epoch 61, Current LR: 5.768e-05
+2024-12-28 19:56:42,343 - b2_model - INFO - Epoch 61, Batch 0 accuracy 0.9375
+2024-12-28 19:57:46,194 - b2_model - INFO - Epoch 61, Batch 40 accuracy 0.9199695121951219
+2024-12-28 19:58:57,305 - b2_model - INFO - Epoch 61, Batch 80 accuracy 0.9147376543209876
+2024-12-28 19:59:58,295 - b2_model - INFO - Epoch 61, Loss: 0.24496494529168467 Accuracy: 0.912008281573499
+2024-12-28 20:00:01,304 - b2_model - INFO - Epoch 61, Batch 0 accuracy 0.65625
+2024-12-28 20:00:22,434 - b2_model - INFO - Epoch 61 Eval Loss: 0.9543803669512272, Accuracy: 0.6584
+2024-12-28 20:00:22,435 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\61.pth
+2024-12-28 20:00:22,578 - b2_model - INFO - Epoch 62, Current LR: 4.0375999999999994e-05
+2024-12-28 20:00:26,342 - b2_model - INFO - Epoch 62, Batch 0 accuracy 1.0
+2024-12-28 20:01:35,478 - b2_model - INFO - Epoch 62, Batch 40 accuracy 0.926829268292683
+2024-12-28 20:02:42,235 - b2_model - INFO - Epoch 62, Batch 80 accuracy 0.9197530864197531
+2024-12-28 20:03:50,514 - b2_model - INFO - Epoch 62, Loss: 0.24565167866708817 Accuracy: 0.912008281573499
+2024-12-28 20:03:54,070 - b2_model - INFO - Epoch 62, Batch 0 accuracy 0.65625
+2024-12-28 20:04:17,460 - b2_model - INFO - Epoch 62 Eval Loss: 0.9619427137076855, Accuracy: 0.6563
+2024-12-28 20:04:17,461 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\62.pth
+2024-12-28 20:04:17,595 - b2_model - INFO - Epoch 63, Current LR: 2.8263199999999994e-05
+2024-12-28 20:04:21,001 - b2_model - INFO - Epoch 63, Batch 0 accuracy 0.90625
+2024-12-28 20:05:27,960 - dataloader - INFO - we already saved the data before
+2024-12-28 20:05:27,961 - dataloader - INFO - image loaded successfully
+2024-12-28 20:05:28,075 - dataloader - INFO - data retrieved
+2024-12-28 20:05:29,865 - b2_model - INFO - Epoch 63, Current LR: 5.768e-05
+2024-12-28 20:05:33,584 - b2_model - INFO - Epoch 63, Batch 0 accuracy 0.90625
+2024-12-28 20:06:40,455 - b2_model - INFO - Epoch 63, Batch 40 accuracy 0.9237804878048781
+2024-12-28 20:07:43,539 - b2_model - INFO - Epoch 63, Batch 80 accuracy 0.9201388888888888
+2024-12-28 20:08:45,731 - b2_model - INFO - Epoch 63, Loss: 0.24748585748771004 Accuracy: 0.9122670807453416
+2024-12-28 20:08:48,736 - b2_model - INFO - Epoch 63, Batch 0 accuracy 0.6875
+2024-12-28 20:09:09,444 - b2_model - INFO - Epoch 63 Eval Loss: 0.945943083614111, Accuracy: 0.6563
+2024-12-28 20:09:09,444 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\63.pth
+2024-12-28 20:09:09,498 - b2_model - INFO - Epoch 64, Current LR: 4.0375999999999994e-05
+2024-12-28 20:09:12,925 - b2_model - INFO - Epoch 64, Batch 0 accuracy 0.96875
+2024-12-28 20:10:16,917 - b2_model - INFO - Epoch 64, Batch 40 accuracy 0.9253048780487805
+2024-12-28 20:11:19,310 - b2_model - INFO - Epoch 64, Batch 80 accuracy 0.9212962962962963
+2024-12-28 20:12:21,585 - b2_model - INFO - Epoch 64, Loss: 0.23546069250865417 Accuracy: 0.9192546583850931
+2024-12-28 20:12:24,541 - b2_model - INFO - Epoch 64, Batch 0 accuracy 0.65625
+2024-12-28 20:12:45,877 - b2_model - INFO - Epoch 64 Eval Loss: 0.9537122398614883, Accuracy: 0.6625
+2024-12-28 20:12:45,877 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\64.pth
+2024-12-28 20:12:46,010 - b2_model - INFO - Epoch 65, Current LR: 2.8263199999999994e-05
+2024-12-28 20:12:49,465 - b2_model - INFO - Epoch 65, Batch 0 accuracy 0.84375
+2024-12-28 20:13:41,476 - dataloader - INFO - we already saved the data before
+2024-12-28 20:13:41,485 - dataloader - INFO - image loaded successfully
+2024-12-28 20:13:41,606 - dataloader - INFO - data retrieved
+2024-12-28 20:13:43,481 - b2_model - INFO - Epoch 65, Current LR: 9.768e-05
+2024-12-28 20:13:46,804 - b2_model - INFO - Epoch 65, Batch 0 accuracy 1.0
+2024-12-28 20:14:49,631 - b2_model - INFO - Epoch 65, Batch 40 accuracy 0.9283536585365854
+2024-12-28 20:16:02,751 - b2_model - INFO - Epoch 65, Batch 80 accuracy 0.9139660493827161
+2024-12-28 20:17:14,446 - b2_model - INFO - Epoch 65, Loss: 0.2376381948836579 Accuracy: 0.9158902691511387
+2024-12-28 20:17:18,109 - b2_model - INFO - Epoch 65, Batch 0 accuracy 0.65625
+2024-12-28 20:17:44,180 - b2_model - INFO - Epoch 65 Eval Loss: 0.9782144315540791, Accuracy: 0.6563
+2024-12-28 20:17:44,180 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\65.pth
+2024-12-28 20:17:44,240 - b2_model - INFO - Epoch 66, Current LR: 6.8376e-05
+2024-12-28 20:17:47,965 - b2_model - INFO - Epoch 66, Batch 0 accuracy 0.9375
+2024-12-28 20:19:05,518 - b2_model - INFO - Epoch 66, Batch 40 accuracy 0.913109756097561
+2024-12-28 20:20:07,783 - b2_model - INFO - Epoch 66, Batch 80 accuracy 0.9108796296296297
+2024-12-28 20:21:12,265 - b2_model - INFO - Epoch 66, Loss: 0.24489193175696145 Accuracy: 0.9135610766045549
+2024-12-28 20:21:15,734 - b2_model - INFO - Epoch 66, Batch 0 accuracy 0.6875
+2024-12-28 20:21:39,705 - b2_model - INFO - Epoch 66 Eval Loss: 0.975749559700489, Accuracy: 0.6667
+2024-12-28 20:21:39,706 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\66.pth
+2024-12-28 20:21:39,742 - b2_model - INFO - Epoch 67, Current LR: 4.786319999999999e-05
+2024-12-28 20:21:43,422 - b2_model - INFO - Epoch 67, Batch 0 accuracy 1.0
+2024-12-28 20:22:50,447 - b2_model - INFO - Epoch 67, Batch 40 accuracy 0.9085365853658537
+2024-12-28 20:23:54,884 - b2_model - INFO - Epoch 67, Batch 80 accuracy 0.910108024691358
+2024-12-28 20:25:06,351 - b2_model - INFO - Epoch 67, Loss: 0.23980737846991249 Accuracy: 0.9086438923395446
+2024-12-28 20:25:09,261 - b2_model - INFO - Epoch 67, Batch 0 accuracy 0.6875
+2024-12-28 20:25:29,381 - b2_model - INFO - Epoch 67 Eval Loss: 0.9633772149682045, Accuracy: 0.6625
+2024-12-28 20:25:29,381 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\67.pth
+2024-12-28 21:32:59,038 - dataloader - INFO - we already saved the data before
+2024-12-28 21:32:59,038 - dataloader - INFO - image loaded successfully
+2024-12-28 21:32:59,205 - dataloader - INFO - data retrieved
+2024-12-28 21:35:17,454 - dataloader - INFO - we already saved the data before
+2024-12-28 21:35:17,454 - dataloader - INFO - image loaded successfully
+2024-12-28 21:35:17,612 - dataloader - INFO - data retrieved
+2024-12-28 21:35:19,847 - b2_model - INFO - Epoch 68, Current LR: 9.768e-05
+2024-12-28 21:35:24,208 - b2_model - INFO - Epoch 68, Batch 0 accuracy 0.96875
+2024-12-28 21:36:29,995 - b2_model - INFO - Epoch 68, Batch 40 accuracy 0.9161585365853658
+2024-12-28 21:37:44,544 - b2_model - INFO - Epoch 68, Batch 80 accuracy 0.910108024691358
+2024-12-28 21:38:55,370 - b2_model - INFO - Epoch 68, Loss: 0.24615291607650844 Accuracy: 0.9117494824016563
+2024-12-28 21:38:58,423 - b2_model - INFO - Epoch 68, Batch 0 accuracy 0.65625
+2024-12-28 21:39:18,688 - b2_model - INFO - Epoch 68 Eval Loss: 1.0092948712408543, Accuracy: 0.6605
+2024-12-28 21:39:18,688 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\68.pth
+2024-12-28 21:39:18,738 - b2_model - INFO - Epoch 69, Current LR: 6.8376e-05
+2024-12-28 21:39:21,828 - b2_model - INFO - Epoch 69, Batch 0 accuracy 0.90625
+2024-12-28 21:40:26,980 - b2_model - INFO - Epoch 69, Batch 40 accuracy 0.9161585365853658
+2024-12-28 21:41:35,552 - b2_model - INFO - Epoch 69, Batch 80 accuracy 0.9255401234567902
+2024-12-28 21:43:06,228 - dataloader - INFO - we already saved the data before
+2024-12-28 21:43:06,228 - dataloader - INFO - image loaded successfully
+2024-12-28 21:43:06,367 - dataloader - INFO - data retrieved
+2024-12-28 21:43:08,132 - b2_model - INFO - Epoch 68, Current LR: 4.78632e-05
+2024-12-28 21:43:12,023 - b2_model - INFO - Epoch 68, Batch 0 accuracy 0.9375
+2024-12-28 21:44:24,621 - b2_model - INFO - Epoch 68, Batch 40 accuracy 0.9161585365853658
+2024-12-28 21:45:40,054 - b2_model - INFO - Epoch 68, Batch 80 accuracy 0.9131944444444444
+2024-12-28 21:46:46,535 - b2_model - INFO - Epoch 68, Loss: 0.24046334408777803 Accuracy: 0.9130434782608695
+2024-12-28 21:46:49,732 - b2_model - INFO - Epoch 68, Batch 0 accuracy 0.65625
+2024-12-28 21:47:11,946 - b2_model - INFO - Epoch 68 Eval Loss: 0.977419912815094, Accuracy: 0.6563
+2024-12-28 21:47:11,946 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\68.pth
+2024-12-28 21:47:12,156 - b2_model - INFO - Epoch 69, Current LR: 3.350424e-05
+2024-12-28 21:47:16,030 - b2_model - INFO - Epoch 69, Batch 0 accuracy 0.96875
+2024-12-28 21:48:26,555 - b2_model - INFO - Epoch 69, Batch 40 accuracy 0.9207317073170732
+2024-12-28 21:49:43,590 - b2_model - INFO - Epoch 69, Batch 80 accuracy 0.9290123456790124
+2024-12-28 21:50:58,709 - b2_model - INFO - Epoch 69, Loss: 0.22975861194951475 Accuracy: 0.9205486542443064
+2024-12-28 21:51:02,837 - b2_model - INFO - Epoch 69, Batch 0 accuracy 0.6875
+2024-12-28 21:51:28,830 - b2_model - INFO - Epoch 69 Eval Loss: 0.9787574373185635, Accuracy: 0.6584
+2024-12-28 21:51:28,830 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\69.pth
+2024-12-28 21:51:28,974 - b2_model - INFO - Epoch 70, Current LR: 2.3452968e-05
+2024-12-28 21:51:32,601 - b2_model - INFO - Epoch 70, Batch 0 accuracy 0.96875
+2024-12-28 21:52:49,573 - b2_model - INFO - Epoch 70, Batch 40 accuracy 0.9115853658536586
+2024-12-28 21:54:05,313 - b2_model - INFO - Epoch 70, Batch 80 accuracy 0.9197530864197531
+2024-12-28 21:55:20,792 - b2_model - INFO - Epoch 70, Loss: 0.23663263047529645 Accuracy: 0.9177018633540373
+2024-12-28 21:55:24,629 - b2_model - INFO - Epoch 70, Batch 0 accuracy 0.65625
+2024-12-28 21:55:50,129 - b2_model - INFO - Epoch 70 Eval Loss: 0.9752965047955513, Accuracy: 0.6563
+2024-12-28 21:55:50,129 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\70.pth
+2024-12-28 21:55:50,303 - b2_model - INFO - Epoch 71, Current LR: 1.64170776e-05
+2024-12-28 21:55:54,061 - b2_model - INFO - Epoch 71, Batch 0 accuracy 0.9375
+2024-12-28 21:57:10,628 - b2_model - INFO - Epoch 71, Batch 40 accuracy 0.9222560975609756
+2024-12-28 21:58:23,398 - b2_model - INFO - Epoch 71, Batch 80 accuracy 0.9139660493827161
+2024-12-28 21:59:37,994 - b2_model - INFO - Epoch 71, Loss: 0.238050242901341 Accuracy: 0.9158902691511387
+2024-12-28 21:59:42,043 - b2_model - INFO - Epoch 71, Batch 0 accuracy 0.65625
+2024-12-28 22:00:07,845 - b2_model - INFO - Epoch 71 Eval Loss: 0.9840555414557457, Accuracy: 0.6584
+2024-12-28 22:00:07,845 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\71.pth
+2024-12-28 22:00:07,894 - b2_model - INFO - Epoch 72, Current LR: 1.1491954319999998e-05
+2024-12-28 22:00:12,011 - b2_model - INFO - Epoch 72, Batch 0 accuracy 0.90625
+2024-12-28 22:01:29,403 - b2_model - INFO - Epoch 72, Batch 40 accuracy 0.9207317073170732
+2024-12-28 22:02:40,310 - b2_model - INFO - Epoch 72, Batch 80 accuracy 0.9147376543209876
+2024-12-28 22:03:45,704 - b2_model - INFO - Epoch 72, Loss: 0.2349696392116468 Accuracy: 0.9151138716356108
+2024-12-28 22:03:48,835 - b2_model - INFO - Epoch 72, Batch 0 accuracy 0.6875
+2024-12-28 22:04:10,728 - b2_model - INFO - Epoch 72 Eval Loss: 0.9567124284803867, Accuracy: 0.6625
+2024-12-28 22:04:10,728 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\72.pth
+2024-12-28 22:04:10,779 - b2_model - INFO - Epoch 73, Current LR: 8.044368023999999e-06
+2024-12-28 22:04:14,390 - b2_model - INFO - Epoch 73, Batch 0 accuracy 0.96875
+2024-12-28 22:05:28,858 - dataloader - INFO - we already saved the data before
+2024-12-28 22:05:28,858 - dataloader - INFO - image loaded successfully
+2024-12-28 22:05:28,965 - dataloader - INFO - data retrieved
+2024-12-28 22:05:30,741 - b2_model - INFO - Epoch 73, Current LR: 2.149195432e-05
+2024-12-28 22:05:34,328 - b2_model - INFO - Epoch 73, Batch 0 accuracy 0.90625
+2024-12-28 22:06:44,555 - b2_model - INFO - Epoch 73, Batch 40 accuracy 0.9275914634146342
+2024-12-28 22:07:55,255 - b2_model - INFO - Epoch 73, Batch 80 accuracy 0.9266975308641975
+2024-12-28 22:09:01,542 - b2_model - INFO - Epoch 73, Loss: 0.2239977552070598 Accuracy: 0.9231366459627329
+2024-12-28 22:09:04,572 - b2_model - INFO - Epoch 73, Batch 0 accuracy 0.6875
+2024-12-28 22:09:26,174 - b2_model - INFO - Epoch 73 Eval Loss: 0.9587906412780285, Accuracy: 0.6625
+2024-12-28 22:09:26,176 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\73.pth
+2024-12-28 22:09:26,309 - b2_model - INFO - Epoch 74, Current LR: 2.149195432e-05
+2024-12-28 22:09:29,650 - b2_model - INFO - Epoch 74, Batch 0 accuracy 0.84375
+2024-12-28 22:10:41,825 - b2_model - INFO - Epoch 74, Batch 40 accuracy 0.930640243902439
+2024-12-28 22:11:54,691 - b2_model - INFO - Epoch 74, Batch 80 accuracy 0.9301697530864198
+2024-12-28 22:13:02,255 - b2_model - INFO - Epoch 74, Loss: 0.21795779651354166 Accuracy: 0.9221014492753623
+2024-12-28 22:13:06,674 - b2_model - INFO - Epoch 74, Batch 0 accuracy 0.6875
+2024-12-28 22:13:31,854 - b2_model - INFO - Epoch 74 Eval Loss: 0.9670244455337524, Accuracy: 0.6625
+2024-12-28 22:13:31,854 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\74.pth
+2024-12-28 22:13:31,993 - b2_model - INFO - Epoch 75, Current LR: 1.6118965739999997e-05
+2024-12-28 22:13:35,963 - b2_model - INFO - Epoch 75, Batch 0 accuracy 0.875
+2024-12-28 22:14:54,363 - b2_model - INFO - Epoch 75, Batch 40 accuracy 0.9344512195121951
+2024-12-28 22:16:12,424 - b2_model - INFO - Epoch 75, Batch 80 accuracy 0.9255401234567902
+2024-12-28 22:17:26,594 - dataloader - INFO - we already saved the data before
+2024-12-28 22:17:26,594 - dataloader - INFO - image loaded successfully
+2024-12-28 22:17:26,722 - dataloader - INFO - data retrieved
+2024-12-28 22:17:28,527 - b2_model - INFO - Epoch 75, Current LR: 5.350424e-05
+2024-12-28 22:17:32,340 - b2_model - INFO - Epoch 75, Batch 0 accuracy 0.9375
+2024-12-28 22:18:44,501 - b2_model - INFO - Epoch 75, Batch 40 accuracy 0.9314024390243902
+2024-12-28 22:19:59,284 - b2_model - INFO - Epoch 75, Batch 80 accuracy 0.9220679012345679
+2024-12-28 22:21:13,218 - b2_model - INFO - Epoch 75, Loss: 0.23402517889279964 Accuracy: 0.921583850931677
+2024-12-28 22:21:17,299 - b2_model - INFO - Epoch 75, Batch 0 accuracy 0.65625
+2024-12-28 22:21:42,527 - b2_model - INFO - Epoch 75 Eval Loss: 0.9563260413706303, Accuracy: 0.6542
+2024-12-28 22:21:42,527 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\75.pth
+2024-12-28 22:21:42,690 - b2_model - INFO - Epoch 76, Current LR: 5.350424e-05
+2024-12-28 22:21:46,798 - b2_model - INFO - Epoch 76, Batch 0 accuracy 0.90625
+2024-12-28 22:22:57,010 - b2_model - INFO - Epoch 76, Batch 40 accuracy 0.9222560975609756
+2024-12-28 22:24:09,161 - b2_model - INFO - Epoch 76, Batch 80 accuracy 0.9255401234567902
+2024-12-28 22:25:21,605 - b2_model - INFO - Epoch 76, Loss: 0.2239452054924216 Accuracy: 0.9200310559006211
+2024-12-28 22:25:25,286 - b2_model - INFO - Epoch 76, Batch 0 accuracy 0.65625
+2024-12-28 22:25:49,009 - b2_model - INFO - Epoch 76 Eval Loss: 0.9746935218572617, Accuracy: 0.6563
+2024-12-28 22:25:49,009 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\76.pth
+2024-12-28 22:25:49,174 - b2_model - INFO - Epoch 77, Current LR: 4.11982648e-05
+2024-12-28 22:25:52,712 - b2_model - INFO - Epoch 77, Batch 0 accuracy 0.90625
+2024-12-28 22:26:15,004 - dataloader - INFO - we already saved the data before
+2024-12-28 22:26:15,004 - dataloader - INFO - image loaded successfully
+2024-12-28 22:26:15,115 - dataloader - INFO - data retrieved
+2024-12-28 22:26:16,944 - b2_model - INFO - Epoch 77, Current LR: 0.001
+2024-12-28 22:26:20,562 - b2_model - INFO - Epoch 77, Batch 0 accuracy 0.90625
+2024-12-28 22:26:37,446 - dataloader - INFO - we already saved the data before
+2024-12-28 22:26:37,446 - dataloader - INFO - image loaded successfully
+2024-12-28 22:26:37,557 - dataloader - INFO - data retrieved
+2024-12-28 22:26:39,292 - b2_model - INFO - Epoch 77, Current LR: 0.001
+2024-12-28 22:26:42,604 - b2_model - INFO - Epoch 77, Batch 0 accuracy 0.96875
+2024-12-28 22:27:55,652 - b2_model - INFO - Epoch 77, Batch 40 accuracy 0.8140243902439024
+2024-12-28 22:29:03,752 - b2_model - INFO - Epoch 77, Batch 80 accuracy 0.7341820987654321
+2024-12-28 22:30:11,572 - b2_model - INFO - Epoch 77, Loss: 0.8322757790403917 Accuracy: 0.692287784679089
+2024-12-28 22:30:14,857 - b2_model - INFO - Epoch 77, Batch 0 accuracy 0.28125
+2024-12-28 22:30:36,201 - b2_model - INFO - Epoch 77 Eval Loss: 1.5672437138855457, Accuracy: 0.4369
+2024-12-28 22:30:36,201 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\77.pth
+2024-12-28 22:30:36,336 - b2_model - INFO - Epoch 78, Current LR: 0.001
+2024-12-28 22:30:39,792 - b2_model - INFO - Epoch 78, Batch 0 accuracy 0.53125
+2024-12-28 22:31:56,446 - b2_model - INFO - Epoch 78, Batch 40 accuracy 0.6036585365853658
+2024-12-28 22:33:13,626 - b2_model - INFO - Epoch 78, Batch 80 accuracy 0.5964506172839507
+2024-12-28 22:34:24,035 - b2_model - INFO - Epoch 78, Loss: 1.0808110936614108 Accuracy: 0.587991718426501
+2024-12-28 22:34:27,043 - b2_model - INFO - Epoch 78, Batch 0 accuracy 0.34375
+2024-12-28 22:34:48,443 - b2_model - INFO - Epoch 78 Eval Loss: 1.5183304324746132, Accuracy: 0.3996
+2024-12-28 22:34:48,459 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\78.pth
+2024-12-28 22:34:48,616 - b2_model - INFO - Epoch 79, Current LR: 0.0007700000000000001
+2024-12-28 22:34:52,225 - b2_model - INFO - Epoch 79, Batch 0 accuracy 0.5625
+2024-12-28 22:35:09,237 - dataloader - INFO - we already saved the data before
+2024-12-28 22:35:09,237 - dataloader - INFO - image loaded successfully
+2024-12-28 22:35:09,349 - dataloader - INFO - data retrieved
+2024-12-28 22:35:11,106 - b2_model - INFO - Epoch 77, Current LR: 0.001
+2024-12-28 22:35:14,665 - b2_model - INFO - Epoch 77, Batch 0 accuracy 0.875
+2024-12-28 22:36:24,438 - b2_model - INFO - Epoch 77, Batch 40 accuracy 0.8528963414634146
+2024-12-28 22:37:42,663 - b2_model - INFO - Epoch 77, Batch 80 accuracy 0.8040123456790124
+2024-12-28 22:38:49,141 - b2_model - INFO - Epoch 77, Loss: 0.6177846775813536 Accuracy: 0.7743271221532091
+2024-12-28 22:38:52,624 - b2_model - INFO - Epoch 77, Batch 0 accuracy 0.625
+2024-12-28 22:39:15,810 - b2_model - INFO - Epoch 77 Eval Loss: 1.3018167838454247, Accuracy: 0.5342
+2024-12-28 22:39:15,810 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\77.pth
+2024-12-28 22:39:15,954 - b2_model - INFO - Epoch 78, Current LR: 0.001
+2024-12-28 22:39:20,223 - b2_model - INFO - Epoch 78, Batch 0 accuracy 0.71875
+2024-12-28 22:40:39,966 - b2_model - INFO - Epoch 78, Batch 40 accuracy 0.7347560975609756
+2024-12-28 22:41:56,161 - b2_model - INFO - Epoch 78, Batch 80 accuracy 0.7380401234567902
+2024-12-28 22:43:07,312 - b2_model - INFO - Epoch 78, Loss: 0.7136439028357672 Accuracy: 0.734472049689441
+2024-12-28 22:43:10,341 - b2_model - INFO - Epoch 78, Batch 0 accuracy 0.625
+2024-12-28 22:43:31,150 - b2_model - INFO - Epoch 78 Eval Loss: 1.4766472429037094, Accuracy: 0.5466
+2024-12-28 22:43:31,151 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\78.pth
+2024-12-28 22:43:31,214 - b2_model - INFO - Epoch 79, Current LR: 0.0007700000000000001
+2024-12-28 22:43:34,473 - b2_model - INFO - Epoch 79, Batch 0 accuracy 0.75
+2024-12-28 22:44:38,057 - b2_model - INFO - Epoch 79, Batch 40 accuracy 0.7766768292682927
+2024-12-28 22:45:41,708 - b2_model - INFO - Epoch 79, Batch 80 accuracy 0.7608024691358025
+2024-12-28 22:46:43,276 - b2_model - INFO - Epoch 79, Loss: 0.6452484721979819 Accuracy: 0.7569875776397516
+2024-12-28 22:46:46,584 - b2_model - INFO - Epoch 79, Batch 0 accuracy 0.59375
+2024-12-28 22:47:07,701 - b2_model - INFO - Epoch 79 Eval Loss: 1.1273571215569973, Accuracy: 0.5797
+2024-12-28 22:47:07,701 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\79.pth
+2024-12-28 22:47:41,708 - dataloader - INFO - we already saved the data before
+2024-12-28 22:47:41,728 - dataloader - INFO - image loaded successfully
+2024-12-28 22:47:41,890 - dataloader - INFO - data retrieved
+2024-12-28 22:47:46,105 - b2_model - INFO - Epoch 80, Current LR: 0.0007
+2024-12-28 22:47:50,018 - b2_model - INFO - Epoch 80, Batch 0 accuracy 0.75
+2024-12-28 22:49:01,503 - b2_model - INFO - Epoch 80, Batch 40 accuracy 0.7652439024390244
+2024-12-28 22:50:13,862 - b2_model - INFO - Epoch 80, Batch 80 accuracy 0.7770061728395061
+2024-12-28 22:51:23,546 - b2_model - INFO - Epoch 80, Loss: 0.5832425513543373 Accuracy: 0.7727743271221532
+2024-12-28 22:51:26,552 - b2_model - INFO - Epoch 80, Batch 0 accuracy 0.46875
+2024-12-28 22:51:47,033 - b2_model - INFO - Epoch 80 Eval Loss: 1.184547957032919, Accuracy: 0.5652
+2024-12-28 22:51:47,033 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\80.pth
+2024-12-28 22:51:47,081 - b2_model - INFO - Epoch 81, Current LR: 0.0007
+2024-12-28 22:51:50,417 - b2_model - INFO - Epoch 81, Batch 0 accuracy 0.84375
+2024-12-28 22:52:54,010 - b2_model - INFO - Epoch 81, Batch 40 accuracy 0.7957317073170732
+2024-12-28 22:53:56,470 - b2_model - INFO - Epoch 81, Batch 80 accuracy 0.8013117283950617
+2024-12-28 22:54:57,452 - b2_model - INFO - Epoch 81, Loss: 0.558535783251455 Accuracy: 0.7893374741200828
+2024-12-28 22:55:00,455 - b2_model - INFO - Epoch 81, Batch 0 accuracy 0.625
+2024-12-28 22:55:20,754 - b2_model - INFO - Epoch 81 Eval Loss: 1.139952989295125, Accuracy: 0.5673
+2024-12-28 22:55:20,754 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\81.pth
+2024-12-28 22:55:20,801 - b2_model - INFO - Epoch 82, Current LR: 0.000539
+2024-12-28 22:55:24,101 - b2_model - INFO - Epoch 82, Batch 0 accuracy 0.9375
+2024-12-28 22:56:26,957 - b2_model - INFO - Epoch 82, Batch 40 accuracy 0.8086890243902439
+2024-12-28 22:57:29,690 - b2_model - INFO - Epoch 82, Batch 80 accuracy 0.8109567901234568
+2024-12-28 22:58:30,091 - b2_model - INFO - Epoch 82, Loss: 0.5035608786443049 Accuracy: 0.8056418219461697
+2024-12-28 22:58:33,109 - b2_model - INFO - Epoch 82, Batch 0 accuracy 0.71875
+2024-12-28 22:58:53,394 - b2_model - INFO - Epoch 82 Eval Loss: 1.0252097696065903, Accuracy: 0.6149
+2024-12-28 22:58:53,394 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\82.pth
+2024-12-28 22:58:53,578 - b2_model - INFO - Epoch 83, Current LR: 0.000539
+2024-12-28 22:58:57,045 - b2_model - INFO - Epoch 83, Batch 0 accuracy 0.875
+2024-12-28 23:00:01,031 - b2_model - INFO - Epoch 83, Batch 40 accuracy 0.8353658536585366
+2024-12-28 23:01:03,769 - b2_model - INFO - Epoch 83, Batch 80 accuracy 0.8244598765432098
+2024-12-28 23:02:04,055 - b2_model - INFO - Epoch 83, Loss: 0.4784943705255335 Accuracy: 0.8190993788819876
+2024-12-28 23:02:07,025 - b2_model - INFO - Epoch 83, Batch 0 accuracy 0.59375
+2024-12-28 23:02:27,324 - b2_model - INFO - Epoch 83 Eval Loss: 1.2200072123669088, Accuracy: 0.5694
+2024-12-28 23:02:27,324 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\83.pth
+2024-12-28 23:02:27,483 - b2_model - INFO - Epoch 84, Current LR: 0.00041503
+2024-12-28 23:02:30,699 - b2_model - INFO - Epoch 84, Batch 0 accuracy 0.75
+2024-12-28 23:03:35,296 - b2_model - INFO - Epoch 84, Batch 40 accuracy 0.8300304878048781
+2024-12-28 23:04:39,549 - b2_model - INFO - Epoch 84, Batch 80 accuracy 0.8348765432098766
+2024-12-28 23:05:41,461 - b2_model - INFO - Epoch 84, Loss: 0.44905462553185865 Accuracy: 0.832815734989648
+2024-12-28 23:05:44,508 - b2_model - INFO - Epoch 84, Batch 0 accuracy 0.625
+2024-12-28 23:06:06,164 - b2_model - INFO - Epoch 84 Eval Loss: 1.1645557433366776, Accuracy: 0.6128
+2024-12-28 23:06:06,164 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\84.pth
+2024-12-28 23:06:06,303 - b2_model - INFO - Epoch 85, Current LR: 0.00041503
+2024-12-28 23:06:09,571 - b2_model - INFO - Epoch 85, Batch 0 accuracy 0.8125
+2024-12-28 23:07:13,876 - b2_model - INFO - Epoch 85, Batch 40 accuracy 0.8513719512195121
+2024-12-28 23:08:19,927 - b2_model - INFO - Epoch 85, Batch 80 accuracy 0.8468364197530864
+2024-12-28 23:09:22,321 - b2_model - INFO - Epoch 85, Loss: 0.4231530563397841 Accuracy: 0.842391304347826
+2024-12-28 23:09:25,343 - b2_model - INFO - Epoch 85, Batch 0 accuracy 0.59375
+2024-12-28 23:09:46,580 - b2_model - INFO - Epoch 85 Eval Loss: 1.3267475999891758, Accuracy: 0.5611
+2024-12-28 23:09:46,580 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\85.pth
+2024-12-28 23:10:22,528 - dataloader - INFO - we already saved the data before
+2024-12-28 23:10:22,528 - dataloader - INFO - image loaded successfully
+2024-12-28 23:10:22,639 - dataloader - INFO - data retrieved
+2024-12-28 23:10:24,409 - b2_model - INFO - Epoch 86, Current LR: 0.0004
+2024-12-28 23:10:27,811 - b2_model - INFO - Epoch 86, Batch 0 accuracy 0.8125
+2024-12-28 23:11:29,127 - b2_model - INFO - Epoch 86, Batch 40 accuracy 0.8597560975609756
+2024-12-28 23:12:32,222 - b2_model - INFO - Epoch 86, Batch 80 accuracy 0.8630401234567902
+2024-12-28 23:13:34,700 - b2_model - INFO - Epoch 86, Loss: 0.39449835808809136 Accuracy: 0.8589544513457557
+2024-12-28 23:13:37,704 - b2_model - INFO - Epoch 86, Batch 0 accuracy 0.5625
+2024-12-28 23:13:58,240 - b2_model - INFO - Epoch 86 Eval Loss: 1.0313467271625996, Accuracy: 0.5983
+2024-12-28 23:13:58,240 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\86.pth
+2024-12-28 23:13:58,415 - b2_model - INFO - Epoch 87, Current LR: 0.0004
+2024-12-28 23:14:01,733 - b2_model - INFO - Epoch 87, Batch 0 accuracy 0.75
+2024-12-28 23:15:06,149 - b2_model - INFO - Epoch 87, Batch 40 accuracy 0.8704268292682927
+2024-12-28 23:16:10,902 - b2_model - INFO - Epoch 87, Batch 80 accuracy 0.8626543209876543
+2024-12-28 23:17:12,445 - b2_model - INFO - Epoch 87, Loss: 0.40139780187409774 Accuracy: 0.852743271221532
+2024-12-28 23:17:15,605 - b2_model - INFO - Epoch 87, Batch 0 accuracy 0.5625
+2024-12-28 23:17:36,946 - b2_model - INFO - Epoch 87 Eval Loss: 1.3736439570784569, Accuracy: 0.5487
+2024-12-28 23:17:36,946 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\87.pth
+2024-12-28 23:17:37,098 - b2_model - INFO - Epoch 88, Current LR: 0.000308
+2024-12-28 23:17:40,720 - b2_model - INFO - Epoch 88, Batch 0 accuracy 0.84375
+2024-12-28 23:18:45,747 - b2_model - INFO - Epoch 88, Batch 40 accuracy 0.875
+2024-12-28 23:19:49,499 - b2_model - INFO - Epoch 88, Batch 80 accuracy 0.8587962962962963
+2024-12-28 23:20:50,669 - b2_model - INFO - Epoch 88, Loss: 0.3784373806527823 Accuracy: 0.8615424430641822
+2024-12-28 23:20:53,811 - b2_model - INFO - Epoch 88, Batch 0 accuracy 0.78125
+2024-12-28 23:21:14,756 - b2_model - INFO - Epoch 88 Eval Loss: 0.9884325303137302, Accuracy: 0.6687
+2024-12-28 23:21:14,756 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\88.pth
+2024-12-28 23:21:14,912 - b2_model - INFO - Epoch 89, Current LR: 0.000308
+2024-12-28 23:21:18,239 - b2_model - INFO - Epoch 89, Batch 0 accuracy 0.84375
+2024-12-28 23:22:20,705 - b2_model - INFO - Epoch 89, Batch 40 accuracy 0.8894817073170732
+2024-12-28 23:23:24,044 - b2_model - INFO - Epoch 89, Batch 80 accuracy 0.8792438271604939
+2024-12-28 23:24:26,828 - b2_model - INFO - Epoch 89, Loss: 0.3545318385047361 Accuracy: 0.875
+2024-12-28 23:24:29,837 - b2_model - INFO - Epoch 89, Batch 0 accuracy 0.6875
+2024-12-28 23:24:50,734 - b2_model - INFO - Epoch 89 Eval Loss: 1.0910841412842274, Accuracy: 0.6190
+2024-12-28 23:24:50,734 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\89.pth
+2024-12-28 23:25:21,688 - dataloader - INFO - we already saved the data before
+2024-12-28 23:25:21,688 - dataloader - INFO - image loaded successfully
+2024-12-28 23:25:21,799 - dataloader - INFO - data retrieved
+2024-12-28 23:25:23,543 - b2_model - INFO - Epoch 90, Current LR: 0.0003
+2024-12-28 23:25:27,002 - b2_model - INFO - Epoch 90, Batch 0 accuracy 0.9375
+2024-12-28 23:26:28,521 - b2_model - INFO - Epoch 90, Batch 40 accuracy 0.8902439024390244
+2024-12-28 23:27:31,881 - b2_model - INFO - Epoch 90, Batch 80 accuracy 0.8888888888888888
+2024-12-28 23:28:33,074 - b2_model - INFO - Epoch 90, Loss: 0.33096261051568115 Accuracy: 0.8861283643892339
+2024-12-28 23:28:36,109 - b2_model - INFO - Epoch 90, Batch 0 accuracy 0.625
+2024-12-28 23:28:56,916 - b2_model - INFO - Epoch 90 Eval Loss: 1.0830890573561192, Accuracy: 0.6294
+2024-12-28 23:28:56,916 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\90.pth
+2024-12-28 23:28:57,180 - b2_model - INFO - Epoch 91, Current LR: 0.0003
+2024-12-28 23:29:00,483 - b2_model - INFO - Epoch 91, Batch 0 accuracy 0.90625
+2024-12-28 23:30:03,822 - b2_model - INFO - Epoch 91, Batch 40 accuracy 0.8948170731707317
+2024-12-28 23:31:06,995 - b2_model - INFO - Epoch 91, Batch 80 accuracy 0.8865740740740741
+2024-12-28 23:32:07,693 - b2_model - INFO - Epoch 91, Loss: 0.3119597067394532 Accuracy: 0.8858695652173914
+2024-12-28 23:32:13,116 - b2_model - INFO - Epoch 91, Batch 0 accuracy 0.625
+2024-12-28 23:32:34,135 - b2_model - INFO - Epoch 91 Eval Loss: 0.9961335435509682, Accuracy: 0.6480
+2024-12-28 23:32:34,135 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\91.pth
+2024-12-28 23:32:34,182 - b2_model - INFO - Epoch 92, Current LR: 0.00023099999999999998
+2024-12-28 23:32:37,497 - b2_model - INFO - Epoch 92, Batch 0 accuracy 0.9375
+2024-12-28 23:33:41,710 - b2_model - INFO - Epoch 92, Batch 40 accuracy 0.885670731707317
+2024-12-28 23:34:44,993 - b2_model - INFO - Epoch 92, Batch 80 accuracy 0.8915895061728395
+2024-12-28 23:35:45,102 - b2_model - INFO - Epoch 92, Loss: 0.292413139700397 Accuracy: 0.8954451345755694
+2024-12-28 23:35:48,083 - b2_model - INFO - Epoch 92, Batch 0 accuracy 0.6875
+2024-12-28 23:36:08,595 - b2_model - INFO - Epoch 92 Eval Loss: 1.0342593342065811, Accuracy: 0.6501
+2024-12-28 23:36:08,611 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\92.pth
+2024-12-28 23:36:08,651 - b2_model - INFO - Epoch 93, Current LR: 0.00023099999999999998
+2024-12-28 23:36:11,945 - b2_model - INFO - Epoch 93, Batch 0 accuracy 0.84375
+2024-12-28 23:37:14,714 - b2_model - INFO - Epoch 93, Batch 40 accuracy 0.9009146341463414
+2024-12-28 23:38:17,104 - b2_model - INFO - Epoch 93, Batch 80 accuracy 0.9097222222222222
+2024-12-28 23:39:17,606 - b2_model - INFO - Epoch 93, Loss: 0.2578002965647327 Accuracy: 0.910455486542443
+2024-12-28 23:39:20,581 - b2_model - INFO - Epoch 93, Batch 0 accuracy 0.625
+2024-12-28 23:39:40,877 - b2_model - INFO - Epoch 93 Eval Loss: 0.9991084784269333, Accuracy: 0.6501
+2024-12-28 23:39:40,877 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\93.pth
+2024-12-28 23:39:40,942 - b2_model - INFO - Epoch 94, Current LR: 0.00017786999999999998
+2024-12-28 23:39:44,157 - b2_model - INFO - Epoch 94, Batch 0 accuracy 0.875
+2024-12-28 23:40:46,945 - b2_model - INFO - Epoch 94, Batch 40 accuracy 0.9123475609756098
+2024-12-28 23:41:50,014 - b2_model - INFO - Epoch 94, Batch 80 accuracy 0.9178240740740741
+2024-12-28 23:42:51,430 - b2_model - INFO - Epoch 94, Loss: 0.24202981505019605 Accuracy: 0.9182194616977226
+2024-12-28 23:42:54,642 - b2_model - INFO - Epoch 94, Batch 0 accuracy 0.625
+2024-12-28 23:43:16,635 - b2_model - INFO - Epoch 94 Eval Loss: 0.9780657608062029, Accuracy: 0.6625
+2024-12-28 23:43:16,635 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\94.pth
+2024-12-28 23:43:16,798 - b2_model - INFO - Epoch 95, Current LR: 0.00017786999999999998
+2024-12-28 23:43:20,291 - b2_model - INFO - Epoch 95, Batch 0 accuracy 0.9375
+2024-12-28 23:44:37,659 - b2_model - INFO - Epoch 95, Batch 40 accuracy 0.926829268292683
+2024-12-28 23:45:49,953 - b2_model - INFO - Epoch 95, Batch 80 accuracy 0.9189814814814815
+2024-12-28 23:47:01,295 - b2_model - INFO - Epoch 95, Loss: 0.2448743296063636 Accuracy: 0.9166666666666666
+2024-12-28 23:47:04,872 - b2_model - INFO - Epoch 95, Batch 0 accuracy 0.625
+2024-12-28 23:47:30,528 - b2_model - INFO - Epoch 95 Eval Loss: 1.0508272424340248, Accuracy: 0.6501
+2024-12-28 23:47:30,528 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\95.pth
+2024-12-28 23:47:30,674 - b2_model - INFO - Epoch 96, Current LR: 0.00013695989999999998
+2024-12-28 23:47:34,534 - b2_model - INFO - Epoch 96, Batch 0 accuracy 0.9375
+2024-12-28 23:48:48,738 - b2_model - INFO - Epoch 96, Batch 40 accuracy 0.9199695121951219
+2024-12-28 23:50:02,007 - b2_model - INFO - Epoch 96, Batch 80 accuracy 0.9185956790123457
+2024-12-28 23:51:13,591 - b2_model - INFO - Epoch 96, Loss: 0.22933580646337556 Accuracy: 0.9192546583850931
+2024-12-28 23:51:17,267 - b2_model - INFO - Epoch 96, Batch 0 accuracy 0.625
+2024-12-28 23:51:41,747 - b2_model - INFO - Epoch 96 Eval Loss: 1.0609387066215277, Accuracy: 0.6335
+2024-12-28 23:51:41,748 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\96.pth
+2024-12-28 23:51:41,879 - b2_model - INFO - Epoch 97, Current LR: 0.00013695989999999998
+2024-12-28 23:51:45,597 - b2_model - INFO - Epoch 97, Batch 0 accuracy 0.96875
+2024-12-28 23:52:59,628 - b2_model - INFO - Epoch 97, Batch 40 accuracy 0.9329268292682927
+2024-12-28 23:54:13,226 - b2_model - INFO - Epoch 97, Batch 80 accuracy 0.9340277777777778
+2024-12-28 23:55:24,753 - b2_model - INFO - Epoch 97, Loss: 0.21446772055192428 Accuracy: 0.9296066252587992
+2024-12-28 23:55:28,369 - b2_model - INFO - Epoch 97, Batch 0 accuracy 0.65625
+2024-12-28 23:55:52,501 - b2_model - INFO - Epoch 97 Eval Loss: 0.9795930031687021, Accuracy: 0.6460
+2024-12-28 23:55:52,502 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\97.pth
+2024-12-28 23:55:52,863 - b2_model - INFO - Epoch 98, Current LR: 0.00010545912299999999
+2024-12-28 23:55:56,565 - b2_model - INFO - Epoch 98, Batch 0 accuracy 1.0
+2024-12-28 23:57:10,313 - b2_model - INFO - Epoch 98, Batch 40 accuracy 0.926829268292683
+2024-12-28 23:58:24,476 - b2_model - INFO - Epoch 98, Batch 80 accuracy 0.9305555555555556
+2024-12-28 23:59:36,256 - b2_model - INFO - Epoch 98, Loss: 0.21024273982471672 Accuracy: 0.9296066252587992
+2024-12-28 23:59:39,828 - b2_model - INFO - Epoch 98, Batch 0 accuracy 0.65625
+2024-12-29 00:00:04,206 - b2_model - INFO - Epoch 98 Eval Loss: 1.036046627908945, Accuracy: 0.6812
+2024-12-29 00:00:04,206 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\98.pth
+2024-12-29 00:00:04,295 - b2_model - INFO - Epoch 99, Current LR: 0.00010545912299999999
+2024-12-29 00:00:08,552 - b2_model - INFO - Epoch 99, Batch 0 accuracy 1.0
+2024-12-29 00:01:23,273 - b2_model - INFO - Epoch 99, Batch 40 accuracy 0.9375
+2024-12-29 00:02:36,622 - b2_model - INFO - Epoch 99, Batch 80 accuracy 0.9324845679012346
+2024-12-29 00:03:48,517 - b2_model - INFO - Epoch 99, Loss: 0.19646804681247917 Accuracy: 0.932712215320911
+2024-12-29 00:03:51,979 - b2_model - INFO - Epoch 99, Batch 0 accuracy 0.625
+2024-12-29 00:04:16,248 - b2_model - INFO - Epoch 99 Eval Loss: 0.9233251884579659, Accuracy: 0.6894
+2024-12-29 00:04:16,248 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\99.pth
+2024-12-29 00:04:16,405 - b2_model - INFO - Epoch 100, Current LR: 8.120352470999999e-05
+2024-12-29 00:04:20,006 - b2_model - INFO - Epoch 100, Batch 0 accuracy 1.0
+2024-12-29 00:05:34,165 - b2_model - INFO - Epoch 100, Batch 40 accuracy 0.9496951219512195
+2024-12-29 00:06:48,064 - b2_model - INFO - Epoch 100, Batch 80 accuracy 0.9405864197530864
+2024-12-29 00:07:59,481 - b2_model - INFO - Epoch 100, Loss: 0.18016575116756534 Accuracy: 0.9409937888198758
+2024-12-29 00:08:02,940 - b2_model - INFO - Epoch 100, Batch 0 accuracy 0.625
+2024-12-29 00:08:27,061 - b2_model - INFO - Epoch 100 Eval Loss: 0.9744065664708614, Accuracy: 0.6832
+2024-12-29 00:08:27,062 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\100.pth
+2024-12-29 00:08:27,105 - b2_model - INFO - Epoch 101, Current LR: 8.120352470999999e-05
+2024-12-29 00:08:30,820 - b2_model - INFO - Epoch 101, Batch 0 accuracy 0.96875
+2024-12-29 00:09:45,225 - b2_model - INFO - Epoch 101, Batch 40 accuracy 0.9382621951219512
+2024-12-29 00:10:59,440 - b2_model - INFO - Epoch 101, Batch 80 accuracy 0.9371141975308642
+2024-12-29 00:12:10,837 - b2_model - INFO - Epoch 101, Loss: 0.18629092753918702 Accuracy: 0.9384057971014492
+2024-12-29 00:12:14,432 - b2_model - INFO - Epoch 101, Batch 0 accuracy 0.59375
+2024-12-29 00:12:38,991 - b2_model - INFO - Epoch 101 Eval Loss: 1.012381885200739, Accuracy: 0.6687
+2024-12-29 00:12:38,991 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\101.pth
+2024-12-29 00:12:39,147 - b2_model - INFO - Epoch 102, Current LR: 6.25267140267e-05
+2024-12-29 00:12:42,839 - b2_model - INFO - Epoch 102, Batch 0 accuracy 0.90625
+2024-12-29 00:13:57,892 - b2_model - INFO - Epoch 102, Batch 40 accuracy 0.9428353658536586
+2024-12-29 00:15:12,986 - b2_model - INFO - Epoch 102, Batch 80 accuracy 0.9440586419753086
+2024-12-29 00:16:25,188 - b2_model - INFO - Epoch 102, Loss: 0.1727425290718059 Accuracy: 0.9461697722567288
+2024-12-29 00:16:28,690 - b2_model - INFO - Epoch 102, Batch 0 accuracy 0.625
+2024-12-29 00:16:53,278 - b2_model - INFO - Epoch 102 Eval Loss: 0.9898875094950199, Accuracy: 0.6832
+2024-12-29 00:16:53,278 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\102.pth
+2024-12-29 00:16:53,543 - b2_model - INFO - Epoch 103, Current LR: 6.25267140267e-05
+2024-12-29 00:16:57,222 - b2_model - INFO - Epoch 103, Batch 0 accuracy 0.90625
+2024-12-29 00:18:09,822 - b2_model - INFO - Epoch 103, Batch 40 accuracy 0.9542682926829268
+2024-12-29 00:19:22,442 - b2_model - INFO - Epoch 103, Batch 80 accuracy 0.9471450617283951
+2024-12-29 00:20:33,128 - b2_model - INFO - Epoch 103, Loss: 0.167416003771311 Accuracy: 0.947463768115942
+2024-12-29 00:20:36,674 - b2_model - INFO - Epoch 103, Batch 0 accuracy 0.6875
+2024-12-29 00:21:00,644 - b2_model - INFO - Epoch 103 Eval Loss: 0.9727843031287193, Accuracy: 0.6708
+2024-12-29 00:21:00,646 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\103.pth
+2024-12-29 00:21:00,687 - b2_model - INFO - Epoch 104, Current LR: 4.8145569800559e-05
+2024-12-29 00:21:04,463 - b2_model - INFO - Epoch 104, Batch 0 accuracy 0.90625
+2024-12-29 00:22:18,862 - b2_model - INFO - Epoch 104, Batch 40 accuracy 0.9573170731707317
+2024-12-29 00:23:31,261 - b2_model - INFO - Epoch 104, Batch 80 accuracy 0.9548611111111112
+2024-12-29 00:24:41,513 - b2_model - INFO - Epoch 104, Loss: 0.15844282190784936 Accuracy: 0.952639751552795
+2024-12-29 00:24:45,025 - b2_model - INFO - Epoch 104, Batch 0 accuracy 0.6875
+2024-12-29 00:25:08,942 - b2_model - INFO - Epoch 104 Eval Loss: 1.0110417529940605, Accuracy: 0.6832
+2024-12-29 00:25:08,942 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\104.pth
+2024-12-29 07:56:24,217 - dataloader - INFO - we already saved the data before
+2024-12-29 07:56:24,265 - dataloader - INFO - image loaded successfully
+2024-12-29 07:56:24,456 - dataloader - INFO - data retrieved
+2024-12-29 07:56:30,220 - b2_model - INFO - Epoch 105, Current LR: 4.8145569800559e-05
+2024-12-29 07:56:35,980 - b2_model - INFO - Epoch 105, Batch 0 accuracy 0.96875
+2024-12-29 07:58:01,387 - b2_model - INFO - Epoch 105, Batch 40 accuracy 0.948170731707317
+2024-12-29 07:59:40,965 - b2_model - INFO - Epoch 105, Batch 80 accuracy 0.9471450617283951
+2024-12-29 08:01:43,461 - b2_model - INFO - Epoch 105, Loss: 0.15900743635725384 Accuracy: 0.94824016563147
+2024-12-29 08:01:48,078 - b2_model - INFO - Epoch 105, Batch 0 accuracy 0.625
+2024-12-29 08:02:18,455 - b2_model - INFO - Epoch 105 Eval Loss: 1.0250249989330769, Accuracy: 0.6687
+2024-12-29 08:02:18,455 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\105.pth
+2024-12-29 08:02:18,538 - b2_model - INFO - Epoch 106, Current LR: 4.8145569800559e-05
+2024-12-29 08:02:21,732 - b2_model - INFO - Epoch 106, Batch 0 accuracy 1.0
+2024-12-29 08:03:23,718 - b2_model - INFO - Epoch 106, Batch 40 accuracy 0.9603658536585366
+2024-12-29 08:04:25,792 - b2_model - INFO - Epoch 106, Batch 80 accuracy 0.9610339506172839
+2024-12-29 08:05:26,734 - b2_model - INFO - Epoch 106, Loss: 0.14747156113509305 Accuracy: 0.9560041407867494
+2024-12-29 08:05:29,674 - b2_model - INFO - Epoch 106, Batch 0 accuracy 0.625
+2024-12-29 08:05:50,235 - b2_model - INFO - Epoch 106 Eval Loss: 0.9935289174318314, Accuracy: 0.6729
+2024-12-29 08:05:50,235 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\106.pth
+2024-12-29 08:05:50,410 - b2_model - INFO - Epoch 107, Current LR: 3.707208874643043e-05
+2024-12-29 08:05:53,580 - b2_model - INFO - Epoch 107, Batch 0 accuracy 1.0
+2024-12-29 08:06:57,028 - b2_model - INFO - Epoch 107, Batch 40 accuracy 0.9512195121951219
+2024-12-29 08:08:00,325 - b2_model - INFO - Epoch 107, Batch 80 accuracy 0.9594907407407407
+2024-12-29 08:09:01,422 - b2_model - INFO - Epoch 107, Loss: 0.1405548243360086 Accuracy: 0.9583333333333334
+2024-12-29 08:09:04,395 - b2_model - INFO - Epoch 107, Batch 0 accuracy 0.6875
+2024-12-29 08:09:24,563 - b2_model - INFO - Epoch 107 Eval Loss: 0.9888142794370651, Accuracy: 0.6812
+2024-12-29 08:09:24,563 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\107.pth
+2024-12-29 08:09:24,691 - b2_model - INFO - Epoch 108, Current LR: 3.707208874643043e-05
+2024-12-29 08:09:27,644 - b2_model - INFO - Epoch 108, Batch 0 accuracy 0.96875
+2024-12-29 08:10:29,607 - b2_model - INFO - Epoch 108, Batch 40 accuracy 0.9664634146341463
+2024-12-29 08:11:31,186 - b2_model - INFO - Epoch 108, Batch 80 accuracy 0.9606481481481481
+2024-12-29 08:12:30,776 - b2_model - INFO - Epoch 108, Loss: 0.14116649717585114 Accuracy: 0.9598861283643892
+2024-12-29 08:12:33,748 - b2_model - INFO - Epoch 108, Batch 0 accuracy 0.625
+2024-12-29 08:12:53,922 - b2_model - INFO - Epoch 108 Eval Loss: 0.9975481815636158, Accuracy: 0.6812
+2024-12-29 08:12:53,922 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\108.pth
+2024-12-29 08:12:54,076 - b2_model - INFO - Epoch 109, Current LR: 2.8545508334751434e-05
+2024-12-29 08:12:57,299 - b2_model - INFO - Epoch 109, Batch 0 accuracy 0.96875
+2024-12-29 08:13:58,600 - b2_model - INFO - Epoch 109, Batch 40 accuracy 0.9504573170731707
+2024-12-29 08:15:01,322 - b2_model - INFO - Epoch 109, Batch 80 accuracy 0.9560185185185185
+2024-12-29 08:16:02,576 - b2_model - INFO - Epoch 109, Loss: 0.15569232736737276 Accuracy: 0.9528985507246377
+2024-12-29 08:16:05,578 - b2_model - INFO - Epoch 109, Batch 0 accuracy 0.625
+2024-12-29 08:16:25,959 - b2_model - INFO - Epoch 109 Eval Loss: 0.985238328576088, Accuracy: 0.6729
+2024-12-29 08:16:25,970 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\109.pth
+2024-12-29 08:16:26,108 - b2_model - INFO - Epoch 110, Current LR: 2.8545508334751434e-05
+2024-12-29 08:16:29,281 - b2_model - INFO - Epoch 110, Batch 0 accuracy 0.9375
+2024-12-29 08:17:32,416 - b2_model - INFO - Epoch 110, Batch 40 accuracy 0.9535060975609756
+2024-12-29 08:18:36,331 - b2_model - INFO - Epoch 110, Batch 80 accuracy 0.9560185185185185
+2024-12-29 08:19:37,602 - b2_model - INFO - Epoch 110, Loss: 0.1426214318999574 Accuracy: 0.9588509316770186
+2024-12-29 08:19:40,614 - b2_model - INFO - Epoch 110, Batch 0 accuracy 0.625
+2024-12-29 08:20:01,143 - b2_model - INFO - Epoch 110 Eval Loss: 1.003582701086998, Accuracy: 0.6687
+2024-12-29 08:20:01,144 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\110.pth
+2024-12-29 08:20:01,314 - b2_model - INFO - Epoch 111, Current LR: 2.1980041417758603e-05
+2024-12-29 08:20:04,588 - b2_model - INFO - Epoch 111, Batch 0 accuracy 0.9375
+2024-12-29 08:21:07,078 - b2_model - INFO - Epoch 111, Batch 40 accuracy 0.958079268292683
+2024-12-29 08:22:10,536 - b2_model - INFO - Epoch 111, Batch 80 accuracy 0.9633487654320988
+2024-12-29 08:23:09,881 - b2_model - INFO - Epoch 111, Loss: 0.14021887848815642 Accuracy: 0.9609213250517599
+2024-12-29 08:23:12,859 - b2_model - INFO - Epoch 111, Batch 0 accuracy 0.625
+2024-12-29 08:23:32,947 - b2_model - INFO - Epoch 111 Eval Loss: 0.9972652271389961, Accuracy: 0.6749
+2024-12-29 08:23:32,947 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\111.pth
+2024-12-29 08:23:33,084 - b2_model - INFO - Epoch 112, Current LR: 2.1980041417758603e-05
+2024-12-29 08:23:36,239 - b2_model - INFO - Epoch 112, Batch 0 accuracy 0.96875
+2024-12-29 08:24:38,423 - b2_model - INFO - Epoch 112, Batch 40 accuracy 0.9748475609756098
+2024-12-29 08:25:39,406 - b2_model - INFO - Epoch 112, Batch 80 accuracy 0.9691358024691358
+2024-12-29 08:26:39,872 - b2_model - INFO - Epoch 112, Loss: 0.12863278835396136 Accuracy: 0.9660973084886129
+2024-12-29 08:26:42,944 - b2_model - INFO - Epoch 112, Batch 0 accuracy 0.625
+2024-12-29 08:27:03,109 - b2_model - INFO - Epoch 112 Eval Loss: 0.9846107326447964, Accuracy: 0.6687
+2024-12-29 08:27:03,109 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\112.pth
+2024-12-29 08:27:03,385 - b2_model - INFO - Epoch 113, Current LR: 1.6924631891674123e-05
+2024-12-29 08:27:06,674 - b2_model - INFO - Epoch 113, Batch 0 accuracy 0.90625
+2024-12-29 08:28:08,098 - b2_model - INFO - Epoch 113, Batch 40 accuracy 0.9588414634146342
+2024-12-29 08:29:09,197 - b2_model - INFO - Epoch 113, Batch 80 accuracy 0.9594907407407407
+2024-12-29 08:30:09,649 - b2_model - INFO - Epoch 113, Loss: 0.13581548966775256 Accuracy: 0.9604037267080745
+2024-12-29 08:30:12,686 - b2_model - INFO - Epoch 113, Batch 0 accuracy 0.625
+2024-12-29 08:30:33,079 - b2_model - INFO - Epoch 113 Eval Loss: 1.0129065066576004, Accuracy: 0.6687
+2024-12-29 08:30:33,079 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\113.pth
+2024-12-29 08:30:33,324 - b2_model - INFO - Epoch 114, Current LR: 1.6924631891674123e-05
+2024-12-29 08:30:36,533 - b2_model - INFO - Epoch 114, Batch 0 accuracy 0.96875
+2024-12-29 08:31:38,746 - b2_model - INFO - Epoch 114, Batch 40 accuracy 0.9603658536585366
+2024-12-29 08:32:42,042 - b2_model - INFO - Epoch 114, Batch 80 accuracy 0.9567901234567902
+2024-12-29 08:33:43,533 - b2_model - INFO - Epoch 114, Loss: 0.13262904275301074 Accuracy: 0.9588509316770186
+2024-12-29 08:33:46,498 - b2_model - INFO - Epoch 114, Batch 0 accuracy 0.59375
+2024-12-29 08:34:07,062 - b2_model - INFO - Epoch 114 Eval Loss: 1.0210898742079735, Accuracy: 0.6625
+2024-12-29 08:34:07,062 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\114.pth
+2024-12-29 08:34:07,298 - b2_model - INFO - Epoch 115, Current LR: 1.3031966556589075e-05
+2024-12-29 08:34:10,549 - b2_model - INFO - Epoch 115, Batch 0 accuracy 0.9375
+2024-12-29 08:35:13,383 - b2_model - INFO - Epoch 115, Batch 40 accuracy 0.961890243902439
+2024-12-29 08:36:15,591 - b2_model - INFO - Epoch 115, Batch 80 accuracy 0.9656635802469136
+2024-12-29 08:37:16,208 - b2_model - INFO - Epoch 115, Loss: 0.12522782671673238 Accuracy: 0.9627329192546584
+2024-12-29 08:37:19,203 - b2_model - INFO - Epoch 115, Batch 0 accuracy 0.625
+2024-12-29 08:37:39,443 - b2_model - INFO - Epoch 115 Eval Loss: 1.0109031237661839, Accuracy: 0.6646
+2024-12-29 08:37:39,443 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\115.pth
+2024-12-29 08:37:39,618 - b2_model - INFO - Epoch 116, Current LR: 1.3031966556589075e-05
+2024-12-29 08:37:42,831 - b2_model - INFO - Epoch 116, Batch 0 accuracy 0.90625
+2024-12-29 08:38:45,919 - b2_model - INFO - Epoch 116, Batch 40 accuracy 0.9550304878048781
+2024-12-29 08:39:54,863 - b2_model - INFO - Epoch 116, Batch 80 accuracy 0.9567901234567902
+2024-12-29 08:41:05,240 - b2_model - INFO - Epoch 116, Loss: 0.1332217322831804 Accuracy: 0.9601449275362319
+2024-12-29 08:41:08,721 - b2_model - INFO - Epoch 116, Batch 0 accuracy 0.625
+2024-12-29 08:41:34,198 - b2_model - INFO - Epoch 116 Eval Loss: 1.0086526051163673, Accuracy: 0.6749
+2024-12-29 08:41:34,198 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\116.pth
+2024-12-29 08:41:34,370 - b2_model - INFO - Epoch 117, Current LR: 1.0034614248573587e-05
+2024-12-29 08:41:38,066 - b2_model - INFO - Epoch 117, Batch 0 accuracy 0.9375
+2024-12-29 08:42:59,646 - b2_model - INFO - Epoch 117, Batch 40 accuracy 0.961890243902439
+2024-12-29 08:44:16,404 - b2_model - INFO - Epoch 117, Batch 80 accuracy 0.9587191358024691
+2024-12-29 08:45:32,975 - b2_model - INFO - Epoch 117, Loss: 0.13341678423452968 Accuracy: 0.9598861283643892
+2024-12-29 08:45:37,202 - b2_model - INFO - Epoch 117, Batch 0 accuracy 0.625
+2024-12-29 08:46:02,962 - b2_model - INFO - Epoch 117 Eval Loss: 1.008525025099516, Accuracy: 0.6749
+2024-12-29 08:46:02,962 - b1_model - INFO - Saving checkpoint at b2_checkpoints8\117.pth
+2024-12-29 08:46:03,110 - b2_model - INFO - Epoch 118, Current LR: 1.0034614248573587e-05
+2024-12-29 08:46:06,952 - b2_model - INFO - Epoch 118, Batch 0 accuracy 0.96875
+2024-12-29 08:47:23,884 - b2_model - INFO - Epoch 118, Batch 40 accuracy 0.9710365853658537
+2024-12-31 12:46:41,411 - dataloader - INFO - we already saved the data before
+2024-12-31 12:46:41,411 - dataloader - INFO - image loaded successfully
+2024-12-31 12:46:41,553 - dataloader - INFO - data retrieved
+2024-12-31 12:47:16,360 - dataloader - INFO - we already saved the data before
+2024-12-31 12:47:16,360 - dataloader - INFO - image loaded successfully
+2024-12-31 12:47:16,466 - dataloader - INFO - data retrieved
+2024-12-31 12:47:21,948 - b2_model - INFO -  Batch 0 accuracy 1.0
+2024-12-31 12:48:30,850 - b2_model - INFO -  Batch 40 accuracy 0.9390243902439024
+2024-12-31 12:49:37,638 - b2_model - INFO -  Batch 80 accuracy 0.9390432098765432
+2024-12-31 12:50:46,638 - b2_model - INFO -  Batch 120 accuracy 0.9385330578512396
+2024-12-31 12:51:33,513 - b2_model - INFO -   Loss: 0.227910680782716, Accuracy: 0.9383
+2024-12-31 12:51:33,513 - b2_model - INFO - Accuracy by number of players:
+2024-12-31 12:51:33,513 - b2_model - INFO - 7 players: 2/2 = 1.0000
+2024-12-31 12:51:33,513 - b2_model - INFO - 8 players: 13/13 = 1.0000
+2024-12-31 12:51:33,513 - b2_model - INFO - 9 players: 62/65 = 0.9538
+2024-12-31 12:51:33,513 - b2_model - INFO - 10 players: 183/192 = 0.9531
+2024-12-31 12:51:33,513 - b2_model - INFO - 11 players: 942/992 = 0.9496
+2024-12-31 12:51:33,513 - b2_model - INFO - 12 players: 3330/3566 = 0.9338
+2024-12-31 12:53:51,274 - dataloader - INFO - we already saved the data before
+2024-12-31 12:53:51,274 - dataloader - INFO - image loaded successfully
+2024-12-31 12:53:51,381 - dataloader - INFO - data retrieved
+2024-12-31 12:53:56,601 - b2_model - INFO -  Batch 0 accuracy 0.59375
+2024-12-31 12:54:16,563 - b2_model - INFO -   Loss: 0.8840431577118579, Accuracy: 0.0696
+2024-12-31 12:54:16,563 - b2_model - INFO - Accuracy by number of players:
+2024-12-31 12:54:16,563 - b2_model - INFO - 9 players: 4/5 = 0.8000
+2024-12-31 12:54:16,563 - b2_model - INFO - 10 players: 6/11 = 0.5455
+2024-12-31 12:54:16,563 - b2_model - INFO - 11 players: 82/110 = 0.7455
+2024-12-31 12:54:16,563 - b2_model - INFO - 12 players: 244/357 = 0.6835
+2024-12-31 12:56:29,002 - dataloader - INFO - we already saved the data before
+2024-12-31 12:56:29,002 - dataloader - INFO - image loaded successfully
+2024-12-31 12:56:29,130 - dataloader - INFO - data retrieved
+2024-12-31 12:56:34,565 - b2_model - INFO -  Batch 0 accuracy 0.59375
+2024-12-31 12:56:54,393 - b2_model - INFO -   Loss: 0.8840431577118579, Accuracy: 0.6957
+2024-12-31 12:56:54,393 - b2_model - INFO - Accuracy by number of players:
+2024-12-31 12:56:54,393 - b2_model - INFO - 9 players: 4/5 = 0.8000
+2024-12-31 12:56:54,393 - b2_model - INFO - 10 players: 6/11 = 0.5455
+2024-12-31 12:56:54,393 - b2_model - INFO - 11 players: 82/110 = 0.7455
+2024-12-31 12:56:54,393 - b2_model - INFO - 12 players: 244/357 = 0.6835
+2024-12-31 12:58:04,844 - dataloader - INFO - we already saved the data before
+2024-12-31 12:58:04,845 - dataloader - INFO - image loaded successfully
+2024-12-31 12:58:04,941 - dataloader - INFO - data retrieved
+2024-12-31 12:58:09,963 - b2_model - INFO -  Batch 0 accuracy 0.625
+2024-12-31 12:58:30,012 - b2_model - INFO -   Loss: 0.9233251884579659, Accuracy: 0.6894
+2024-12-31 12:58:30,012 - b2_model - INFO - Accuracy by number of players:
+2024-12-31 12:58:30,012 - b2_model - INFO - 8 players: 3/3 = 1.0000
+2024-12-31 12:58:30,012 - b2_model - INFO - 9 players: 0/2 = 0.0000
+2024-12-31 12:58:30,012 - b2_model - INFO - 10 players: 15/19 = 0.7895
+2024-12-31 12:58:30,012 - b2_model - INFO - 11 players: 76/98 = 0.7755
+2024-12-31 12:58:30,012 - b2_model - INFO - 12 players: 239/361 = 0.6620
+2025-01-03 22:36:09,834 - dataloader - INFO - we already saved the data before
+2025-01-03 22:37:14,540 - dataloader - INFO - reading for video 0
+2025-01-03 22:38:25,130 - dataloader - INFO - reading for video 0
+2025-01-03 22:38:25,144 - dataloader - INFO - reading for video 1
+2025-01-03 22:38:25,158 - dataloader - INFO - reading for video 2
+2025-01-03 22:38:25,165 - dataloader - INFO - reading for video 3
+2025-01-03 22:38:25,178 - dataloader - INFO - reading for video 4
+2025-01-03 22:38:25,188 - dataloader - INFO - reading for video 5
+2025-01-03 22:38:25,264 - dataloader - INFO - reading for video 6
+2025-01-03 22:38:25,274 - dataloader - INFO - reading for video 7
+2025-01-03 22:38:25,283 - dataloader - INFO - reading for video 8
+2025-01-03 22:38:25,293 - dataloader - INFO - reading for video 9
+2025-01-03 22:38:25,301 - dataloader - INFO - reading for video 10
+2025-01-03 22:38:25,310 - dataloader - INFO - reading for video 11
+2025-01-03 22:38:25,320 - dataloader - INFO - reading for video 12
+2025-01-03 22:38:25,329 - dataloader - INFO - reading for video 13
+2025-01-03 22:38:25,338 - dataloader - INFO - reading for video 14
+2025-01-03 22:38:25,347 - dataloader - INFO - reading for video 15
+2025-01-03 22:38:25,356 - dataloader - INFO - reading for video 16
+2025-01-03 22:38:25,364 - dataloader - INFO - reading for video 17
+2025-01-03 22:38:25,373 - dataloader - INFO - reading for video 18
+2025-01-03 22:38:25,383 - dataloader - INFO - reading for video 19
+2025-01-03 22:38:25,389 - dataloader - INFO - reading for video 20
+2025-01-03 22:38:25,395 - dataloader - INFO - reading for video 21
+2025-01-03 22:38:25,406 - dataloader - INFO - reading for video 22
+2025-01-03 22:38:25,414 - dataloader - INFO - reading for video 23
+2025-01-03 22:38:25,422 - dataloader - INFO - reading for video 24
+2025-01-03 22:38:25,430 - dataloader - INFO - reading for video 25
+2025-01-03 22:38:25,438 - dataloader - INFO - reading for video 26
+2025-01-03 22:38:25,446 - dataloader - INFO - reading for video 27
+2025-01-03 22:38:25,455 - dataloader - INFO - reading for video 28
+2025-01-03 22:38:25,463 - dataloader - INFO - reading for video 29
+2025-01-03 22:38:25,471 - dataloader - INFO - reading for video 30
+2025-01-03 22:38:25,479 - dataloader - INFO - reading for video 31
+2025-01-03 22:38:25,488 - dataloader - INFO - reading for video 32
+2025-01-03 22:38:25,497 - dataloader - INFO - reading for video 33
+2025-01-03 22:38:25,504 - dataloader - INFO - reading for video 34
+2025-01-03 22:38:25,510 - dataloader - INFO - reading for video 35
+2025-01-03 22:38:25,519 - dataloader - INFO - reading for video 36
+2025-01-03 22:38:25,527 - dataloader - INFO - reading for video 37
+2025-01-03 22:38:25,533 - dataloader - INFO - reading for video 38
+2025-01-03 22:38:25,544 - dataloader - INFO - reading for video 39
+2025-01-03 22:38:25,547 - dataloader - INFO - reading for video 40
+2025-01-03 22:38:25,554 - dataloader - INFO - reading for video 41
+2025-01-03 22:38:25,559 - dataloader - INFO - reading for video 42
+2025-01-03 22:38:25,567 - dataloader - INFO - reading for video 43
+2025-01-03 22:38:25,575 - dataloader - INFO - reading for video 44
+2025-01-03 22:38:25,583 - dataloader - INFO - reading for video 45
+2025-01-03 22:38:25,588 - dataloader - INFO - reading for video 46
+2025-01-03 22:38:25,595 - dataloader - INFO - reading for video 47
+2025-01-03 22:38:25,603 - dataloader - INFO - reading for video 48
+2025-01-03 22:38:25,611 - dataloader - INFO - reading for video 49
+2025-01-03 22:38:25,618 - dataloader - INFO - reading for video 50
+2025-01-03 22:38:25,626 - dataloader - INFO - reading for video 51
+2025-01-03 22:38:25,633 - dataloader - INFO - reading for video 52
+2025-01-03 22:38:25,640 - dataloader - INFO - reading for video 53
+2025-01-03 22:38:25,646 - dataloader - INFO - reading for video 54
+2025-01-03 22:38:25,732 - dataloader - INFO - data saved successfully
+2025-01-03 22:38:25,751 - dataloader - INFO - data saved successfully
+2025-01-03 22:38:25,768 - dataloader - INFO - data saved successfully
+2025-01-03 22:39:46,879 - dataloader - INFO - reading for video 0
+2025-01-03 22:39:46,891 - dataloader - INFO - reading for video 1
+2025-01-03 22:39:46,904 - dataloader - INFO - reading for video 2
+2025-01-03 22:39:46,911 - dataloader - INFO - reading for video 3
+2025-01-03 22:39:46,923 - dataloader - INFO - reading for video 4
+2025-01-03 22:39:46,932 - dataloader - INFO - reading for video 5
+2025-01-03 22:39:47,007 - dataloader - INFO - reading for video 6
+2025-01-03 22:39:47,016 - dataloader - INFO - reading for video 7
+2025-01-03 22:39:47,024 - dataloader - INFO - reading for video 8
+2025-01-03 22:39:47,033 - dataloader - INFO - reading for video 9
+2025-01-03 22:39:47,040 - dataloader - INFO - reading for video 10
+2025-01-03 22:39:47,049 - dataloader - INFO - reading for video 11
+2025-01-03 22:39:47,057 - dataloader - INFO - reading for video 12
+2025-01-03 22:39:47,064 - dataloader - INFO - reading for video 13
+2025-01-03 22:39:47,072 - dataloader - INFO - reading for video 14
+2025-01-03 22:39:47,081 - dataloader - INFO - reading for video 15
+2025-01-03 22:39:47,088 - dataloader - INFO - reading for video 16
+2025-01-03 22:39:47,096 - dataloader - INFO - reading for video 17
+2025-01-03 22:39:47,103 - dataloader - INFO - reading for video 18
+2025-01-03 22:39:47,111 - dataloader - INFO - reading for video 19
+2025-01-03 22:39:47,117 - dataloader - INFO - reading for video 20
+2025-01-03 22:39:47,125 - dataloader - INFO - reading for video 21
+2025-01-03 22:39:47,132 - dataloader - INFO - reading for video 22
+2025-01-03 22:39:47,138 - dataloader - INFO - reading for video 23
+2025-01-03 22:39:47,146 - dataloader - INFO - reading for video 24
+2025-01-03 22:39:47,153 - dataloader - INFO - reading for video 25
+2025-01-03 22:39:47,160 - dataloader - INFO - reading for video 26
+2025-01-03 22:39:47,167 - dataloader - INFO - reading for video 27
+2025-01-03 22:39:47,174 - dataloader - INFO - reading for video 28
+2025-01-03 22:39:47,182 - dataloader - INFO - reading for video 29
+2025-01-03 22:39:47,189 - dataloader - INFO - reading for video 30
+2025-01-03 22:39:47,197 - dataloader - INFO - reading for video 31
+2025-01-03 22:39:47,205 - dataloader - INFO - reading for video 32
+2025-01-03 22:39:47,212 - dataloader - INFO - reading for video 33
+2025-01-03 22:39:47,220 - dataloader - INFO - reading for video 34
+2025-01-03 22:39:47,225 - dataloader - INFO - reading for video 35
+2025-01-03 22:39:47,232 - dataloader - INFO - reading for video 36
+2025-01-03 22:39:47,239 - dataloader - INFO - reading for video 37
+2025-01-03 22:39:47,243 - dataloader - INFO - reading for video 38
+2025-01-03 22:39:47,245 - dataloader - INFO - reading for video 39
+2025-01-03 22:39:47,255 - dataloader - INFO - reading for video 40
+2025-01-03 22:39:47,260 - dataloader - INFO - reading for video 41
+2025-01-03 22:39:47,264 - dataloader - INFO - reading for video 42
+2025-01-03 22:39:47,271 - dataloader - INFO - reading for video 43
+2025-01-03 22:39:47,278 - dataloader - INFO - reading for video 44
+2025-01-03 22:39:47,284 - dataloader - INFO - reading for video 45
+2025-01-03 22:39:47,288 - dataloader - INFO - reading for video 46
+2025-01-03 22:39:47,294 - dataloader - INFO - reading for video 47
+2025-01-03 22:39:47,300 - dataloader - INFO - reading for video 48
+2025-01-03 22:39:47,306 - dataloader - INFO - reading for video 49
+2025-01-03 22:39:47,312 - dataloader - INFO - reading for video 50
+2025-01-03 22:39:47,317 - dataloader - INFO - reading for video 51
+2025-01-03 22:39:47,324 - dataloader - INFO - reading for video 52
+2025-01-03 22:39:47,330 - dataloader - INFO - reading for video 53
+2025-01-03 22:39:47,335 - dataloader - INFO - reading for video 54
+2025-01-03 22:39:47,404 - dataloader - INFO - data saved successfully
+2025-01-03 22:39:47,421 - dataloader - INFO - data saved successfully
+2025-01-03 22:39:47,435 - dataloader - INFO - data saved successfully
