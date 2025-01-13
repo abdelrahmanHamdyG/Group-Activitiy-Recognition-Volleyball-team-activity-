@@ -1,4 +1,4 @@
-import utils.dataloader as dataloader
+import dataloading.dataloader as dataloader
 import numpy as np
 import cv2
 import os

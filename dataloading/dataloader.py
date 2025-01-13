@@ -3,11 +3,15 @@ import cv2
 
 from natsort import natsorted  
 from utils.logger import  Logger
-from utils.annotation_model import annotation
+from dataloading.annotation_model import annotation
 import pickle
+import torch
 import numpy as np
+import sys
 
-logger = Logger("dataloader","dataloader.log")
+sys.path.append(os.path.abspath("."))
+
+logger = Logger("dataloader","dataloading/dataloader.log")
 
 
 dataset_path="./dataset"
@@ -25,8 +29,9 @@ def save_dataset(X,y,image_file="images.npy",annotation_file="annotation.pkl"):
     logger.info("data saved successfully")
 
 def load_data(image_file="images.npy",annotation_file="annotation.pkl"):
+    logger.info(f"loading  {image_file}")
     X=np.load(image_file)
-    logger.info("image loaded successfully")
+    logger.info(f" Loading  {annotation_file}")
     with open(annotation_file,'rb') as f:
         y=pickle.load(f) 
 
@@ -77,6 +82,19 @@ def show_image(image_path,annot):
 
 
     
+def get_players_dataset():
+    if not os.path.exists("players_dataset"):
+        extract_players_images()
+    all_actions=[]
+    players_images_paths=[]
+    with open("./players_dataset/actions.pkl", 'rb') as f:
+        all_actions=pickle.load(f)
+    with open("./players_dataset/players_images_paths.pkl", 'rb') as f:
+        players_images_paths=pickle.load(f)
+    return players_images_paths,all_actions
+
+
+
 
 def extract_players_images():    
 
@@ -189,7 +207,7 @@ def get_dataset_first_time(all_frames=False):
 
 def get_data(all_frames=False):
 
-    
+    logger.info(sys.path)
     if os.path.exists("saved_pickles"):
         logger.info("we already saved the data before")
         train_videos,annotations_train=load_data(image_file="saved_pickles/train_images.npy",annotation_file="saved_pickles/train_annotation.pkl")
@@ -208,10 +226,50 @@ def get_data(all_frames=False):
 
 
 
+
+def save_checkpoint(epoch, model_dict, optimizer_dict, train_loss, eval_loss, accuracy, checkpoint_path="checkpoints",best_model_path="best_model.pth"):
+    if not os.path.exists(checkpoint_path):
+        os.makedirs(checkpoint_path)
+
+    checkpoint_path = os.path.join(checkpoint_path, f"{epoch}.pth")
+    logger.info(f"Saving checkpoint at {checkpoint_path}")
+    torch.save({
+        "epoch": epoch,
+        "model_state_dict": model_dict,
+        "optimizer_state_dict": optimizer_dict,
+        "train_loss": train_loss,
+        "eval_loss": eval_loss,
+        "accuracy": accuracy
+    }, checkpoint_path)
+
+    best_accuracy=check_best_model_accuracy(best_model_path)
+    logger.info(f"Current best accuracy: {best_accuracy} and the accuracy for the current model {accuracy}" )
+    if accuracy>best_accuracy:
+        logger.info("New best model found")
+        
+        logger.info("Saving best model")
+        torch.save({
+        "epoch": epoch,
+        "model_state_dict": model_dict,
+        "optimizer_state_dict": optimizer_dict,
+        "train_loss": train_loss,
+        "eval_loss": eval_loss,
+        "accuracy": accuracy
+    }, best_model_path)
+
     
+
+
+def check_best_model_accuracy(checkpoint_path):
+    if os.path.exists(checkpoint_path):    
+        model_loaded = torch.load(checkpoint_path)
+        return model_loaded["accuracy"]
+    return 0
+
+
     
 
 
 if __name__=="__main__":
-
+    
     get_data()

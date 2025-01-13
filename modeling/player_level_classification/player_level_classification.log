@@ -1,0 +1,506 @@
+2025-01-12 14:32:01,415 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 14:32:02,813 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 14:32:02,817 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 14:32:02,817 - player_level_classification_model - INFO - No model found starting from scratch
+2025-01-12 14:32:02,854 - player_level_classification_model - INFO - Training: Epoch 1 learning rate 0.0001
+2025-01-12 14:32:22,576 - player_level_classification_model - INFO -  Iteration 40/339 Loss 1.709903997182846 Accuracy 0.270703125
+2025-01-12 14:32:41,633 - player_level_classification_model - INFO -  Iteration 80/339 Loss 1.5602693513035775 Accuracy 0.3021484375
+2025-01-12 14:33:00,861 - player_level_classification_model - INFO -  Iteration 120/339 Loss 1.4504164978861809 Accuracy 0.34544270833333335
+2025-01-12 14:33:20,213 - player_level_classification_model - INFO -  Iteration 160/339 Loss 1.3452963802963496 Accuracy 0.38271484375
+2025-01-12 14:33:40,236 - player_level_classification_model - INFO -  Iteration 200/339 Loss 1.2664285176992416 Accuracy 0.41203125
+2025-01-12 14:33:59,173 - player_level_classification_model - INFO -  Iteration 240/339 Loss 1.2055810598035654 Accuracy 0.43893229166666664
+2025-01-12 14:34:18,165 - player_level_classification_model - INFO -  Iteration 280/339 Loss 1.1527113003390177 Accuracy 0.4609375
+2025-01-12 14:34:37,093 - player_level_classification_model - INFO -  Iteration 320/339 Loss 1.1093744240701198 Accuracy 0.479541015625
+2025-01-12 14:34:45,914 - player_level_classification_model - INFO - Training Epoch 1 : Loss 1.08867967427656 Accuracy 0.4884450389778126
+2025-01-12 14:34:45,914 - player_level_classification_model - INFO - Validation Epoch 1 :
+2025-01-12 14:34:48,835 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.0109348475933075 Accuracy 0.6296875
+2025-01-12 14:34:51,779 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 0.9662801206111908 Accuracy 0.64140625
+2025-01-12 14:34:54,555 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 0.9882796267668407 Accuracy 0.634375
+2025-01-12 14:34:56,607 - player_level_classification_model - INFO - Testing Epoch 1 : Loss 0.9695732891559601 Accuracy 0.639269406392694
+2025-01-12 14:34:57,343 - player_level_classification_model - INFO - Training: Epoch 2 learning rate 0.0001
+2025-01-12 14:35:17,235 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.6141354657709599 Accuracy 0.694921875
+2025-01-12 14:35:36,305 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.593729167804122 Accuracy 0.7107421875
+2025-01-12 14:35:55,728 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.577360936999321 Accuracy 0.716015625
+2025-01-12 14:36:15,340 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.5776810536161066 Accuracy 0.71435546875
+2025-01-12 14:36:35,017 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.5795578077435494 Accuracy 0.713515625
+2025-01-12 14:36:54,349 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.5818293200184902 Accuracy 0.7122395833333334
+2025-01-12 14:37:13,596 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.5813625345272677 Accuracy 0.7131138392857143
+2025-01-12 14:37:32,935 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.5812874684110284 Accuracy 0.713623046875
+2025-01-12 14:37:42,123 - player_level_classification_model - INFO - Training Epoch 2 : Loss 0.5806350922514204 Accuracy 0.7133631625074958
+2025-01-12 14:37:42,123 - player_level_classification_model - INFO - Validation Epoch 2 :
+2025-01-12 14:37:45,377 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 0.9312519192695617 Accuracy 0.671875
+2025-01-12 14:37:48,469 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 0.9035102784633636 Accuracy 0.67734375
+2025-01-12 14:37:51,538 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 0.9241872866948445 Accuracy 0.6682291666666667
+2025-01-12 14:37:53,775 - player_level_classification_model - INFO - Testing Epoch 2 : Loss 0.9108847599280508 Accuracy 0.6712328767123288
+2025-01-12 14:37:54,946 - player_level_classification_model - INFO - Training: Epoch 3 learning rate 0.0001
+2025-01-12 14:38:15,276 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.28427495770156386 Accuracy 0.838671875
+2025-01-12 14:38:35,748 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.2703134508803487 Accuracy 0.8451171875
+2025-01-12 14:38:55,424 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.26729440353810785 Accuracy 0.849609375
+2025-01-12 14:39:15,280 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.26644178768619897 Accuracy 0.85107421875
+2025-01-12 14:39:35,515 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.2687717603892088 Accuracy 0.85
+2025-01-12 14:39:56,223 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.26850166839237016 Accuracy 0.8516927083333333
+2025-01-12 14:40:16,645 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.27096515279263256 Accuracy 0.8500558035714286
+2025-01-12 14:40:36,720 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.2734794337069616 Accuracy 0.848876953125
+2025-01-12 14:40:45,934 - player_level_classification_model - INFO - Training Epoch 3 : Loss 0.27572781957444187 Accuracy 0.8474099358826515
+2025-01-12 14:40:45,934 - player_level_classification_model - INFO - Validation Epoch 3 :
+2025-01-12 14:40:49,071 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.042119526863098 Accuracy 0.6734375
+2025-01-12 14:40:51,963 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0071062207221986 Accuracy 0.6796875
+2025-01-12 14:40:54,853 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.028447558482488 Accuracy 0.6791666666666667
+2025-01-12 14:40:57,028 - player_level_classification_model - INFO - Testing Epoch 3 : Loss 1.006938408864172 Accuracy 0.6861768368617683
+2025-01-12 14:40:58,965 - player_level_classification_model - INFO - Training: Epoch 4 learning rate 0.0001
+2025-01-12 14:43:15,525 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 14:43:17,021 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 14:43:17,023 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 14:43:17,250 - player_level_classification_model - INFO - Loaded checkpoint 3.pth
+2025-01-12 14:43:17,410 - player_level_classification_model - INFO - Training: Epoch 4 learning rate 8e-05
+2025-01-12 14:43:37,600 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.1862723182886839 Accuracy 0.9171875
+2025-01-12 14:43:56,899 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.1841757895424962 Accuracy 0.9193359375
+2025-01-12 14:44:16,098 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.17268003355711697 Accuracy 0.9263020833333333
+2025-01-12 14:44:35,435 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.17104516383260487 Accuracy 0.92705078125
+2025-01-12 14:44:54,588 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.1673847240395844 Accuracy 0.929609375
+2025-01-12 14:45:14,143 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.16511061113948625 Accuracy 0.930078125
+2025-01-12 14:45:35,477 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.16681871701564108 Accuracy 0.9300223214285714
+2025-01-12 14:45:55,961 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.16765913772396743 Accuracy 0.9291015625
+2025-01-12 14:46:04,995 - player_level_classification_model - INFO - Training Epoch 4 : Loss 0.16795528403161902 Accuracy 0.9289173854882605
+2025-01-12 14:46:04,997 - player_level_classification_model - INFO - Validation Epoch 4 :
+2025-01-12 14:46:08,290 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1293891668319702 Accuracy 0.690625
+2025-01-12 14:46:11,263 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0520068198442458 Accuracy 0.709375
+2025-01-12 14:46:14,153 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0463538110256194 Accuracy 0.7114583333333333
+2025-01-12 14:46:16,458 - player_level_classification_model - INFO - Testing Epoch 4 : Loss 1.0292524005237378 Accuracy 0.7102532171025322
+2025-01-12 14:46:17,822 - player_level_classification_model - INFO - Training: Epoch 5 learning rate 8e-05
+2025-01-12 14:46:37,990 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.0786146104335785 Accuracy 0.976171875
+2025-01-12 14:46:58,913 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.070392759074457 Accuracy 0.9775390625
+2025-01-12 14:47:19,324 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.06895966351342699 Accuracy 0.976953125
+2025-01-12 14:47:39,578 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.07061957153491676 Accuracy 0.9748046875
+2025-01-12 14:48:00,705 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.07184750529006123 Accuracy 0.973359375
+2025-01-12 14:48:20,627 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.07155822740557292 Accuracy 0.973828125
+2025-01-12 14:48:40,116 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.07307351111833538 Accuracy 0.9731026785714286
+2025-01-12 14:48:59,737 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.0757840036356356 Accuracy 0.97236328125
+2025-01-12 14:49:08,921 - player_level_classification_model - INFO - Training Epoch 5 : Loss 0.0767916209699042 Accuracy 0.9717237879976014
+2025-01-12 14:49:08,921 - player_level_classification_model - INFO - Validation Epoch 5 :
+2025-01-12 14:49:12,051 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.2790372550487519 Accuracy 0.6765625
+2025-01-12 14:49:15,146 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.1687852561473846 Accuracy 0.690625
+2025-01-12 14:49:18,230 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.1680621405442555 Accuracy 0.6901041666666666
+2025-01-12 14:49:20,433 - player_level_classification_model - INFO - Testing Epoch 5 : Loss 1.1570401474049217 Accuracy 0.6940639269406392
+2025-01-12 14:49:21,220 - player_level_classification_model - INFO - Training: Epoch 6 learning rate 8e-05
+2025-01-12 14:49:41,034 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.040462691057473424 Accuracy 0.990625
+2025-01-12 14:50:00,370 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.04237771804910153 Accuracy 0.9869140625
+2025-01-12 14:50:19,633 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.042093900955903034 Accuracy 0.9876302083333334
+2025-01-12 14:50:39,513 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.04105856558016967 Accuracy 0.9880859375
+2025-01-12 14:51:00,308 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.04059989800909534 Accuracy 0.988203125
+2025-01-12 14:51:20,582 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.04431597923200267 Accuracy 0.9865234375
+2025-01-12 14:51:40,005 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.04856641620530614 Accuracy 0.9845424107142857
+2025-01-12 14:51:59,496 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.0494210405217018 Accuracy 0.984228515625
+2025-01-12 14:52:08,446 - player_level_classification_model - INFO - Training Epoch 6 : Loss 0.05033665785022014 Accuracy 0.9837169611144425
+2025-01-12 14:52:08,446 - player_level_classification_model - INFO - Validation Epoch 6 :
+2025-01-12 14:52:11,405 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.3472530603408814 Accuracy 0.6625
+2025-01-12 14:52:14,472 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.2279101341962815 Accuracy 0.67890625
+2025-01-12 14:52:17,449 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.228273997704188 Accuracy 0.6817708333333333
+2025-01-12 14:52:19,828 - player_level_classification_model - INFO - Testing Epoch 6 : Loss 1.214841411301964 Accuracy 0.6903279369032793
+2025-01-12 14:52:20,553 - player_level_classification_model - INFO - Training: Epoch 7 learning rate 4e-05
+2025-01-12 15:26:13,247 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 15:26:14,994 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 15:26:14,994 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 15:26:15,345 - player_level_classification_model - INFO - Loaded checkpoint 4.pth
+2025-01-12 15:26:15,565 - player_level_classification_model - INFO - Training: Epoch 5 learning rate 1e-05
+2025-01-12 15:27:38,716 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.08338784594088793 Accuracy 0.97421875
+2025-01-12 15:29:00,363 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.07767573425080627 Accuracy 0.9765625
+2025-01-12 15:30:21,496 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.0730730788782239 Accuracy 0.9783854166666667
+2025-01-12 15:31:42,710 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.06917752599110827 Accuracy 0.98046875
+2025-01-12 15:33:05,115 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.0659163052495569 Accuracy 0.982109375
+2025-01-12 15:34:26,925 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.06365460275361935 Accuracy 0.9827473958333334
+2025-01-12 15:35:48,317 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.0627223591985447 Accuracy 0.9829799107142857
+2025-01-12 15:36:53,923 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.06162459267070517 Accuracy 0.983349609375
+2025-01-12 15:37:03,577 - player_level_classification_model - INFO - Training Epoch 5 : Loss 0.060986348644866004 Accuracy 0.9835324507587988
+2025-01-12 15:37:03,577 - player_level_classification_model - INFO - Validation Epoch 5 :
+2025-01-12 15:37:07,000 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1154688894748688 Accuracy 0.690625
+2025-01-12 15:37:10,784 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0398669689893723 Accuracy 0.7109375
+2025-01-12 15:37:14,629 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.035782923301061 Accuracy 0.7109375
+2025-01-12 15:37:17,299 - player_level_classification_model - INFO - Testing Epoch 5 : Loss 1.0214006853731055 Accuracy 0.7119136571191366
+2025-01-12 15:37:18,796 - player_level_classification_model - INFO - Training: Epoch 6 learning rate 6.5000000000000004e-06
+2025-01-12 15:37:39,172 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.03724947278387845 Accuracy 0.99140625
+2025-01-12 15:37:59,257 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.03774655314628035 Accuracy 0.9912109375
+2025-01-12 15:38:19,285 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.03734050141647458 Accuracy 0.991796875
+2025-01-12 15:38:39,023 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.03796560194459744 Accuracy 0.9919921875
+2025-01-12 15:38:59,088 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.0379424123512581 Accuracy 0.991953125
+2025-01-12 15:39:19,547 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.03762982952951764 Accuracy 0.9919270833333333
+2025-01-12 15:39:39,827 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.03718313594082637 Accuracy 0.9919084821428571
+2025-01-12 15:40:00,170 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.03697824277041946 Accuracy 0.99189453125
+2025-01-12 15:40:09,623 - player_level_classification_model - INFO - Training Epoch 6 : Loss 0.03681625468672904 Accuracy 0.9919737995294986
+2025-01-12 15:40:09,625 - player_level_classification_model - INFO - Validation Epoch 6 :
+2025-01-12 15:40:12,750 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.132869118452072 Accuracy 0.7
+2025-01-12 15:40:15,987 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0610831439495088 Accuracy 0.71015625
+2025-01-12 15:40:19,044 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0540829181671143 Accuracy 0.7130208333333333
+2025-01-12 15:40:21,208 - player_level_classification_model - INFO - Testing Epoch 6 : Loss 1.0412186635167975 Accuracy 0.7119136571191366
+2025-01-12 15:40:21,983 - player_level_classification_model - INFO - Training: Epoch 7 learning rate 4.225e-06
+2025-01-12 15:40:42,243 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.028845066227950154 Accuracy 0.99609375
+2025-01-12 15:41:01,991 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.029047378862742335 Accuracy 0.9955078125
+2025-01-12 15:41:23,562 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.028148263669572772 Accuracy 0.9954427083333334
+2025-01-12 15:41:43,151 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.02883851353544742 Accuracy 0.99482421875
+2025-01-12 15:42:02,674 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.028503735214471818 Accuracy 0.99515625
+2025-01-12 15:42:22,959 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.028098712956610445 Accuracy 0.9948567708333333
+2025-01-12 15:42:44,215 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.027499190049379 Accuracy 0.9950892857142857
+2025-01-12 15:43:04,540 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.027217738938634283 Accuracy 0.995263671875
+2025-01-12 15:43:14,154 - player_level_classification_model - INFO - Training Epoch 7 : Loss 0.02766421775451716 Accuracy 0.9950643479865308
+2025-01-12 15:43:14,156 - player_level_classification_model - INFO - Validation Epoch 7 :
+2025-01-12 15:43:17,673 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.143246865272522 Accuracy 0.703125
+2025-01-12 15:43:20,825 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0763457417488098 Accuracy 0.71015625
+2025-01-12 15:43:23,988 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0786738673845926 Accuracy 0.7052083333333333
+2025-01-12 15:43:26,375 - player_level_classification_model - INFO - Testing Epoch 7 : Loss 1.066348284482956 Accuracy 0.7061021170610212
+2025-01-12 15:43:27,425 - player_level_classification_model - INFO - Training: Epoch 8 learning rate 2.74625e-06
+2025-01-12 15:43:48,284 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.023823811730835587 Accuracy 0.995703125
+2025-01-12 15:44:08,693 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.023295068292645736 Accuracy 0.996484375
+2025-01-12 15:44:29,338 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.024091730798439435 Accuracy 0.9963541666666667
+2025-01-12 15:45:32,585 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 15:45:34,197 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 15:45:34,197 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 15:45:34,484 - player_level_classification_model - INFO - Loaded checkpoint 7.pth
+2025-01-12 15:45:34,668 - player_level_classification_model - INFO - Training: Epoch 8 learning rate 1e-05
+2025-01-12 15:46:29,702 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 15:46:31,161 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 15:46:31,161 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 15:46:31,457 - player_level_classification_model - INFO - model loaded 
+2025-01-12 15:46:31,621 - player_level_classification_model - INFO - Training: Epoch 6 learning rate 6.5000000000000004e-06
+2025-01-12 15:46:51,502 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.037010583374649283 Accuracy 0.99296875
+2025-01-12 15:47:11,227 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.03923780638724565 Accuracy 0.99140625
+2025-01-12 15:47:30,474 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.03873397042043507 Accuracy 0.9911458333333333
+2025-01-12 15:47:51,020 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.03842933817650192 Accuracy 0.99140625
+2025-01-12 15:48:11,349 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.038073809850029644 Accuracy 0.9915625
+2025-01-12 15:48:31,596 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.037488578886647396 Accuracy 0.9917317708333333
+2025-01-12 15:48:52,291 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.037488304276484995 Accuracy 0.9915736607142858
+2025-01-12 15:49:12,740 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.03706514229561435 Accuracy 0.991748046875
+2025-01-12 15:49:21,681 - player_level_classification_model - INFO - Training Epoch 6 : Loss 0.03687502632664852 Accuracy 0.9919276719405876
+2025-01-12 15:49:21,681 - player_level_classification_model - INFO - Validation Epoch 6 :
+2025-01-12 15:49:24,853 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1225322425365447 Accuracy 0.6953125
+2025-01-12 15:49:27,824 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0535510659217835 Accuracy 0.70859375
+2025-01-12 15:49:30,939 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0530152142047882 Accuracy 0.70625
+2025-01-12 15:49:33,074 - player_level_classification_model - INFO - Testing Epoch 6 : Loss 1.0396645665168762 Accuracy 0.7065172270651723
+2025-01-12 15:49:33,762 - player_level_classification_model - INFO - Training: Epoch 7 learning rate 4.225e-06
+2025-01-12 15:49:53,473 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.025372450752183796 Accuracy 0.995703125
+2025-01-12 15:50:12,983 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.028440086205955596 Accuracy 0.9947265625
+2025-01-12 15:50:33,135 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.02750662787196537 Accuracy 0.9953125
+2025-01-12 15:50:53,555 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.027675546251703053 Accuracy 0.99521484375
+2025-01-12 15:51:13,321 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.02711900430265814 Accuracy 0.99546875
+2025-01-12 15:51:32,978 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.02743912479490973 Accuracy 0.9952473958333333
+2025-01-12 15:51:52,464 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.02768908558978832 Accuracy 0.994921875
+2025-01-12 15:52:12,182 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.027097006984695325 Accuracy 0.9953125
+2025-01-12 15:52:22,242 - player_level_classification_model - INFO - Training Epoch 7 : Loss 0.027146462168390683 Accuracy 0.9952949859310853
+2025-01-12 15:52:22,243 - player_level_classification_model - INFO - Validation Epoch 7 :
+2025-01-12 15:52:25,800 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1400756001472474 Accuracy 0.696875
+2025-01-12 15:52:28,953 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.074060422182083 Accuracy 0.7109375
+2025-01-12 15:52:32,185 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0724255402882894 Accuracy 0.7067708333333333
+2025-01-12 15:52:34,469 - player_level_classification_model - INFO - Testing Epoch 7 : Loss 1.0625392010337429 Accuracy 0.705271897052719
+2025-01-12 15:52:35,189 - player_level_classification_model - INFO - Training: Epoch 8 learning rate 2.74625e-06
+2025-01-12 15:52:56,234 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.023362715844996274 Accuracy 0.99765625
+2025-01-12 15:53:17,277 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.023623844631947576 Accuracy 0.996875
+2025-01-12 15:53:38,150 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.024537561018951236 Accuracy 0.9967447916666666
+2025-01-12 15:53:58,866 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.024550239779637197 Accuracy 0.996484375
+2025-01-12 15:54:19,236 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.024581020327750593 Accuracy 0.996484375
+2025-01-12 15:54:39,265 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.023885696101933716 Accuracy 0.9966145833333333
+2025-01-12 15:55:59,207 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 15:56:00,631 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 15:56:00,633 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 15:56:00,854 - player_level_classification_model - INFO - model loaded 
+2025-01-12 15:56:00,984 - player_level_classification_model - INFO - Training: Epoch 6 learning rate 6.5000000000000004e-06
+2025-01-12 15:56:12,014 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 15:56:13,420 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 15:56:13,420 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 15:56:13,638 - player_level_classification_model - INFO - model loaded 
+2025-01-12 15:56:13,785 - player_level_classification_model - INFO - Training: Epoch 6 learning rate 6.5000000000000004e-06
+2025-01-12 15:56:33,224 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.036882617394439876 Accuracy 0.991796875
+2025-01-12 15:56:52,134 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.03883564295247197 Accuracy 0.9916015625
+2025-01-12 15:57:11,013 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.037517508437546594 Accuracy 0.9921875
+2025-01-12 15:57:29,932 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.03779597986722365 Accuracy 0.9921875
+2025-01-12 15:57:48,934 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.03830572579056025 Accuracy 0.99171875
+2025-01-12 15:58:09,562 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.037729124317411336 Accuracy 0.9919921875
+2025-01-12 15:58:30,388 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.038219308257768196 Accuracy 0.9919084821428571
+2025-01-12 15:58:49,940 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.03813778961484786 Accuracy 0.991845703125
+2025-01-12 15:58:59,538 - player_level_classification_model - INFO - Training Epoch 6 : Loss 0.03786307859033962 Accuracy 0.9918354167627658
+2025-01-12 15:58:59,538 - player_level_classification_model - INFO - Validation Epoch 6 :
+2025-01-12 15:59:02,677 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1058746039867402 Accuracy 0.696875
+2025-01-12 15:59:05,634 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0403420448303222 Accuracy 0.7125
+2025-01-12 15:59:09,927 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.034691615899404 Accuracy 0.7088541666666667
+2025-01-12 15:59:12,221 - player_level_classification_model - INFO - Testing Epoch 6 : Loss 1.0247010447477038 Accuracy 0.7102532171025322
+2025-01-12 15:59:13,521 - player_level_classification_model - INFO - Training: Epoch 7 learning rate 4.225e-06
+2025-01-12 15:59:35,052 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.028924293629825116 Accuracy 0.998046875
+2025-01-12 16:07:57,882 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 16:07:58,297 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 16:07:58,297 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 16:07:58,510 - player_level_classification_model - INFO - model loaded 
+2025-01-12 16:07:58,640 - player_level_classification_model - INFO - Training: Epoch 6 learning rate 6.5000000000000004e-06
+2025-01-12 16:08:17,964 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.03906410166528076 Accuracy 0.992578125
+2025-01-12 16:08:39,712 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.038876015483401714 Accuracy 0.9923828125
+2025-01-12 16:08:59,455 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.03799293937627226 Accuracy 0.9921875
+2025-01-12 16:09:18,490 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.03856920165126212 Accuracy 0.99189453125
+2025-01-12 16:09:37,807 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.03920025402680039 Accuracy 0.991796875
+2025-01-12 16:09:56,945 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.03808830163131158 Accuracy 0.9923177083333333
+2025-01-12 16:10:16,478 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.03772231559934361 Accuracy 0.9924665178571429
+2025-01-12 16:10:38,823 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.03697424641286488 Accuracy 0.992578125
+2025-01-12 16:10:48,505 - player_level_classification_model - INFO - Training Epoch 6 : Loss 0.037060791535912886 Accuracy 0.9926657133631626
+2025-01-12 16:10:48,506 - player_level_classification_model - INFO - Validation Epoch 6 :
+2025-01-12 16:10:51,758 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1036680042743683 Accuracy 0.7015625
+2025-01-12 16:10:54,816 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0386464625597 Accuracy 0.7125
+2025-01-12 16:10:58,174 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0369295557339986 Accuracy 0.7098958333333333
+2025-01-12 16:11:00,428 - player_level_classification_model - INFO - Testing Epoch 6 : Loss 1.026446035033778 Accuracy 0.7102532171025322
+2025-01-12 16:11:01,196 - player_level_classification_model - INFO - Training: Epoch 7 learning rate 4.225e-06
+2025-01-12 16:11:21,505 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.03394315093755722 Accuracy 0.9953125
+2025-01-12 16:11:41,242 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.03189968257211149 Accuracy 0.995703125
+2025-01-12 16:12:00,575 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.03193017158191651 Accuracy 0.9953125
+2025-01-12 16:12:20,107 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.03320767103577964 Accuracy 0.994140625
+2025-01-12 16:12:39,461 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.032853764111641794 Accuracy 0.99421875
+2025-01-12 16:12:59,707 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.03301565142464824 Accuracy 0.9940104166666667
+2025-01-12 16:13:20,787 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.032838577186755306 Accuracy 0.9940290178571428
+2025-01-12 16:13:41,280 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.032557284449285365 Accuracy 0.994189453125
+2025-01-12 16:13:51,070 - player_level_classification_model - INFO - Training Epoch 7 : Loss 0.03251681579167029 Accuracy 0.9940495410304904
+2025-01-12 16:13:51,072 - player_level_classification_model - INFO - Validation Epoch 7 :
+2025-01-12 16:13:55,039 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1062175929546356 Accuracy 0.6953125
+2025-01-12 16:13:58,469 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0434444934129714 Accuracy 0.70859375
+2025-01-12 16:14:02,253 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.036986561616262 Accuracy 0.7088541666666667
+2025-01-12 16:14:04,879 - player_level_classification_model - INFO - Testing Epoch 7 : Loss 1.0272855711610693 Accuracy 0.7077625570776256
+2025-01-12 16:14:05,562 - player_level_classification_model - INFO - Training: Epoch 8 learning rate 2.74625e-06
+2025-01-12 16:14:26,421 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.027022959757596256 Accuracy 0.99765625
+2025-01-12 16:14:46,696 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.026593885803595185 Accuracy 0.9970703125
+2025-01-12 16:15:06,891 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.028524120633179943 Accuracy 0.99609375
+2025-01-12 16:15:47,780 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 16:15:48,291 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 16:15:48,291 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 16:15:48,536 - player_level_classification_model - INFO - Loaded checkpoint 7.pth
+2025-01-12 16:15:48,674 - player_level_classification_model - INFO - Training: Epoch 8 learning rate 2.74625e-06
+2025-01-12 16:16:08,382 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.02530125987250358 Accuracy 0.9953125
+2025-01-12 16:16:28,590 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.028644032718148082 Accuracy 0.9947265625
+2025-01-12 16:16:49,266 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.029494261167322598 Accuracy 0.994921875
+2025-01-12 16:17:08,884 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.030731575982645153 Accuracy 0.99453125
+2025-01-12 16:17:27,933 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.032953657913021746 Accuracy 0.9940625
+2025-01-12 16:17:47,008 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.034391909562206516 Accuracy 0.99375
+2025-01-12 16:18:06,375 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.03464797081625355 Accuracy 0.9936941964285714
+2025-01-12 16:18:27,785 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.03488823047664482 Accuracy 0.993994140625
+2025-01-12 16:18:37,087 - player_level_classification_model - INFO - Training Epoch 8 : Loss 0.03533610663374001 Accuracy 0.9940495410304904
+2025-01-12 16:18:37,087 - player_level_classification_model - INFO - Validation Epoch 8 :
+2025-01-12 16:18:40,324 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.0456764638423919 Accuracy 0.703125
+2025-01-12 16:18:43,330 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 0.9914863526821136 Accuracy 0.7125
+2025-01-12 16:18:46,348 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 0.982473369439443 Accuracy 0.7125
+2025-01-12 16:18:48,570 - player_level_classification_model - INFO - Testing Epoch 8 : Loss 0.9747004806995392 Accuracy 0.7119136571191366
+2025-01-12 16:18:49,312 - player_level_classification_model - INFO - Training: Epoch 9 learning rate 1.7850625000000002e-06
+2025-01-12 16:19:09,173 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.039143470814451575 Accuracy 0.99375
+2025-01-12 16:19:29,437 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.04073352264240384 Accuracy 0.9935546875
+2025-01-12 16:19:49,612 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.04135324497086306 Accuracy 0.993359375
+2025-01-12 16:20:09,863 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.041799254238139835 Accuracy 0.99345703125
+2025-01-12 16:20:30,406 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.04266195849515498 Accuracy 0.993203125
+2025-01-12 16:20:50,413 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.044195690712270634 Accuracy 0.9925130208333334
+2025-01-12 16:21:11,727 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.04442234072568161 Accuracy 0.9925223214285714
+2025-01-12 16:21:32,734 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.044447071431204674 Accuracy 0.993017578125
+2025-01-12 16:21:42,083 - player_level_classification_model - INFO - Training Epoch 9 : Loss 0.044664427143546334 Accuracy 0.9931269892522718
+2025-01-12 16:21:42,083 - player_level_classification_model - INFO - Validation Epoch 9 :
+2025-01-12 16:21:45,324 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.0397171139717103 Accuracy 0.696875
+2025-01-12 16:21:48,578 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 0.9871859520673751 Accuracy 0.70390625
+2025-01-12 16:21:51,947 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 0.9752170165379842 Accuracy 0.709375
+2025-01-12 16:21:54,260 - player_level_classification_model - INFO - Testing Epoch 9 : Loss 0.9699700600222537 Accuracy 0.70942299709423
+2025-01-12 16:21:55,012 - player_level_classification_model - INFO - Training: Epoch 10 learning rate 1.1602906250000001e-06
+2025-01-12 16:22:15,394 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.051253343001008034 Accuracy 0.990625
+2025-01-12 16:22:35,617 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.04997303008567542 Accuracy 0.9919921875
+2025-01-12 16:22:54,865 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.04845672271524867 Accuracy 0.9924479166666667
+2025-01-12 16:23:14,077 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.049715719802770765 Accuracy 0.99208984375
+2025-01-12 16:23:35,291 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.05034690498374403 Accuracy 0.9921875
+2025-01-12 16:23:56,082 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.05177987323453029 Accuracy 0.991796875
+2025-01-12 16:24:16,680 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.05171699567830988 Accuracy 0.9920200892857143
+2025-01-12 16:24:37,210 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.052179114951286465 Accuracy 0.992138671875
+2025-01-12 16:24:46,665 - player_level_classification_model - INFO - Training Epoch 10 : Loss 0.052801378714167964 Accuracy 0.9918354167627658
+2025-01-12 16:24:46,666 - player_level_classification_model - INFO - Validation Epoch 10 :
+2025-01-12 16:24:49,957 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.0156879067420959 Accuracy 0.69375
+2025-01-12 16:24:53,054 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 0.9646648436784744 Accuracy 0.70625
+2025-01-12 16:24:56,261 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 0.954999045530955 Accuracy 0.7078125
+2025-01-12 16:24:58,459 - player_level_classification_model - INFO - Testing Epoch 10 : Loss 0.9477510844406328 Accuracy 0.7069323370693233
+2025-01-12 16:24:59,112 - player_level_classification_model - INFO - Training: Epoch 11 learning rate 7.541889062500001e-07
+2025-01-12 16:26:01,892 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 16:26:02,391 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 16:26:02,391 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 16:26:02,634 - player_level_classification_model - INFO - Loaded checkpoint 10.pth
+2025-01-12 16:26:02,770 - player_level_classification_model - INFO - Training: Epoch 11 learning rate 1e-05
+2025-01-12 16:26:22,948 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.06444404423236846 Accuracy 0.9875
+2025-01-12 16:26:43,365 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.07102626122068614 Accuracy 0.9869140625
+2025-01-12 16:27:03,526 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.08259338585970302 Accuracy 0.9845052083333333
+2025-01-12 16:27:24,425 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.0897701687994413 Accuracy 0.9826171875
+2025-01-12 16:27:45,381 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.09804866555146872 Accuracy 0.98046875
+2025-01-12 16:28:05,744 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.10590572306731096 Accuracy 0.9791666666666666
+2025-01-12 16:28:25,964 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.1148499395897878 Accuracy 0.976953125
+2025-01-12 16:28:46,596 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.12308658655383624 Accuracy 0.97470703125
+2025-01-12 16:28:56,595 - player_level_classification_model - INFO - Training Epoch 11 : Loss 0.1266439943285906 Accuracy 0.9737995294985932
+2025-01-12 16:28:56,596 - player_level_classification_model - INFO - Validation Epoch 11 :
+2025-01-12 16:28:59,843 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 0.9201627969741821 Accuracy 0.69375
+2025-01-12 16:29:02,923 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 0.8936134964227677 Accuracy 0.6890625
+2025-01-12 16:29:05,877 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 0.8807243347167969 Accuracy 0.696875
+2025-01-12 16:29:08,186 - player_level_classification_model - INFO - Testing Epoch 11 : Loss 0.8753565408681568 Accuracy 0.6932337069323371
+2025-01-12 16:29:09,142 - player_level_classification_model - INFO - Training: Epoch 12 learning rate 6.5000000000000004e-06
+2025-01-12 16:29:29,268 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.17811191789805889 Accuracy 0.955859375
+2025-01-12 16:29:49,194 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.1833836308680475 Accuracy 0.9568359375
+2025-01-12 16:30:08,968 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.19260364876439173 Accuracy 0.9545572916666667
+2025-01-12 16:30:28,341 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.19787167659960686 Accuracy 0.953515625
+2025-01-12 16:30:48,831 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.20407308038324118 Accuracy 0.950546875
+2025-01-12 16:31:10,126 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.21087250694011647 Accuracy 0.9490234375
+2025-01-12 16:31:30,395 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.21731655547129256 Accuracy 0.9469308035714286
+2025-01-12 16:31:50,638 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.22377290034200997 Accuracy 0.9453125
+2025-01-12 16:32:00,091 - player_level_classification_model - INFO - Training Epoch 12 : Loss 0.22648689689274032 Accuracy 0.9446930208957978
+2025-01-12 16:32:00,092 - player_level_classification_model - INFO - Validation Epoch 12 :
+2025-01-12 16:32:03,236 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 0.9155160188674927 Accuracy 0.69375
+2025-01-12 16:32:07,000 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 0.901412409543991 Accuracy 0.6828125
+2025-01-12 16:32:10,878 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 0.8909283717473347 Accuracy 0.6864583333333333
+2025-01-12 16:32:13,591 - player_level_classification_model - INFO - Testing Epoch 12 : Loss 0.8819391429424286 Accuracy 0.6836861768368617
+2025-01-12 16:32:14,314 - player_level_classification_model - INFO - Training: Epoch 13 learning rate 4.225e-06
+2025-01-12 16:32:35,514 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.22639733366668224 Accuracy 0.95
+2025-01-12 16:32:55,705 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.2348179414868355 Accuracy 0.945703125
+2025-01-12 16:33:15,526 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.23965868676702182 Accuracy 0.9423177083333333
+2025-01-12 16:33:36,567 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.24443315183743836 Accuracy 0.939453125
+2025-01-12 16:33:57,553 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.25073986925184727 Accuracy 0.9359375
+2025-01-12 16:34:18,221 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.25336066509286564 Accuracy 0.9348307291666667
+2025-01-12 16:34:39,106 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.25680531093052456 Accuracy 0.9334263392857143
+2025-01-12 16:34:59,525 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.2618296303786337 Accuracy 0.931103515625
+2025-01-12 16:35:09,013 - player_level_classification_model - INFO - Training Epoch 13 : Loss 0.26400075351769947 Accuracy 0.9299783200332119
+2025-01-12 16:35:09,013 - player_level_classification_model - INFO - Validation Epoch 13 :
+2025-01-12 16:35:12,215 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 0.9376660943031311 Accuracy 0.6890625
+2025-01-12 16:35:15,499 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 0.9286514103412629 Accuracy 0.67421875
+2025-01-12 16:35:18,571 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 0.9174142916997273 Accuracy 0.6796875
+2025-01-12 16:35:20,818 - player_level_classification_model - INFO - Testing Epoch 13 : Loss 0.9077432547744951 Accuracy 0.6791199667911997
+2025-01-12 16:35:21,425 - player_level_classification_model - INFO - Training: Epoch 14 learning rate 2.74625e-06
+2025-01-12 17:41:48,145 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 17:41:49,614 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 17:41:49,616 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 17:41:49,948 - player_level_classification_model - INFO - model loaded 
+2025-01-12 17:42:11,452 - player_level_classification_model - INFO - Class Counts: Counter({'standing': 5802, 'moving': 4581, 'waiting': 3235, 'blocking': 2210, 'digging': 2114, 'setting': 1206, 'falling': 1139, 'spiking': 1083, 'jumping': 309})
+2025-01-12 17:42:12,690 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-12 17:42:12,690 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-12 17:42:13,009 - player_level_classification_model - INFO - model loaded 
+2025-01-12 17:42:13,230 - player_level_classification_model - INFO - Training: Epoch 6 learning rate 1e-05
+2025-01-12 17:43:34,292 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.03938919380307197 Accuracy 0.99375
+2025-01-12 17:44:54,298 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.03891654997132719 Accuracy 0.99296875
+2025-01-12 17:46:14,370 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.037882818887010214 Accuracy 0.9927083333333333
+2025-01-12 17:47:34,339 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.03791037097107619 Accuracy 0.9923828125
+2025-01-12 17:48:54,296 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.03929721784312278 Accuracy 0.9915625
+2025-01-12 17:50:14,340 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.03913545225514099 Accuracy 0.9912760416666667
+2025-01-12 17:51:34,358 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.038781557252098406 Accuracy 0.9912946428571429
+2025-01-12 17:52:54,395 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.03801153306267224 Accuracy 0.99169921875
+2025-01-12 17:53:31,764 - player_level_classification_model - INFO - Training Epoch 6 : Loss 0.038046720624519484 Accuracy 0.9917892891738549
+2025-01-12 17:53:31,764 - player_level_classification_model - INFO - Validation Epoch 6 :
+2025-01-12 17:53:42,894 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.129352229833603 Accuracy 0.7
+2025-01-12 17:53:53,902 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.05332293510437 Accuracy 0.71171875
+2025-01-12 17:54:04,935 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0489537437756857 Accuracy 0.7130208333333333
+2025-01-12 17:54:13,234 - player_level_classification_model - INFO - Testing Epoch 6 : Loss 1.0405471717056476 Accuracy 0.7102532171025322
+2025-01-12 17:54:14,009 - player_level_classification_model - INFO - Training: Epoch 7 learning rate 6.5000000000000004e-06
+2025-01-12 17:55:33,239 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.0294523520860821 Accuracy 0.997265625
+2025-01-12 17:56:52,928 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.027023870265111327 Accuracy 0.9974609375
+2025-01-12 17:58:12,661 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.02701594422881802 Accuracy 0.9962239583333333
+2025-01-12 17:59:32,438 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.02754906310001388 Accuracy 0.9958984375
+2025-01-12 18:00:52,413 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.027724413331598044 Accuracy 0.996015625
+2025-01-12 18:02:12,077 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.027153775852639228 Accuracy 0.9962239583333333
+2025-01-12 18:03:31,856 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.026697273234770235 Accuracy 0.9962611607142857
+2025-01-12 18:04:52,041 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.02698131702345563 Accuracy 0.99609375
+2025-01-12 18:05:26,617 - player_level_classification_model - INFO - Training Epoch 7 : Loss 0.027169384455148975 Accuracy 0.996125282531482
+2025-01-12 18:05:26,617 - player_level_classification_model - INFO - Validation Epoch 7 :
+2025-01-12 18:05:29,769 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1204465568065642 Accuracy 0.7046875
+2025-01-12 18:05:32,876 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0531365633010865 Accuracy 0.71171875
+2025-01-12 18:05:35,652 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0513420542081198 Accuracy 0.7130208333333333
+2025-01-12 18:05:37,661 - player_level_classification_model - INFO - Testing Epoch 7 : Loss 1.044270264474969 Accuracy 0.7119136571191366
+2025-01-12 18:05:38,332 - player_level_classification_model - INFO - Training: Epoch 8 learning rate 4.225e-06
+2025-01-12 18:05:58,150 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.019581006828229875 Accuracy 0.99921875
+2025-01-12 18:06:18,205 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.021558000484947114 Accuracy 0.99765625
+2025-01-12 18:06:38,530 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.023232011566869916 Accuracy 0.996875
+2025-01-12 18:06:59,406 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.022922184292110615 Accuracy 0.9970703125
+2025-01-12 18:07:25,089 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.022735609372612087 Accuracy 0.9971875
+2025-01-12 18:07:45,233 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.022542128269560636 Accuracy 0.9972005208333333
+2025-01-12 18:08:04,990 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.022633466284189906 Accuracy 0.9969866071428571
+2025-01-12 18:08:25,503 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.0226519448828185 Accuracy 0.996923828125
+2025-01-12 18:08:34,479 - player_level_classification_model - INFO - Training Epoch 8 : Loss 0.022511458425483168 Accuracy 0.9969555791318788
+2025-01-12 18:08:34,479 - player_level_classification_model - INFO - Validation Epoch 8 :
+2025-01-12 18:08:37,568 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.130471122264862 Accuracy 0.7046875
+2025-01-12 18:08:40,390 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0678694635629653 Accuracy 0.71328125
+2025-01-12 18:08:43,318 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0630489309628806 Accuracy 0.7140625
+2025-01-12 18:08:45,401 - player_level_classification_model - INFO - Testing Epoch 8 : Loss 1.056554488445583 Accuracy 0.7123287671232876
+2025-01-12 18:08:46,406 - player_level_classification_model - INFO - Training: Epoch 9 learning rate 2.74625e-06
+2025-01-12 18:09:05,846 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.019932109501678497 Accuracy 0.997265625
+2025-01-12 18:09:26,155 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.01995584635878913 Accuracy 0.997265625
+2025-01-12 18:09:46,029 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.02046667969164749 Accuracy 0.9970052083333333
+2025-01-12 18:10:05,372 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.019560876523610205 Accuracy 0.99736328125
+2025-01-12 18:10:24,736 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.019107178039848804 Accuracy 0.9975
+2025-01-12 18:10:44,028 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.019404878153000026 Accuracy 0.9973958333333334
+2025-01-12 18:11:03,395 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.01921671106746154 Accuracy 0.9973214285714286
+2025-01-12 18:11:23,064 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.019193156658730004 Accuracy 0.997412109375
+2025-01-12 18:11:32,017 - player_level_classification_model - INFO - Training Epoch 9 : Loss 0.019304355039126666 Accuracy 0.9973707274320771
+2025-01-12 18:11:32,018 - player_level_classification_model - INFO - Validation Epoch 9 :
+2025-01-12 18:11:35,029 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1604142010211944 Accuracy 0.703125
+2025-01-12 18:11:38,005 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0923873662948609 Accuracy 0.709375
+2025-01-12 18:11:40,900 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0859147707621257 Accuracy 0.7088541666666667
+2025-01-12 18:11:42,986 - player_level_classification_model - INFO - Testing Epoch 9 : Loss 1.0783541908389644 Accuracy 0.7090078870900789
+2025-01-12 18:11:43,608 - player_level_classification_model - INFO - Training: Epoch 10 learning rate 1.7850625000000002e-06
+2025-01-12 18:12:03,201 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.016188543557655068 Accuracy 0.9984375
+2025-01-12 18:12:22,777 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.01692870244733058 Accuracy 0.9986328125
+2025-01-12 18:12:43,193 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.016687486472073944 Accuracy 0.9986979166666666
+2025-01-12 18:13:03,538 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.01720928926952183 Accuracy 0.9984375
+2025-01-12 18:13:23,775 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.017963264025747775 Accuracy 0.998125
+2025-01-12 18:13:43,886 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.017867705691605805 Accuracy 0.998046875
+2025-01-12 18:14:04,211 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.01805805587376069 Accuracy 0.9979910714285715
+2025-01-12 18:14:24,751 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.01810063324664952 Accuracy 0.998095703125
+2025-01-12 18:14:34,139 - player_level_classification_model - INFO - Training Epoch 10 : Loss 0.01820184499338533 Accuracy 0.9981087688546519
+2025-01-12 18:14:34,139 - player_level_classification_model - INFO - Validation Epoch 10 :
+2025-01-12 18:14:37,661 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.155428409576416 Accuracy 0.7
+2025-01-12 18:14:40,957 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0919226467609406 Accuracy 0.70703125
+2025-01-12 18:14:43,962 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0811604619026185 Accuracy 0.7088541666666667
+2025-01-12 18:14:46,274 - player_level_classification_model - INFO - Testing Epoch 10 : Loss 1.0744760977594476 Accuracy 0.7065172270651723
+2025-01-12 18:14:46,914 - player_level_classification_model - INFO - Training: Epoch 11 learning rate 1.1602906250000001e-06
+2025-01-12 18:15:07,393 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.018827105255331843 Accuracy 0.9984375
+2025-01-12 18:15:28,118 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.01675458230311051 Accuracy 0.998828125
+2025-01-12 18:15:48,836 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.016986841188433268 Accuracy 0.9984375
+2025-01-12 18:16:09,307 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.016892651552916506 Accuracy 0.9984375
+2025-01-12 18:16:29,524 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.016690125323366375 Accuracy 0.998515625
+2025-01-12 18:16:49,695 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.016503083302328983 Accuracy 0.9986979166666666
+2025-01-12 18:17:10,393 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.016540809314964072 Accuracy 0.9986049107142857
+2025-01-12 18:17:30,924 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.016593469501822257 Accuracy 0.998681640625
+2025-01-12 18:17:40,273 - player_level_classification_model - INFO - Training Epoch 11 : Loss 0.016677649632634753 Accuracy 0.9986622999215831
+2025-01-12 18:17:40,273 - player_level_classification_model - INFO - Validation Epoch 11 :
+2025-01-12 18:17:43,471 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1561744928359985 Accuracy 0.6953125
+2025-01-12 18:17:46,493 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0975106567144395 Accuracy 0.70625
+2025-01-12 18:17:49,651 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0815827786922454 Accuracy 0.7098958333333333
+2025-01-12 18:17:51,897 - player_level_classification_model - INFO - Testing Epoch 11 : Loss 1.074386930779407 Accuracy 0.7081776670817767
+2025-01-12 18:17:52,563 - player_level_classification_model - INFO - Training: Epoch 12 learning rate 7.541889062500001e-07
+2025-01-12 18:18:12,989 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.01828824820695445 Accuracy 0.99765625
+2025-01-12 18:18:33,839 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.01845883422647603 Accuracy 0.9970703125
+2025-01-12 18:18:55,079 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.018650123608919482 Accuracy 0.9975260416666667
+2025-01-12 18:19:16,163 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.01841600387415383 Accuracy 0.99765625
+2025-01-12 18:19:36,963 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.01849767317529768 Accuracy 0.997578125
+2025-01-12 18:19:57,893 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.01785767190740444 Accuracy 0.9977864583333333
+2025-01-12 18:20:18,799 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.017172444427186358 Accuracy 0.9981026785714285
+2025-01-12 18:20:42,028 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.017337443854194133 Accuracy 0.998046875
+2025-01-12 18:20:53,195 - player_level_classification_model - INFO - Training Epoch 12 : Loss 0.01742593044755777 Accuracy 0.9980626412657411
+2025-01-12 18:20:53,196 - player_level_classification_model - INFO - Validation Epoch 12 :
+2025-01-12 18:20:57,191 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1672073662281037 Accuracy 0.6984375
+2025-01-12 18:21:01,405 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.1051801502704621 Accuracy 0.70625
+2025-01-12 18:21:04,927 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.088730772336324 Accuracy 0.7088541666666667
+2025-01-12 18:21:07,355 - player_level_classification_model - INFO - Testing Epoch 12 : Loss 1.083595467241187 Accuracy 0.7061021170610212
+2025-01-12 18:21:08,550 - player_level_classification_model - INFO - Training: Epoch 13 learning rate 4.902227890625001e-07
+2025-01-12 18:21:31,952 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.013259393128100783 Accuracy 0.999609375
+2025-01-12 18:21:52,385 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.015866183582693337 Accuracy 0.9984375
+2025-01-12 18:22:12,510 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.016536106446680302 Accuracy 0.9983072916666667
+2025-01-12 18:22:33,362 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.016956181610294153 Accuracy 0.9982421875
+2025-01-12 18:22:55,364 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.016745752362767236 Accuracy 0.99828125
+2025-01-12 18:23:16,914 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.016251234914913464 Accuracy 0.9983723958333334
+2025-01-12 18:23:38,955 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.015935733995034493 Accuracy 0.9984375
+2025-01-12 18:24:01,000 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.016049636672687485 Accuracy 0.998388671875
+2025-01-12 18:24:10,762 - player_level_classification_model - INFO - Training Epoch 13 : Loss 0.016029756073221827 Accuracy 0.9984316619770285
+2025-01-12 18:24:10,762 - player_level_classification_model - INFO - Validation Epoch 13 :
+2025-01-12 18:24:14,187 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1556271731853485 Accuracy 0.7015625
+2025-01-12 18:24:17,439 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.0961111515760422 Accuracy 0.71171875
+2025-01-12 18:24:20,689 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.0883732398351034 Accuracy 0.7114583333333333
+2025-01-12 18:24:23,049 - player_level_classification_model - INFO - Testing Epoch 13 : Loss 1.0834660781057257 Accuracy 0.7102532171025322
+2025-01-12 18:24:23,775 - player_level_classification_model - INFO - Training: Epoch 14 learning rate 3.1864481289062506e-07
+2025-01-12 18:24:45,239 - player_level_classification_model - INFO -  Iteration 40/339 Loss 0.01412089664954692 Accuracy 0.998828125
+2025-01-12 18:25:07,481 - player_level_classification_model - INFO -  Iteration 80/339 Loss 0.014685298968106508 Accuracy 0.9984375
+2025-01-12 18:25:29,690 - player_level_classification_model - INFO -  Iteration 120/339 Loss 0.014567357872147113 Accuracy 0.9984375
+2025-01-12 18:25:51,012 - player_level_classification_model - INFO -  Iteration 160/339 Loss 0.014984300450305455 Accuracy 0.99853515625
+2025-01-12 18:26:12,235 - player_level_classification_model - INFO -  Iteration 200/339 Loss 0.016148536198306827 Accuracy 0.99828125
+2025-01-12 18:26:35,056 - player_level_classification_model - INFO -  Iteration 240/339 Loss 0.016128748492337763 Accuracy 0.9983723958333334
+2025-01-12 18:26:57,970 - player_level_classification_model - INFO -  Iteration 280/339 Loss 0.015941193501930684 Accuracy 0.9983816964285714
+2025-01-12 18:27:19,928 - player_level_classification_model - INFO -  Iteration 320/339 Loss 0.01568823061825242 Accuracy 0.99853515625
+2025-01-12 18:27:30,354 - player_level_classification_model - INFO - Training Epoch 14 : Loss 0.015936014470493195 Accuracy 0.9984316619770285
+2025-01-12 18:27:30,355 - player_level_classification_model - INFO - Validation Epoch 14 :
+2025-01-12 18:27:34,077 - player_level_classification_model - INFO - Validation Iteration 10/38 Loss 1.1676686465740205 Accuracy 0.7015625
+2025-01-12 18:27:37,835 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.10762819647789 Accuracy 0.709375
+2025-01-12 18:27:41,095 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.1012933214505514 Accuracy 0.7098958333333333
+2025-01-12 18:27:43,489 - player_level_classification_model - INFO - Testing Epoch 14 : Loss 1.0916861672150462 Accuracy 0.7073474470734745

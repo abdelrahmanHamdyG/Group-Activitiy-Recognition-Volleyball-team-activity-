@@ -9,18 +9,14 @@ if project_root not in sys.path:
 
 from torchvision import transforms as T
 import torch
-import cv2
-import matplotlib.pyplot as plt
-from PIL import Image
 from utils.eval_metrics import display_confusion_matrix
 import os
+
 import torch.nn as nn
 import torch.optim as optim
-import torchvision.models as models
 from utils.logger import Logger
-import dataloader
-import albumentations as A
-from albumentations.pytorch import ToTensorV2
+import dataloading.dataloader as dataloader
+from dataloading.dataloader import save_checkpoint
 from torch.utils.data import  DataLoader
 from b1_model import B1_Dataset, load_model
 from collections import Counter
@@ -46,6 +42,8 @@ train_transform = T.transforms.Compose([
             hue=0.06            
         )
     ], p=0.15),
+        
+
 
     T.transforms.ToTensor(),
     T.transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
@@ -60,46 +58,6 @@ eval_transform = T.transforms.Compose([
 
 
 
-
-
-def save_checkpoint(epoch, model_dict, optimizer_dict, train_loss, eval_loss, accuracy, checkpoint_path="checkpoints"):
-    if not os.path.exists(checkpoint_path):
-        os.makedirs(checkpoint_path)
-
-    checkpoint_path = os.path.join(checkpoint_path, f"{epoch}.pth")
-    logger.info(f"Saving checkpoint at {checkpoint_path}")
-    torch.save({
-        "epoch": epoch,
-        "model_state_dict": model_dict,
-        "optimizer_state_dict": optimizer_dict,
-        "train_loss": train_loss,
-        "eval_loss": eval_loss,
-        "accuracy": accuracy
-    }, checkpoint_path)
-
-    best_accuracy=check_best_model_accuracy("modeling/b1/best_model.pth")
-    logger.info(f"Current best accuracy: {best_accuracy} and the accuracy for the current model {accuracy}" )
-    if accuracy>best_accuracy:
-        logger.info("New best model found")
-        
-        logger.info("Saving best model")
-        torch.save({
-        "epoch": epoch,
-        "model_state_dict": model_dict,
-        "optimizer_state_dict": optimizer_dict,
-        "train_loss": train_loss,
-        "eval_loss": eval_loss,
-        "accuracy": accuracy
-    }, "modeling/b1/best_model.pth")
-
-    
-
-
-def check_best_model_accuracy(checkpoint_path):
-    if os.path.exists(checkpoint_path):    
-        model_loaded = torch.load(checkpoint_path)
-        return model_loaded["accuracy"]
-    return 0
 
 
 
@@ -193,16 +151,68 @@ def train():
         scheduler.step(eval_loss / len(eval_loader))
         
         save_checkpoint(epoch, model.state_dict(), optimizer.state_dict(),
-                        train_loss / len(train_loader), eval_loss / len(eval_loader), accuracy, checkpoint_path="modeling/b1/checkpoints")
+                        train_loss / len(train_loader), eval_loss / len(eval_loader), accuracy, checkpoint_path="models_trained/b1/checkpoints")
         
         # display_confusion_matrix(all_predicted,all_labels,["r-set", "l-set", "r-winpoint", "l-winpoint", "l-pass", "r-pass", "l-spike", "r-spike"],logger)
    
         
 
+def test_and_eval():
+    model, _, _ = load_model(True)
+
+    videos_train,annot_train, videos_val,annot_val, videos_test,annot_test=dataloader.get_data(all_frames=False)
+
+    eval_dataset = B1_Dataset(videos_val, annot_val, eval_transform)
+    eval_loader = DataLoader(eval_dataset, batch_size=64)
+    test_dataset = B1_Dataset(videos_test, annot_test, eval_transform)
+    test_loader = DataLoader(test_dataset, batch_size=64)
+
+    
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    
+    criterion = nn.CrossEntropyLoss()
+    
+    with torch.no_grad():
+
+        test_correct = 0
+        all_predicted=[]
+        all_labels=[]
+        test_loss=0
+        model.eval()
+        for idx, (inputs, output) in enumerate(test_loader):
+            inputs, output = inputs.to(device), output.to(device)
+            predicted = model(inputs)
+            chosen_action = torch.argmax(predicted, dim=1)
+            all_predicted.extend(chosen_action.cpu().numpy())
+            all_labels.extend(output.cpu().numpy())
+            test_correct += (chosen_action == output).sum().item()
+            loss = criterion(predicted, output)
+            test_loss += loss.item()
+        
+        eval_loss=0
+        eval_correct=0   
+        for idx, (inputs, output) in enumerate(eval_loader):
+            inputs, output = inputs.to(device), output.to(device)
+            predicted = model(inputs)
+            chosen_action = torch.argmax(predicted, dim=1)
+            all_predicted.extend(chosen_action.cpu().numpy())
+            all_labels.extend(output.cpu().numpy())
+            eval_correct += (chosen_action == output).sum().item()
+            loss = criterion(predicted, output)
+            eval_loss += loss.item()
+        
 
 
+    logger.info(f"Test: Loss: {test_loss / len(test_loader)}, Accuracy: {test_correct / len(videos_test)}")
+    logger.info(f"Eval: Loss: {eval_loss / len(eval_loader)}, Accuracy: {eval_correct / len(videos_val)}")
+    
 
-# Run Main
+    display_confusion_matrix(all_predicted,all_labels,["r-set", "l-set", "r-winpoint", "l-winpoint", "l-pass", "r-pass", "l-spike", "r-spike"],logger)
+
+    
+
+
 if __name__ == "__main__":
-    train()
-    pass
+    # train()
+    test_and_eval()

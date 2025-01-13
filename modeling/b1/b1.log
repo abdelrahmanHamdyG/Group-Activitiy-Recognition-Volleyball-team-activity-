@@ -208,3 +208,45 @@
 2025-01-10 20:18:44,011 - b1_trainer - INFO - New best model found
 2025-01-10 20:18:44,011 - b1_trainer - INFO - Saving best model
 2025-01-10 20:18:44,538 - b1_trainer - INFO - Training: Epoch 8, Current LR: 1e-05
+2025-01-11 18:29:28,520 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:29:28,521 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloader.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:29:28,967 - b1_model - INFO - model loaded 
+2025-01-11 18:31:58,232 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:31:58,232 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloader.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:31:58,601 - b1_model - INFO - model loaded 
+2025-01-11 18:36:57,620 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:36:57,620 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloader.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:36:58,045 - b1_model - INFO - model loaded 
+2025-01-11 18:38:37,232 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:38:37,232 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:38:37,604 - b1_model - INFO - model loaded 
+2025-01-11 18:40:08,630 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:40:08,631 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:40:09,093 - b1_model - INFO - model loaded 
+2025-01-11 18:43:40,693 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:43:40,693 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:43:41,071 - b1_model - INFO - model loaded 
+2025-01-11 18:44:32,934 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:44:32,934 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:44:33,312 - b1_model - INFO - model loaded 
+2025-01-11 18:45:37,246 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:45:37,248 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:45:37,581 - b1_model - INFO - model loaded 
+2025-01-11 18:50:01,843 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:50:01,843 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:50:02,289 - b1_model - INFO - model loaded 
+2025-01-11 18:51:14,762 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:51:14,762 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:51:15,129 - b1_model - INFO - model loaded 
+2025-01-11 18:52:43,393 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:52:43,393 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:52:43,733 - b1_model - INFO - model loaded 
+2025-01-11 18:53:42,093 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:53:42,095 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'utils']
+2025-01-11 18:53:42,438 - b1_model - INFO - model loaded 
+2025-01-11 18:54:08,459 - b1_trainer - INFO - Test: Loss: 1.166355250846772, Accuracy: 0.7486910994764397
+2025-01-11 18:58:22,888 - b1_model - INFO - Current path: C:\Project\project
+2025-01-11 18:58:22,889 - b1_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-11 18:58:23,245 - b1_model - INFO - model loaded 
+2025-01-11 18:59:07,658 - b1_trainer - INFO - Test: Loss: 1.166355250846772, Accuracy: 0.7486910994764397
+2025-01-11 18:59:07,658 - b1_trainer - INFO - Eval: Loss: 1.2497478382928031, Accuracy: 0.7203579418344519

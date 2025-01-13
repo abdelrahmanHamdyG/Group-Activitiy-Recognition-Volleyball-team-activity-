@@ -4,3 +4,4 @@ saved_pickles/
 models_trained/
 dataset/
 players_dataset/
+*.pyc

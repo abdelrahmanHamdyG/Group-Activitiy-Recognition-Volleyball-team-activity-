@@ -75,8 +75,8 @@ def load_model(best_model=True,new_lr=None):
     files = os.listdir(current_path)
     logger.info(f"Files in current path: {files}")  
     if best_model:
-        if os.path.exists("modeling/b1/best_model.pth"):
-            checkpoint_saved=torch.load("modeling/b1/best_model.pth")
+        if os.path.exists("models_trained/b1/best_model.pth"):
+            checkpoint_saved=torch.load("models_trained/b1/best_model.pth")
             logger.info(f"model loaded ")
 
             model.load_state_dict(checkpoint_saved["model_state_dict"],strict=False)
@@ -86,11 +86,11 @@ def load_model(best_model=True,new_lr=None):
         else:
             logger.info("No model found starting from scratch")
     else:
-        if os.path.exists("modeling/b1/checkpoints"):
-            checkpoints = [f for f in os.listdir("modeling/b1/checkpoints") if f.endswith('.pth')]
+        if os.path.exists("models_trained/b1/checkpoints"):
+            checkpoints = [f for f in os.listdir("models_trained/b1/checkpoints") if f.endswith('.pth')]
             if checkpoints:
                 latest_checkpoint = max(checkpoints, key=lambda x: int(x.split('.')[0]))
-                checkpoint_saved = torch.load(f"modeling/b1/checkpoints/{latest_checkpoint}")
+                checkpoint_saved = torch.load(f"models_trained/b1/checkpoints/{latest_checkpoint}")
                 logger.info(f"Loaded checkpoint {latest_checkpoint}")
                 
 

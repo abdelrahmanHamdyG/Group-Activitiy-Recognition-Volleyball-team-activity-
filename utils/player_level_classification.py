@@ -78,7 +78,7 @@ class PlayerDataset(Dataset):
     
 
 
-import utils.dataloader as dataloader
+import dataloading.dataloader as dataloader
 import cv2
 import torch
 import pickle
@@ -231,7 +231,7 @@ def main():
     images,actions=get_players_data()
     train_size=int(0.9*len(images))
     test_size=len(images)-train_size
-
+    
     generator = torch.Generator().manual_seed(42)  
 
     data_set=PlayerDataset(images,actions)

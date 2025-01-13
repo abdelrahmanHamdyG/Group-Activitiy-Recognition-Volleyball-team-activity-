@@ -1,4 +1,3 @@
-
 class annotation():
     def __init__(self,annot_str):
 
