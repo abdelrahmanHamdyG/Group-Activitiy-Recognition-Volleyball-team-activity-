@@ -1,5 +1,5 @@
 from dataloading.dataloader import get_players_dataset,save_checkpoint
-from modeling.player_level_classification.player_level_classification_model import PlayerDataset,load_model
+from modeling.player_level_classification.player_level_classification_model import PlayerDataset,load_players_model
 from torch.utils.data import random_split
 from torchvision import transforms as T
 from collections import Counter
@@ -60,7 +60,7 @@ def train():
     ).to('cuda' if torch.cuda.is_available() else 'cpu')
 
 
-    model,optimizer,start_epoch=load_model(best_model=True,new_lr=0.00001,weight_decay=0.01)
+    model,optimizer,start_epoch=load_players_model(best_model=True,new_lr=0.00001,weight_decay=0.01)
     train_criterion=nn.CrossEntropyLoss(weight=class_weights)
     test_criterion=nn.CrossEntropyLoss()
     scheduler=torch.optim.lr_scheduler.StepLR(optimizer,step_size=1,gamma=0.65)

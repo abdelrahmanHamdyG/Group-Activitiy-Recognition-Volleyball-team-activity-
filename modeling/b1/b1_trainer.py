@@ -18,7 +18,7 @@ from utils.logger import Logger
 import dataloading.dataloader as dataloader
 from dataloading.dataloader import save_checkpoint
 from torch.utils.data import  DataLoader
-from b1_model import B1_Dataset, load_model
+from modeling.b1.b1_model import B1_Dataset, load_model
 from collections import Counter
 
 logger = Logger("b1_trainer","modeling/b1/b1.log")

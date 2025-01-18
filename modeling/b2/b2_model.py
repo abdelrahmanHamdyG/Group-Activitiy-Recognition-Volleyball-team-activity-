@@ -6,27 +6,21 @@ from collections import Counter,defaultdict
 import matplotlib.pyplot as plt 
 from modeling.b1.b1_trainer import save_checkpoint
 from PIL import Image
-from torchvision import transforms
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import torchvision.models as models
-from utils.player_level_classification import PlayersModel
+from modeling.player_level_classification.player_level_classification_model import PlayersModel
 from utils.logger import Logger
 from torch.utils.data import Dataset,DataLoader,random_split
 from sklearn.metrics import confusion_matrix,ConfusionMatrixDisplay
 
 
-logger=Logger("b2_model")
+logger=Logger("b2_model","modeling/b2/b2.log")
 
 
-transform = transforms.Compose([
-    transforms.Resize((224, 224)),
-    transforms.ToTensor(),
-    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
-])
 
-class b2_dataset(Dataset):
+class B2_Dataset(Dataset):
     def __init__(self,images,annot,transform,model):
         self.images=images
         self.annot=annot
@@ -49,7 +43,6 @@ class b2_dataset(Dataset):
             cropped_image=self.transform(cropped_image)
             cropped_image_list.append(cropped_image)
         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 
         self.model.eval()
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -57,6 +50,8 @@ class b2_dataset(Dataset):
             cropped_image_list=torch.stack(cropped_image_list).to(device)
             
             cropped_image_list=self.model(cropped_image_list)
+            
+            
             
         
         
@@ -87,13 +82,14 @@ class b2_net(nn.Module):
         self.fc1 = nn.Linear(2048, 1024)
         self.bn1 = nn.BatchNorm1d(1024)
         self.relu1 = nn.ReLU()
-        self.drop1 = nn.Dropout(0.5)
+        self.drop1 = nn.Dropout(0.45)
         
         # Second Fully Connected Layer
         self.fc2 = nn.Linear(1024, 512)
         self.bn2 = nn.BatchNorm1d(512)
         self.relu2 = nn.ReLU()
-        self.drop2 = nn.Dropout(0.55)
+
+        self.drop2 = nn.Dropout(0.5)
         
         # Third Fully Connected Layer
         self.fc3 = nn.Linear(512, 8)
@@ -101,7 +97,7 @@ class b2_net(nn.Module):
 
     def forward(self, x):
         # Aggregate player features using max pooling
-        x = torch.mean(x, 1) # Shape: (batch_size, 2048)
+        x,_= torch.max(x, 1) # Shape: (batch_size, 2048)
         
         # First Layer
         x = self.fc1(x)
@@ -119,29 +115,59 @@ class b2_net(nn.Module):
         
         return x
 
-def load_latest_checkpoint(model, optimizer, checkpoint_path="b2_checkpoints8", new_lr=None):
-    if not os.path.exists(checkpoint_path) or len(os.listdir(checkpoint_path)) == 0:
-        print("No checkpoints found.")
-        return model, optimizer, 0
+
+
+def load_model(best_model=True,new_lr=None,weight_decay=None):
+
+    device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    model=b2_net()
+    optimizer=torch.optim.Adam(model.parameters(),lr=0.0001,weight_decay=0.001)
+    last_epoch=0
+    current_path = os.getcwd()
+    logger.info(f"Current path: {current_path}")
+    files = os.listdir(current_path)
+    logger.info(f"Files in current path: {files}")  
+    if best_model :
+        if os.path.exists("models_trained/b2/best_model.pth") :
+            checkpoint_saved=torch.load("models_trained/b2/checkpoints/30.pth")
+            logger.info(f"model loaded ")
+
+            model.load_state_dict(checkpoint_saved["model_state_dict"],strict=False)
+            optimizer.load_state_dict(checkpoint_saved["optimizer_state_dict"])
+            last_epoch=checkpoint_saved["epoch"]
+            
+        else:
+            logger.info("No model found starting from scratch")
+    else:
+        if os.path.exists("models_trained/b2/checkpoints"):
+            checkpoints = [f for f in os.listdir("models_trained/b2/checkpoints") if f.endswith('.pth')]
+            if checkpoints:
+                latest_checkpoint = max(checkpoints, key=lambda x: int(x.split('.')[0]))
+                checkpoint_saved = torch.load(f"models_trained/b2/checkpoints/{latest_checkpoint}")
+                logger.info(f"Loaded checkpoint {latest_checkpoint}")
+                
+
+                model.load_state_dict(checkpoint_saved["model_state_dict"])
+                optimizer.load_state_dict(checkpoint_saved["optimizer_state_dict"])
+                last_epoch = checkpoint_saved["epoch"]
+            else:
+                logger.info("No checkpoints found, starting from scratch")
+        else:
+            logger.info("No model found starting from scratch")
     
-    latest_checkpoint = max(os.listdir(checkpoint_path), key=lambda x: int(x.split('.')[0]))
-    checkpoint_file = os.path.join(checkpoint_path, latest_checkpoint)
-    print(f"Loading checkpoint from {checkpoint_file}")
-    
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    checkpoint = torch.load(checkpoint_file, map_location=device)
-    model.load_state_dict(checkpoint['model_state_dict'])
-    optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-    epoch = checkpoint['epoch']
-    
-    # Update learning rate if specified
+    model=model.to(device)
+    for state in optimizer.state.values():
+                for k, v in state.items():
+                    if isinstance(v, torch.Tensor):
+                        state[k] = v.to(device)
     if new_lr:
         for param_group in optimizer.param_groups:
             param_group['lr'] = new_lr
-            
-        print(f"Learning rate updated to {new_lr}")
-    
-    return model, optimizer, epoch
+    if weight_decay:
+        for param_group in optimizer.param_groups:
+            param_group['weight_decay'] = weight_decay
+    return model,optimizer,last_epoch
 
 
 
@@ -158,238 +184,6 @@ def log_class_counts(dataset_split, split_name):
     for cls in range(8):  # Assuming 8 classes indexed from 0 to 7
         count = class_counts.get(cls, 0)
         logger.info(f"  Class {cls}: {count}")
-
-
-
-        
-def main():
-
-    
-    images,annot=dataloader.get_data()
-    
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-    resnet=PlayersModel(False)
-    
-    
-    optimizer=optim.Adam(resnet.parameters(),lr=0.001)
-    device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    
-    resnet,optimizer,start_epoch=load_latest_checkpoint(resnet,optimizer,checkpoint_path="player_level_classification_checkpoints3")
-    resnet=resnet.to(device)
-    
-
-
-
-    dataset = b2_dataset(images, annot, transform, resnet)
-    
-
-    
-
-    
-    
-    
-    
-    
-
-    train_size = int(len(images) * 0.8)
-    eval_size = int(len(images) * 0.1)
-    test_size = len(images) - train_size - eval_size
-    generator = torch.Generator().manual_seed(42)  
-    train_data, eval_data, test_data = random_split(dataset, [train_size, eval_size, test_size],generator=generator)
-    
-    # log_class_counts(train_data, "Train")
-    # log_class_counts(eval_data, "Eval")
-
-    
-    train_loader = DataLoader(train_data, batch_size=32, shuffle=True)
-    eval_loader = DataLoader(eval_data, batch_size=32)
-    test_loader= DataLoader(test_data, batch_size=32)
-    criterion = nn.CrossEntropyLoss()
-
-    model = b2_net()
-    model=model.to(device)
-    optimizer = optim.Adam(model.parameters(), lr=0.002,weight_decay=0.01)
-    scheduler=optim.lr_scheduler.StepLR(optimizer,step_size=2,gamma=0.77)
-    
-    start_epoch = -1
-    model, optimizer, start_epoch = load_latest_checkpoint(model, optimizer, checkpoint_path="b2_checkpoints8",new_lr=4.8145569800559e-05)
-    desired_weight_decay = 0.001    
-
-    for param_group in optimizer.param_groups:
-        param_group['weight_decay'] = desired_weight_decay
-
-
-    model.train()
-    epochs=150
-    
-    for epoch in range(start_epoch+1,epochs,1):
-        epoch_loss=0
-        correct=0
-        total=0
-        logger.info (f"Epoch {epoch}, Current LR: {optimizer.param_groups[0]['lr']}")
-
-        for idx,(inputs,output,_) in enumerate(train_loader):
-            if idx%40==1:
-                logger.info(f"Epoch {epoch}, Batch {idx-1} accuracy {correct/total}")
-            
-            inputs=inputs.to(device)
-            output=output.to(device)
-            predicted=model(inputs)
-            loss=criterion(predicted,output)
-            correct+=(torch.max(predicted,1)[1]==output).sum().item()
-            total+=output.size(0)
-            optimizer.zero_grad()
-            loss.backward()
-            epoch_loss+=loss.item()
-            optimizer.step()
-        
-        logger.info(f"Epoch {epoch}, Loss: {epoch_loss / len(train_loader)} Accuracy: {correct / total}")
-        
-        scheduler.step() 
-       
-        model.eval()
-        correct=0
-        eval_loss=0
-        total=0
-        with torch.no_grad():
-            for idx,(inputs,output,_) in enumerate(eval_loader):
-                if idx%40==1:
-                    logger.info(f"Epoch {epoch}, Batch {idx-1} accuracy {correct/total}")
-                inputs=inputs.to(device)
-                output=output.to(device)
-                predicted=model(inputs)
-                loss=criterion(predicted,output)
-                eval_loss+=loss.item()
-                total+=output.size(0)
-                predicted_class=torch.max(predicted,1)[1]
-                correct+=(predicted_class==output).sum().item()
-                
-
-            accuracy = correct / len(eval_data)
-            logger.info(f"Epoch {epoch} Eval Loss: {eval_loss / len(eval_loader)}, Accuracy: {accuracy:.4f}")
-        model.train()
-        save_checkpoint(epoch,model.state_dict(),optimizer.state_dict(),epoch_loss/len(train_loader),eval_loss/len(eval_loader),accuracy,"b2_checkpoints8")
-        
-       
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-if __name__ == "__main__":
-    # main()
-
-    counts_by_players = defaultdict(int)
-    correct_by_players = defaultdict(int)
-
-    
-    images,annot=dataloader.get_data()
-    
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-    resnet=PlayersModel(False)
-    
-    
-    optimizer=optim.Adam(resnet.parameters(),lr=0.001)
-    device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    
-    resnet,optimizer,start_epoch=load_latest_checkpoint(resnet,optimizer,checkpoint_path="player_level_classification_checkpoints3")
-    resnet=resnet.to(device)
-    
-
-    dataset = b2_dataset(images, annot, transform, resnet)
-    
-    
-    model = b2_net()
-    model=model.to(device)
-    optimizer = optim.Adam(model.parameters(), lr=0.002)
-    
-
-    model, optimizer = load_latest_checkpoint(model, optimizer, checkpoint_path="b2_checkpoints8")[:2]
-
-    dataloader_instance=DataLoader(dataset,32,shuffle=False)
-    
-    train_size = int(len(images) * 0.8)
-    eval_size = int(len(images) * 0.1)
-    test_size = len(images) - train_size - eval_size
-    generator = torch.Generator().manual_seed(42)  
-    train_data, eval_data, test_data = random_split(dataset, [train_size, eval_size, test_size],generator=generator)
-    
-    # log_class_counts(train_data, "Train")
-    # log_class_counts(eval_data, "Eval")
-
-    
-    train_loader = DataLoader(train_data, batch_size=32, shuffle=True)
-    eval_loader = DataLoader(eval_data, batch_size=32)
-    test_loader= DataLoader(test_data, batch_size=32)
-
-
-
-
-    model.eval()
-    correct=0
-    eval_loss=0
-    criterion = nn.CrossEntropyLoss()
-    all_labels=[]
-    all_preds=[]
-
-    total=0
-    with torch.no_grad():
-        for idx,(inputs,output,no_of_players) in enumerate(eval_loader):
-            if idx%40==1:
-                logger.info(f" Batch {idx-1} accuracy {correct/total}")
-            inputs=inputs.to(device)
-            
-            output=output.to(device)
-            predicted=model(inputs)
-            loss=criterion(predicted,output)
-            eval_loss+=loss.item()
-            total+=output.size(0)
-            predicted_class=torch.max(predicted,1)[1]
-            correct+=(predicted_class==output).sum().item()
-            for i in range(inputs.size(0)):
-                players_count=no_of_players[i].item()
-                counts_by_players[players_count]+=1
-                if predicted_class[i].item()==output[i].item():
-                    correct_by_players[players_count] += 1
-
-
-            all_labels.extend(output.cpu().numpy())
-            all_preds.extend(predicted_class.cpu().numpy())
-
-        accuracy = correct /total
-        logger.info(f"  Loss: {eval_loss / len(eval_loader)}, Accuracy: {accuracy:.4f}")
-    
-    logger.info("Accuracy by number of players:")
-    for n_players in sorted(counts_by_players.keys()):
-        total_n = counts_by_players[n_players]
-        correct_n = correct_by_players[n_players]
-        logger.info(f"{n_players} players: {correct_n}/{total_n} = {correct_n/total_n:.4f}")
-
-
-    cm=confusion_matrix(all_labels,all_preds)
-    disp=ConfusionMatrixDisplay(confusion_matrix=cm,display_labels=[ "r-set", "l-set", "r-winpoint", "l-winpoint",
-            "l-pass", "r-pass", "l-spike", "r-spike"])
-    disp.plot(cmap="Blues")
-    plt.show()
-
-    
-
-
-
-
-
-
 
 
 

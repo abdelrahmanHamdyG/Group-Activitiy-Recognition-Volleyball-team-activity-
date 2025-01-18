@@ -59,18 +59,20 @@ class PlayersModel(nn.Module):
     def forward(self, x):
         x = self.resnet(x)
         if not self.classifier:
+            
             return x
+            
         x = x.view(x.size(0), -1)
         x = self.dropout(x)
         x = self.fc(x)
         return x
 
 
-def load_model(best_model=True,new_lr=None,weight_decay=None):
+def load_players_model(best_model=True,new_lr=None,weight_decay=None,classifier=False):
 
     device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    model=PlayersModel()
+    model=PlayersModel(classifier=classifier)
     optimizer=torch.optim.Adam(model.parameters(),lr=0.0001,weight_decay=0.005)
     last_epoch=0
     current_path = os.getcwd()
@@ -85,7 +87,7 @@ def load_model(best_model=True,new_lr=None,weight_decay=None):
             model.load_state_dict(checkpoint_saved["model_state_dict"],strict=False)
             optimizer.load_state_dict(checkpoint_saved["optimizer_state_dict"])
             last_epoch=checkpoint_saved["epoch"]
-            print(last_epoch)
+            
         else:
             logger.info("No model found starting from scratch")
     else:
@@ -116,6 +118,7 @@ def load_model(best_model=True,new_lr=None,weight_decay=None):
     if weight_decay:
         for param_group in optimizer.param_groups:
             param_group['weight_decay'] = weight_decay
+    model.classifier=classifier
     return model,optimizer,last_epoch
 
 

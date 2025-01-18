@@ -504,3 +504,110 @@
 2025-01-12 18:27:37,835 - player_level_classification_model - INFO - Validation Iteration 20/38 Loss 1.10762819647789 Accuracy 0.709375
 2025-01-12 18:27:41,095 - player_level_classification_model - INFO - Validation Iteration 30/38 Loss 1.1012933214505514 Accuracy 0.7098958333333333
 2025-01-12 18:27:43,489 - player_level_classification_model - INFO - Testing Epoch 14 : Loss 1.0916861672150462 Accuracy 0.7073474470734745
+2025-01-13 10:57:03,599 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-13 10:57:03,599 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-13 10:57:04,650 - player_level_classification_model - INFO - model loaded 
+2025-01-13 10:57:49,259 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-13 10:57:49,261 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-13 11:00:26,104 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-13 11:00:26,104 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-13 11:00:27,190 - player_level_classification_model - INFO - model loaded 
+2025-01-13 11:02:01,089 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-13 11:02:01,089 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-13 11:02:02,028 - player_level_classification_model - INFO - model loaded 
+2025-01-13 11:04:02,928 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-13 11:04:02,928 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-13 11:04:03,939 - player_level_classification_model - INFO - model loaded 
+2025-01-13 18:59:46,520 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-13 18:59:46,520 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-13 18:59:46,990 - player_level_classification_model - INFO - model loaded 
+2025-01-14 00:29:01,582 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 00:29:01,582 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 00:29:02,021 - player_level_classification_model - INFO - model loaded 
+2025-01-14 00:30:45,024 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 00:30:45,024 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 00:30:45,479 - player_level_classification_model - INFO - model loaded 
+2025-01-14 00:31:37,278 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 00:31:37,278 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 00:31:37,627 - player_level_classification_model - INFO - model loaded 
+2025-01-14 00:37:13,706 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 00:37:13,706 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 00:37:13,975 - player_level_classification_model - INFO - model loaded 
+2025-01-14 08:21:35,612 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 08:21:35,612 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 08:21:35,993 - player_level_classification_model - INFO - model loaded 
+2025-01-14 08:23:19,552 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 08:23:19,553 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 08:23:19,870 - player_level_classification_model - INFO - model loaded 
+2025-01-14 08:40:39,542 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 08:40:39,542 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 08:40:39,901 - player_level_classification_model - INFO - model loaded 
+2025-01-14 08:47:15,137 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 08:47:15,137 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 08:47:15,426 - player_level_classification_model - INFO - model loaded 
+2025-01-14 09:14:33,847 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 09:14:33,847 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 09:14:34,343 - player_level_classification_model - INFO - model loaded 
+2025-01-14 09:22:15,982 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 09:22:15,983 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 09:22:16,369 - player_level_classification_model - INFO - model loaded 
+2025-01-14 09:38:08,587 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 09:38:08,588 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 09:38:08,985 - player_level_classification_model - INFO - model loaded 
+2025-01-14 09:39:32,341 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 09:39:32,342 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 09:39:32,655 - player_level_classification_model - INFO - model loaded 
+2025-01-14 10:08:12,143 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 10:08:12,143 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 10:08:12,454 - player_level_classification_model - INFO - model loaded 
+2025-01-14 20:25:56,429 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 20:25:56,429 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 20:25:56,859 - player_level_classification_model - INFO - model loaded 
+2025-01-14 20:26:28,737 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-14 20:26:28,737 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-14 20:26:29,015 - player_level_classification_model - INFO - model loaded 
+2025-01-15 09:45:17,860 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 09:45:17,860 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 09:45:18,200 - player_level_classification_model - INFO - model loaded 
+2025-01-15 09:53:41,414 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 09:53:41,414 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 09:53:41,712 - player_level_classification_model - INFO - model loaded 
+2025-01-15 09:56:47,603 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 09:56:47,603 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 09:56:47,944 - player_level_classification_model - INFO - model loaded 
+2025-01-15 10:24:43,376 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 10:24:43,376 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 10:24:43,749 - player_level_classification_model - INFO - model loaded 
+2025-01-15 10:27:05,301 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 10:27:05,301 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 10:27:05,591 - player_level_classification_model - INFO - model loaded 
+2025-01-15 10:38:45,609 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 10:38:45,609 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 10:38:45,886 - player_level_classification_model - INFO - model loaded 
+2025-01-15 11:22:20,696 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 11:22:20,697 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 11:22:21,014 - player_level_classification_model - INFO - model loaded 
+2025-01-15 11:23:45,136 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 11:23:45,136 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 11:23:45,451 - player_level_classification_model - INFO - model loaded 
+2025-01-15 11:57:01,524 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 11:57:01,524 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 11:57:01,861 - player_level_classification_model - INFO - model loaded 
+2025-01-15 11:58:27,626 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 11:58:27,627 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 11:58:27,996 - player_level_classification_model - INFO - model loaded 
+2025-01-15 11:59:19,006 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 11:59:19,006 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 11:59:19,381 - player_level_classification_model - INFO - model loaded 
+2025-01-15 12:14:36,110 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 12:14:36,110 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 12:14:36,446 - player_level_classification_model - INFO - model loaded 
+2025-01-15 12:15:55,899 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 12:15:55,899 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 12:15:56,198 - player_level_classification_model - INFO - model loaded 
+2025-01-15 12:18:18,409 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 12:18:18,409 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 12:18:18,779 - player_level_classification_model - INFO - model loaded 
+2025-01-15 12:27:38,224 - player_level_classification_model - INFO - Current path: C:\Project\project
+2025-01-15 12:27:38,224 - player_level_classification_model - INFO - Files in current path: ['.git', '.gitignore', 'app.log', 'dataloading', 'dataset', 'modeling', 'models_trained', 'players_dataset', 'README.md', 'saved_pickles', 'utils']
+2025-01-15 12:27:38,534 - player_level_classification_model - INFO - model loaded 
